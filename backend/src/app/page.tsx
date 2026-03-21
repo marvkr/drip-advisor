@@ -362,7 +362,7 @@ function OutfitsTab({ avatarUrl }: { avatarUrl: string | null }) {
           disabled={!selectedTop || !selectedBottom || generating}
           className="w-full py-3 bg-white text-black rounded-full font-semibold text-sm disabled:opacity-30"
         >
-          {generating ? "Generating..." : selectedTop && selectedBottom ? "Generate Polished Look" : "Select a top & bottom"}
+          {generating ? "Creating outfit..." : selectedTop && selectedBottom ? "Try this outfit on me" : "Select a top & bottom"}
         </button>
       </div>
 
