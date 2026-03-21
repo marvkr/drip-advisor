@@ -31,6 +31,7 @@ type WardrobeItem = {
   brand: string | null
   category: string
   extracted_image_url: string
+  tryon_image_url: string | null
 }
 
 const TOP_CATEGORIES = ['top', 'shirt', 'jacket', 'hoodie', 'sweater', 'blouse', 'coat', 'tee', 't-shirt', 'outerwear']
@@ -174,43 +175,23 @@ export default function StylerScreen() {
 
   return (
     <View style={styles.container}>
-      {/* Avatar with garment overlays */}
+      {/* Try-on preview — shows the last selected piece fitted on the avatar */}
       <View style={styles.avatarSection}>
         <View style={styles.avatarFrame}>
-          {avatarUrl ? (
-            <Image source={{ uri: avatarUrl }} style={styles.avatar} resizeMode="cover" />
-          ) : (
-            <View style={styles.avatarPlaceholder}>
-              <Ionicons name="person-circle-outline" size={80} color="#333" />
-            </View>
-          )}
-
-          {/* Top overlay — upper body */}
-          {selectedTop && (
-            <Image
-              source={{ uri: selectedTop.extracted_image_url }}
-              style={styles.overlayTop}
-              resizeMode="contain"
-            />
-          )}
-
-          {/* Bottom overlay — lower body */}
-          {selectedBottom && (
-            <Image
-              source={{ uri: selectedBottom.extracted_image_url }}
-              style={styles.overlayBottom}
-              resizeMode="contain"
-            />
-          )}
-
-          {/* Shoes overlay — feet */}
-          {selectedShoes && (
-            <Image
-              source={{ uri: selectedShoes.extracted_image_url }}
-              style={styles.overlayShoes}
-              resizeMode="contain"
-            />
-          )}
+          {(() => {
+            const tryonUrl = selectedShoes?.tryon_image_url || selectedBottom?.tryon_image_url || selectedTop?.tryon_image_url
+            if (tryonUrl) {
+              return <Image source={{ uri: tryonUrl }} style={styles.avatar} resizeMode="cover" />
+            }
+            if (avatarUrl) {
+              return <Image source={{ uri: avatarUrl }} style={styles.avatar} resizeMode="cover" />
+            }
+            return (
+              <View style={styles.avatarPlaceholder}>
+                <Ionicons name="person-circle-outline" size={80} color="#333" />
+              </View>
+            )
+          })()}
         </View>
 
         {/* Item names */}
@@ -288,28 +269,6 @@ const styles = StyleSheet.create({
     height: AVATAR_HEIGHT,
     justifyContent: 'center',
     alignItems: 'center',
-  },
-  // Garment overlays — positioned over the avatar
-  overlayTop: {
-    position: 'absolute',
-    top: AVATAR_HEIGHT * 0.08,
-    left: AVATAR_WIDTH * 0.1,
-    width: AVATAR_WIDTH * 0.8,
-    height: AVATAR_HEIGHT * 0.38,
-  },
-  overlayBottom: {
-    position: 'absolute',
-    top: AVATAR_HEIGHT * 0.42,
-    left: AVATAR_WIDTH * 0.1,
-    width: AVATAR_WIDTH * 0.8,
-    height: AVATAR_HEIGHT * 0.38,
-  },
-  overlayShoes: {
-    position: 'absolute',
-    top: AVATAR_HEIGHT * 0.78,
-    left: AVATAR_WIDTH * 0.15,
-    width: AVATAR_WIDTH * 0.7,
-    height: AVATAR_HEIGHT * 0.2,
   },
   outfitLabel: {
     color: '#888',

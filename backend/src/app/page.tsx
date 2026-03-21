@@ -266,27 +266,21 @@ function WardrobeTab({
 // ── Outfits Tab ──
 function OutfitsTab({ avatarUrl }: { avatarUrl: string | null }) {
   const [outfits, setOutfits] = useState<Outfit[]>([]);
-  const [loading, setLoading] = useState(true);
-  const [showBuilder, setShowBuilder] = useState(false);
   const [items, setItems] = useState<WardrobeItem[]>([]);
+  const [loading, setLoading] = useState(true);
   const [selectedTop, setSelectedTop] = useState<WardrobeItem | null>(null);
   const [selectedBottom, setSelectedBottom] = useState<WardrobeItem | null>(null);
   const [generating, setGenerating] = useState(false);
 
   useEffect(() => {
-    api(`/api/outfits/list?user_id=${USER_ID}`)
-      .then((d) => setOutfits(d.outfits))
+    Promise.all([
+      api(`/api/outfits/list?user_id=${USER_ID}`),
+      api(`/api/wardrobe/list?user_id=${USER_ID}`),
+    ])
+      .then(([o, w]) => { setOutfits(o.outfits); setItems(w.items); })
       .catch(console.error)
       .finally(() => setLoading(false));
   }, []);
-
-  const openBuilder = async () => {
-    setShowBuilder(true);
-    setSelectedTop(null);
-    setSelectedBottom(null);
-    const d = await api(`/api/wardrobe/list?user_id=${USER_ID}`);
-    setItems(d.items);
-  };
 
   const generate = async () => {
     if (!selectedTop || !selectedBottom || !avatarUrl) return;
@@ -303,7 +297,8 @@ function OutfitsTab({ avatarUrl }: { avatarUrl: string | null }) {
         }),
       });
       setOutfits((prev) => [d.outfit, ...prev]);
-      setShowBuilder(false);
+      setSelectedTop(null);
+      setSelectedBottom(null);
     } catch {
       alert("Failed to generate outfit");
     } finally {
@@ -316,102 +311,64 @@ function OutfitsTab({ avatarUrl }: { avatarUrl: string | null }) {
 
   if (loading) return <div className="flex items-center justify-center h-full"><div className="w-6 h-6 border-2 border-white border-t-transparent rounded-full animate-spin" /></div>;
 
+  const previewUrl = selectedBottom?.tryon_image_url || selectedTop?.tryon_image_url || avatarUrl;
+
   return (
-    <div className="relative h-full">
-      {outfits.length === 0 ? (
-        <div className="flex flex-col items-center justify-center h-full gap-3 p-8">
-          <svg className="w-12 h-12 text-zinc-700" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" /></svg>
-          <p className="font-semibold">No outfits yet</p>
-          <p className="text-sm text-zinc-500">Combine a top + bottom to create your first outfit</p>
-          <button onClick={openBuilder} className="mt-2 px-6 py-3 bg-white text-black rounded-full font-semibold text-sm">
-            Build Outfit
-          </button>
-        </div>
-      ) : (
-        <div className="grid grid-cols-2 gap-2 p-3">
-          {outfits.map((o) => (
-            <div key={o.id} className="bg-zinc-900 rounded-xl overflow-hidden">
-              <img src={o.generated_image_url} alt={o.name} className="w-full aspect-[3/4] object-cover bg-zinc-800" />
-              <div className="p-2">
-                <p className="text-sm font-medium truncate">{o.name}</p>
-                {o.occasion && <p className="text-xs text-zinc-500">{o.occasion}</p>}
-              </div>
-            </div>
-          ))}
-        </div>
-      )}
+    <div className="h-full overflow-y-auto">
+      {/* Try-on preview */}
+      <div className="w-[160px] h-[240px] mx-auto mt-3 rounded-xl overflow-hidden bg-zinc-900">
+        {previewUrl ? (
+          <img src={previewUrl} alt="preview" className="w-full h-full object-cover" />
+        ) : (
+          <div className="w-full h-full flex items-center justify-center text-zinc-600 text-xs">Upload avatar first</div>
+        )}
+      </div>
 
-      {outfits.length > 0 && (
-        <button onClick={openBuilder} className="absolute bottom-4 right-4 w-14 h-14 bg-white text-black rounded-full flex items-center justify-center shadow-lg">
-          <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" /></svg>
-        </button>
-      )}
-
-      {/* Builder Modal */}
-      {showBuilder && (
-        <div className="absolute inset-0 bg-black/90 z-50 flex flex-col">
-          <div className="flex items-center justify-between p-4 border-b border-zinc-800">
-            <button onClick={() => !generating && setShowBuilder(false)} className="text-zinc-400 hover:text-white">
-              <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" /></svg>
-            </button>
-            <p className="font-semibold">Build Outfit</p>
-            <div className="w-6" />
+      {/* Carousels */}
+      <div className="mt-3 space-y-3">
+        <div>
+          <p className="text-xs font-semibold text-zinc-500 uppercase tracking-wider px-4 mb-2">Tops</p>
+          <div className="flex gap-2 overflow-x-auto px-4 pb-1">
+            {tops.map((item) => (
+              <button key={item.id} onClick={() => setSelectedTop(item)} className={`flex-shrink-0 w-16 h-20 rounded-lg overflow-hidden border-2 transition-all ${selectedTop?.id === item.id ? "border-white" : "border-transparent opacity-50"}`}>
+                <img src={item.extracted_image_url} className="w-full h-full object-cover bg-zinc-800" />
+              </button>
+            ))}
           </div>
-          <div className="flex-1 overflow-y-auto p-4 space-y-4">
-            {/* Avatar with garment overlays */}
-            {avatarUrl && (
-              <div className="relative w-[180px] h-[280px] mx-auto rounded-xl overflow-hidden bg-zinc-900">
-                <img src={avatarUrl} alt="avatar" className="w-full h-full object-cover" />
-                {selectedTop && (
-                  <img
-                    src={selectedTop.extracted_image_url}
-                    alt="top"
-                    className="absolute object-contain pointer-events-none"
-                    style={{ top: '8%', left: '10%', width: '80%', height: '38%' }}
-                  />
-                )}
-                {selectedBottom && (
-                  <img
-                    src={selectedBottom.extracted_image_url}
-                    alt="bottom"
-                    className="absolute object-contain pointer-events-none"
-                    style={{ top: '42%', left: '10%', width: '80%', height: '38%' }}
-                  />
-                )}
-              </div>
-            )}
+        </div>
+        <div>
+          <p className="text-xs font-semibold text-zinc-500 uppercase tracking-wider px-4 mb-2">Bottoms</p>
+          <div className="flex gap-2 overflow-x-auto px-4 pb-1">
+            {bottoms.map((item) => (
+              <button key={item.id} onClick={() => setSelectedBottom(item)} className={`flex-shrink-0 w-16 h-20 rounded-lg overflow-hidden border-2 transition-all ${selectedBottom?.id === item.id ? "border-white" : "border-transparent opacity-50"}`}>
+                <img src={item.extracted_image_url} className="w-full h-full object-cover bg-zinc-800" />
+              </button>
+            ))}
+          </div>
+        </div>
+      </div>
 
-            <div>
-              <p className="text-sm font-semibold mb-2">Select a Top</p>
-              {tops.length === 0 ? <p className="text-xs text-zinc-500">No tops in wardrobe</p> : (
-                <div className="flex gap-3 overflow-x-auto pb-2 snap-x snap-mandatory scroll-smooth px-[calc(50%-3rem)]">
-                  {tops.map((item) => (
-                    <button key={item.id} onClick={() => setSelectedTop(item)} className={`flex-shrink-0 w-20 rounded-xl overflow-hidden border-2 snap-center transition-all ${selectedTop?.id === item.id ? "border-white scale-105" : "border-transparent opacity-60"}`}>
-                      <img src={item.extracted_image_url} className="w-full aspect-[3/4] object-cover bg-zinc-800" />
-                    </button>
-                  ))}
-                </div>
-              )}
-            </div>
-            <div>
-              <p className="text-sm font-semibold mb-2">Select a Bottom</p>
-              {bottoms.length === 0 ? <p className="text-xs text-zinc-500">No bottoms in wardrobe</p> : (
-                <div className="flex gap-3 overflow-x-auto pb-2 snap-x snap-mandatory scroll-smooth px-[calc(50%-3rem)]">
-                  {bottoms.map((item) => (
-                    <button key={item.id} onClick={() => setSelectedBottom(item)} className={`flex-shrink-0 w-20 rounded-xl overflow-hidden border-2 snap-center transition-all ${selectedBottom?.id === item.id ? "border-white scale-105" : "border-transparent opacity-60"}`}>
-                      <img src={item.extracted_image_url} className="w-full aspect-[3/4] object-cover bg-zinc-800" />
-                    </button>
-                  ))}
-                </div>
-              )}
-            </div>
-            <button
-              onClick={generate}
-              disabled={!selectedTop || !selectedBottom || generating}
-              className="w-full py-4 bg-white text-black rounded-full font-semibold disabled:opacity-30"
-            >
-              {generating ? "Generating..." : selectedTop && selectedBottom ? "Generate Polished Look" : "Select a top & bottom"}
-            </button>
+      {/* Generate button */}
+      <div className="px-4 mt-3">
+        <button
+          onClick={generate}
+          disabled={!selectedTop || !selectedBottom || generating}
+          className="w-full py-3 bg-white text-black rounded-full font-semibold text-sm disabled:opacity-30"
+        >
+          {generating ? "Generating..." : selectedTop && selectedBottom ? "Generate Polished Look" : "Select a top & bottom"}
+        </button>
+      </div>
+
+      {/* Previous outfits */}
+      {outfits.length > 0 && (
+        <div className="mt-4 px-3 pb-4">
+          <p className="text-xs font-semibold text-zinc-500 uppercase tracking-wider px-1 mb-2">Your Outfits</p>
+          <div className="grid grid-cols-3 gap-1.5">
+            {outfits.map((o) => (
+              <div key={o.id} className="bg-zinc-900 rounded-lg overflow-hidden">
+                <img src={o.generated_image_url} alt={o.name} className="w-full aspect-[3/4] object-cover bg-zinc-800" />
+              </div>
+            ))}
           </div>
         </div>
       )}
