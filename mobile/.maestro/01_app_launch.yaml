@@ -1,0 +1,13 @@
+appId: host.exp.Exponent
+---
+# Test: App Launch & Initial State
+# Verifies the app launches and shows the wardrobe tab with all navigation
+
+- runFlow: helpers/launch_app.yaml
+- assertVisible: "Wardrobe"
+- assertVisible:
+    text: "Wardrobe, tab, 1 of 3"
+- assertVisible:
+    text: "Outfits, tab, 2 of 3"
+- assertVisible:
+    text: "Style AI, tab, 3 of 3"

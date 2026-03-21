@@ -13,7 +13,7 @@ export async function GET(request: NextRequest) {
 
     const { data: outfits, error } = await supabase
       .from('outfits')
-      .select('*, top:wardrobe_items!top_id(*), bottom:wardrobe_items!bottom_id(*)')
+      .select('*, top:wardrobe_items!top_id(*), bottom:wardrobe_items!bottom_id(*), shoes:wardrobe_items!shoes_id(*)')
       .eq('user_id', user_id)
       .order('created_at', { ascending: false })
 

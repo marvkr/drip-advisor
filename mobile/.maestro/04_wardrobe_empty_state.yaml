@@ -1,0 +1,14 @@
+appId: host.exp.Exponent
+---
+# Test: Wardrobe Empty State
+# Verifies empty wardrobe shows correct messaging and avatar prompt
+
+- runFlow: helpers/launch_app.yaml
+
+# Should be on Wardrobe tab
+- assertVisible: "Wardrobe"
+
+# Empty state messaging
+- assertVisible: "Set up your avatar first"
+- assertVisible: "Take a photo so we can show you wearing any outfit"
+- assertVisible: "Set Up Avatar"

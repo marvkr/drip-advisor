@@ -1,0 +1,20 @@
+appId: host.exp.Exponent
+---
+# Test: Style AI Chat Screen
+# Verifies the chat screen loads with welcome state and input
+
+- runFlow: helpers/launch_app.yaml
+
+# Navigate to Style AI tab
+- tapOn:
+    text: "Style AI, tab, 3 of 3"
+- extendedWaitUntil:
+    visible: "DripAdvisor"
+    timeout: 5000
+
+# Should show welcome state
+- assertVisible: "DripAdvisor"
+
+# Type a message in the input
+- tapOn: "What should I wear tonight?"
+- inputText: "What should I wear to a party?"

@@ -18,9 +18,12 @@ import { api } from '../lib/api'
 import { useUser } from '../lib/user'
 
 const { width: SCREEN_WIDTH } = Dimensions.get('window')
-const ITEM_WIDTH = 100
-const ITEM_SPACING = 12
+const ITEM_WIDTH = 80
+const ITEM_SPACING = 10
 const SNAP_INTERVAL = ITEM_WIDTH + ITEM_SPACING
+
+const AVATAR_WIDTH = 220
+const AVATAR_HEIGHT = 360
 
 type WardrobeItem = {
   id: string
@@ -30,8 +33,8 @@ type WardrobeItem = {
   extracted_image_url: string
 }
 
-const TOP_CATEGORIES = ['top', 'shirt', 'jacket', 'hoodie', 'sweater', 'blouse', 'coat', 'tee', 't-shirt']
-const BOTTOM_CATEGORIES = ['bottom', 'pants', 'jeans', 'shorts', 'skirt', 'trousers']
+const TOP_CATEGORIES = ['top', 'shirt', 'jacket', 'hoodie', 'sweater', 'blouse', 'coat', 'tee', 't-shirt', 'outerwear']
+const BOTTOM_CATEGORIES = ['bottom', 'pants', 'jeans', 'shorts', 'skirt', 'trousers', 'dress']
 const SHOE_CATEGORIES = ['shoes', 'sneakers', 'boots', 'sandals', 'loafers', 'heels', 'footwear']
 
 function matchesCategory(item: WardrobeItem, keywords: string[]) {
@@ -64,7 +67,7 @@ function CategoryCarousel({
       <View style={styles.carouselSection}>
         <Text style={styles.carouselLabel}>{label}</Text>
         <View style={styles.emptyCarousel}>
-          <Text style={styles.emptyCarouselText}>No {label.toLowerCase()} in wardrobe</Text>
+          <Text style={styles.emptyCarouselText}>No {label.toLowerCase()}</Text>
         </View>
       </View>
     )
@@ -80,9 +83,7 @@ function CategoryCarousel({
         showsHorizontalScrollIndicator={false}
         snapToInterval={SNAP_INTERVAL}
         decelerationRate="fast"
-        contentContainerStyle={{
-          paddingHorizontal: sidePadding,
-        }}
+        contentContainerStyle={{ paddingHorizontal: sidePadding }}
         keyExtractor={(item) => item.id}
         onMomentumScrollEnd={handleScrollEnd}
         renderItem={({ item, index }) => (
@@ -101,17 +102,9 @@ function CategoryCarousel({
             activeOpacity={0.8}
           >
             <Image source={{ uri: item.extracted_image_url }} style={styles.carouselImage} />
-            {index === selectedIndex && (
-              <View style={styles.selectedIndicator}>
-                <Ionicons name="checkmark-circle" size={20} color="#fff" />
-              </View>
-            )}
           </TouchableOpacity>
         )}
       />
-      <Text style={styles.itemName} numberOfLines={1}>
-        {items[selectedIndex]?.name ?? ''}
-      </Text>
     </View>
   )
 }
@@ -143,6 +136,7 @@ export default function StylerScreen() {
 
   const selectedTop = tops[topIndex] ?? null
   const selectedBottom = bottoms[bottomIndex] ?? null
+  const selectedShoes = shoes[shoeIndex] ?? null
 
   const handleGenerate = async () => {
     if (!selectedTop || !selectedBottom || !avatarUrl) {
@@ -151,12 +145,13 @@ export default function StylerScreen() {
     }
     setGenerating(true)
     try {
-      const name = `${selectedTop.name} + ${selectedBottom.name}`
+      const name = [selectedTop.name, selectedBottom.name, selectedShoes?.name].filter(Boolean).join(' + ')
       await api.outfits.generate({
         avatar_url: avatarUrl,
         top_id: selectedTop.id,
         bottom_id: selectedBottom.id,
-        user_id: userId,
+        shoes_id: selectedShoes?.id,
+        user_id: userId!,
         name,
       })
       Alert.alert('Outfit Saved!', 'Check the Outfits tab to see your look.', [
@@ -179,37 +174,58 @@ export default function StylerScreen() {
 
   return (
     <View style={styles.container}>
-      {/* Avatar */}
+      {/* Avatar with garment overlays */}
       <View style={styles.avatarSection}>
-        {avatarUrl ? (
-          <Image source={{ uri: avatarUrl }} style={styles.avatar} resizeMode="contain" />
-        ) : (
-          <View style={styles.avatarPlaceholder}>
-            <Ionicons name="person-circle-outline" size={100} color="#333" />
-          </View>
-        )}
+        <View style={styles.avatarFrame}>
+          {avatarUrl ? (
+            <Image source={{ uri: avatarUrl }} style={styles.avatar} resizeMode="cover" />
+          ) : (
+            <View style={styles.avatarPlaceholder}>
+              <Ionicons name="person-circle-outline" size={80} color="#333" />
+            </View>
+          )}
+
+          {/* Top overlay — upper body */}
+          {selectedTop && (
+            <Image
+              source={{ uri: selectedTop.extracted_image_url }}
+              style={styles.overlayTop}
+              resizeMode="contain"
+            />
+          )}
+
+          {/* Bottom overlay — lower body */}
+          {selectedBottom && (
+            <Image
+              source={{ uri: selectedBottom.extracted_image_url }}
+              style={styles.overlayBottom}
+              resizeMode="contain"
+            />
+          )}
+
+          {/* Shoes overlay — feet */}
+          {selectedShoes && (
+            <Image
+              source={{ uri: selectedShoes.extracted_image_url }}
+              style={styles.overlayShoes}
+              resizeMode="contain"
+            />
+          )}
+        </View>
+
+        {/* Item names */}
+        <Text style={styles.outfitLabel} numberOfLines={1}>
+          {[selectedTop?.name, selectedBottom?.name, selectedShoes?.name]
+            .filter(Boolean)
+            .join('  ·  ') || 'Select items below'}
+        </Text>
       </View>
 
       {/* Swipeable carousels */}
       <View style={styles.carouselsContainer}>
-        <CategoryCarousel
-          label="Tops"
-          items={tops}
-          selectedIndex={topIndex}
-          onSelect={setTopIndex}
-        />
-        <CategoryCarousel
-          label="Bottoms"
-          items={bottoms}
-          selectedIndex={bottomIndex}
-          onSelect={setBottomIndex}
-        />
-        <CategoryCarousel
-          label="Shoes"
-          items={shoes}
-          selectedIndex={shoeIndex}
-          onSelect={setShoeIndex}
-        />
+        <CategoryCarousel label="Tops" items={tops} selectedIndex={topIndex} onSelect={setTopIndex} />
+        <CategoryCarousel label="Bottoms" items={bottoms} selectedIndex={bottomIndex} onSelect={setBottomIndex} />
+        <CategoryCarousel label="Shoes" items={shoes} selectedIndex={shoeIndex} onSelect={setShoeIndex} />
       </View>
 
       {/* Generate button */}
@@ -227,7 +243,7 @@ export default function StylerScreen() {
           ) : (
             <>
               <Ionicons name="sparkles" size={18} color="#000" />
-              <Text style={styles.generateButtonText}>Generate Look</Text>
+              <Text style={styles.generateButtonText}>Generate Polished Look</Text>
             </>
           )}
         </TouchableOpacity>
@@ -249,55 +265,88 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
   },
-  // Avatar
+  // Avatar with overlays
   avatarSection: {
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    minHeight: 200,
+    minHeight: 240,
+  },
+  avatarFrame: {
+    width: AVATAR_WIDTH,
+    height: AVATAR_HEIGHT,
+    borderRadius: 16,
+    overflow: 'hidden',
+    backgroundColor: '#111',
   },
   avatar: {
-    width: 180,
-    height: 280,
-    borderRadius: 16,
+    width: AVATAR_WIDTH,
+    height: AVATAR_HEIGHT,
   },
   avatarPlaceholder: {
-    width: 180,
-    height: 280,
-    borderRadius: 16,
-    backgroundColor: '#111',
+    width: AVATAR_WIDTH,
+    height: AVATAR_HEIGHT,
     justifyContent: 'center',
     alignItems: 'center',
   },
+  // Garment overlays — positioned over the avatar
+  overlayTop: {
+    position: 'absolute',
+    top: AVATAR_HEIGHT * 0.08,
+    left: AVATAR_WIDTH * 0.1,
+    width: AVATAR_WIDTH * 0.8,
+    height: AVATAR_HEIGHT * 0.38,
+  },
+  overlayBottom: {
+    position: 'absolute',
+    top: AVATAR_HEIGHT * 0.42,
+    left: AVATAR_WIDTH * 0.1,
+    width: AVATAR_WIDTH * 0.8,
+    height: AVATAR_HEIGHT * 0.38,
+  },
+  overlayShoes: {
+    position: 'absolute',
+    top: AVATAR_HEIGHT * 0.78,
+    left: AVATAR_WIDTH * 0.15,
+    width: AVATAR_WIDTH * 0.7,
+    height: AVATAR_HEIGHT * 0.2,
+  },
+  outfitLabel: {
+    color: '#888',
+    fontSize: 13,
+    marginTop: 8,
+    textAlign: 'center',
+    paddingHorizontal: 20,
+  },
   // Carousels
   carouselsContainer: {
-    paddingBottom: 8,
+    paddingBottom: 4,
   },
   carouselSection: {
-    marginBottom: 12,
+    marginBottom: 8,
   },
   carouselLabel: {
-    color: '#888',
-    fontSize: 12,
+    color: '#666',
+    fontSize: 11,
     fontWeight: '600',
     textTransform: 'uppercase',
     letterSpacing: 1,
     marginLeft: 20,
-    marginBottom: 8,
+    marginBottom: 6,
   },
   emptyCarousel: {
-    height: 80,
+    height: 60,
     justifyContent: 'center',
     alignItems: 'center',
   },
   emptyCarouselText: {
     color: '#444',
-    fontSize: 13,
+    fontSize: 12,
   },
   carouselItem: {
     width: ITEM_WIDTH,
     marginRight: ITEM_SPACING,
-    borderRadius: 12,
+    borderRadius: 10,
     overflow: 'hidden',
     backgroundColor: '#111',
     borderWidth: 2,
@@ -309,29 +358,18 @@ const styles = StyleSheet.create({
   carouselImage: {
     width: '100%',
     aspectRatio: 0.85,
-    backgroundColor: '#222',
-  },
-  selectedIndicator: {
-    position: 'absolute',
-    top: 4,
-    right: 4,
-  },
-  itemName: {
-    color: '#ccc',
-    fontSize: 13,
-    textAlign: 'center',
-    marginTop: 4,
+    backgroundColor: '#1a1a1a',
   },
   // Footer
   footer: {
     paddingHorizontal: 20,
     paddingBottom: 36,
-    paddingTop: 8,
+    paddingTop: 6,
   },
   generateButton: {
     flexDirection: 'row',
     backgroundColor: '#fff',
-    paddingVertical: 16,
+    paddingVertical: 14,
     borderRadius: 28,
     justifyContent: 'center',
     alignItems: 'center',
@@ -342,7 +380,7 @@ const styles = StyleSheet.create({
   },
   generateButtonText: {
     color: '#000',
-    fontSize: 16,
+    fontSize: 15,
     fontWeight: '600',
   },
   // Close

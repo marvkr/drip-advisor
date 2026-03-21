@@ -1,0 +1,17 @@
+appId: host.exp.Exponent
+---
+# Test: Styler Buttons on Outfits Screen
+# Verifies the swipe-to-style and pick manually buttons exist
+
+- runFlow: helpers/launch_app.yaml
+
+# Navigate to Outfits
+- tapOn:
+    text: "Outfits, tab, 2 of 3"
+- extendedWaitUntil:
+    visible: "Outfits"
+    timeout: 5000
+
+# Verify action buttons exist
+- assertVisible: "Swipe to Style"
+- assertVisible: "Pick Manually"

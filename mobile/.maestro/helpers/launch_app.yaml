@@ -1,0 +1,31 @@
+appId: host.exp.Exponent
+---
+# Helper: Launch DripAdvisor via Expo Go
+# Handles first-time Expo Go onboarding overlays, dev tools panel, and bundle loading
+
+- clearState
+- launchApp
+- extendedWaitUntil:
+    visible: "DripAdvisor"
+    timeout: 10000
+- tapOn: "DripAdvisor, http://localhost:8081"
+
+# Dismiss Expo Go tools menu onboarding if it appears
+- extendedWaitUntil:
+    visible: "Continue"
+    timeout: 10000
+- tapOn: "Continue"
+
+# Dismiss the dev tools panel by tapping X
+- extendedWaitUntil:
+    visible: "Reload"
+    timeout: 5000
+- tapOn:
+    point: "93%,50%"
+- waitForAnimationToEnd
+
+# Wait for the app to fully load
+- extendedWaitUntil:
+    visible:
+      text: "Wardrobe, tab, 1 of 3"
+    timeout: 20000

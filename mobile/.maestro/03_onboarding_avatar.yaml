@@ -1,0 +1,20 @@
+appId: host.exp.Exponent
+---
+# Test: Onboarding / Avatar Setup Flow
+# Verifies the onboarding modal opens and shows expected UI
+
+- runFlow: helpers/launch_app.yaml
+
+# Wardrobe should show empty state with avatar prompt
+- assertVisible: "Set up your avatar first"
+- assertVisible: "Set Up Avatar"
+
+# Tap Set Up Avatar button
+- tapOn: "Set Up Avatar"
+- extendedWaitUntil:
+    visible: "Set Up Your Avatar"
+    timeout: 5000
+
+# Onboarding modal should appear with photo options
+- assertVisible: "Take Photo"
+- assertVisible: "Upload from Gallery"

@@ -18,8 +18,13 @@ async function fetchJSON(path: string, options?: RequestInit) {
 }
 
 export const api = {
+  profile: {
+    get: (userId: string) =>
+      fetchJSON(`/api/profile?user_id=${encodeURIComponent(userId)}`),
+  },
+
   avatar: {
-    upload: (body: { image: string; user_id: string }) =>
+    upload: (body: { image: string; user_id: string; gender?: string }) =>
       fetchJSON('/api/avatar/upload', {
         method: 'POST',
         body: JSON.stringify(body),
@@ -53,6 +58,7 @@ export const api = {
       avatar_url: string
       top_id: string
       bottom_id: string
+      shoes_id?: string
       user_id: string
       name?: string
       occasion?: string

@@ -1,6 +1,7 @@
 import { NextRequest } from 'next/server'
 import { createSupabaseClient } from '@/lib/supabase'
 import { geminiFlashImage } from '@/lib/gemini'
+import { toJpeg, removeWhiteBackground } from '@/lib/image'
 import { generateText } from 'ai'
 
 export async function POST(request: NextRequest) {
@@ -13,8 +14,9 @@ export async function POST(request: NextRequest) {
 
     const supabase = createSupabaseClient()
 
-    // Store original image
-    const originalBuffer = Buffer.from(image, 'base64')
+    // Convert any format (HEIC, PNG, WebP, etc.) to JPEG
+    const rawBuffer = Buffer.from(image, 'base64')
+    const originalBuffer = await toJpeg(rawBuffer)
     const originalFileName = `wardrobe/${user_id}/original_${Date.now()}.jpg`
 
     const { error: origUploadErr } = await supabase.storage
@@ -54,7 +56,9 @@ export async function POST(request: NextRequest) {
 
     let extractedUrl = originalUrl
     if (files && files.length > 0) {
-      const extractedBuffer = Buffer.from(files[0].base64, 'base64')
+      const rawExtracted = Buffer.from(files[0].base64, 'base64')
+      // Remove white background → transparent PNG for layering on avatar
+      const extractedBuffer = await removeWhiteBackground(rawExtracted)
       const extractedFileName = `wardrobe/${user_id}/extracted_${Date.now()}.png`
 
       const { error: extUploadErr } = await supabase.storage

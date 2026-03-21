@@ -15,13 +15,16 @@ import { Ionicons } from '@expo/vector-icons'
 import { api } from '../lib/api'
 import { useUser } from '../lib/user'
 
+type Gender = 'male' | 'female'
+
 export default function OnboardingScreen() {
   const [permission, requestPermission] = useCameraPermissions()
   const [showCamera, setShowCamera] = useState(false)
+  const [selectedGender, setSelectedGender] = useState<Gender | null>(null)
   const [photo, setPhoto] = useState<string | null>(null)
   const [uploading, setUploading] = useState(false)
   const cameraRef = useRef<CameraView>(null)
-  const { userId, setAvatarUrl } = useUser()
+  const { userId, setAvatarUrl, setGender } = useUser()
 
   const takePhoto = async () => {
     if (!cameraRef.current) return
@@ -47,20 +50,27 @@ export default function OnboardingScreen() {
   }
 
   const uploadAvatar = async (base64: string) => {
+    if (!userId) return
     setUploading(true)
     try {
-      const data = await api.avatar.upload({ image: base64, user_id: userId })
+      const data = await api.avatar.upload({
+        image: base64,
+        user_id: userId,
+        gender: selectedGender ?? undefined,
+      })
       setAvatarUrl(data.avatar_url)
-      Alert.alert('Avatar Set!', 'You can now try on any item in your wardrobe.', [
+      if (selectedGender) setGender(selectedGender)
+      Alert.alert('Avatar Set!', 'Your wardrobe has been set up with starter items.', [
         { text: 'OK', onPress: () => router.back() },
       ])
-    } catch (err) {
+    } catch {
       Alert.alert('Error', 'Failed to upload avatar. Try again.')
     } finally {
       setUploading(false)
     }
   }
 
+  // Camera view
   if (showCamera) {
     if (!permission?.granted) {
       return (
@@ -100,6 +110,40 @@ export default function OnboardingScreen() {
     )
   }
 
+  // Gender selection step
+  if (!selectedGender) {
+    return (
+      <View style={styles.container}>
+        <Ionicons name="sparkles" size={48} color="#fff" />
+        <Text style={styles.title}>Welcome to DripAdvisor</Text>
+        <Text style={styles.subtitle}>
+          Let's personalize your wardrobe.{'\n'}Select to get started.
+        </Text>
+
+        <View style={styles.genderRow}>
+          <TouchableOpacity
+            style={styles.genderCard}
+            onPress={() => setSelectedGender('male')}
+            activeOpacity={0.7}
+          >
+            <Ionicons name="man" size={48} color="#fff" />
+            <Text style={styles.genderLabel}>Male</Text>
+          </TouchableOpacity>
+
+          <TouchableOpacity
+            style={styles.genderCard}
+            onPress={() => setSelectedGender('female')}
+            activeOpacity={0.7}
+          >
+            <Ionicons name="woman" size={48} color="#fff" />
+            <Text style={styles.genderLabel}>Female</Text>
+          </TouchableOpacity>
+        </View>
+      </View>
+    )
+  }
+
+  // Avatar upload step
   return (
     <View style={styles.container}>
       {photo ? (
@@ -131,6 +175,14 @@ export default function OnboardingScreen() {
           <TouchableOpacity style={styles.secondaryButton} onPress={pickImage}>
             <Ionicons name="images" size={20} color="#fff" />
             <Text style={styles.secondaryButtonText}>Upload from Gallery</Text>
+          </TouchableOpacity>
+
+          <TouchableOpacity
+            style={styles.backLink}
+            onPress={() => setSelectedGender(null)}
+          >
+            <Ionicons name="arrow-back" size={16} color="#666" />
+            <Text style={styles.backLinkText}>Change selection</Text>
           </TouchableOpacity>
         </>
       )}
@@ -181,6 +233,29 @@ const styles = StyleSheet.create({
     marginTop: 8,
     lineHeight: 20,
   },
+  // Gender selection
+  genderRow: {
+    flexDirection: 'row',
+    gap: 16,
+    marginTop: 32,
+  },
+  genderCard: {
+    width: 140,
+    height: 140,
+    borderRadius: 20,
+    backgroundColor: '#1a1a1a',
+    borderWidth: 1,
+    borderColor: '#333',
+    justifyContent: 'center',
+    alignItems: 'center',
+    gap: 8,
+  },
+  genderLabel: {
+    color: '#fff',
+    fontSize: 16,
+    fontWeight: '600',
+  },
+  // Buttons
   primaryButton: {
     flexDirection: 'row',
     alignItems: 'center',
@@ -212,6 +287,17 @@ const styles = StyleSheet.create({
     fontWeight: '500',
     fontSize: 16,
   },
+  backLink: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginTop: 20,
+    gap: 4,
+  },
+  backLinkText: {
+    color: '#666',
+    fontSize: 14,
+  },
+  // Camera
   cameraContainer: { flex: 1, backgroundColor: '#000' },
   camera: { flex: 1 },
   poseOverlay: {

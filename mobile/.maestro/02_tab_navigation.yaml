@@ -1,0 +1,30 @@
+appId: host.exp.Exponent
+---
+# Test: Tab Navigation
+# Verifies all three bottom tabs are tappable and show correct screens
+
+- runFlow: helpers/launch_app.yaml
+
+# Start on Wardrobe tab
+- assertVisible: "Wardrobe"
+
+# Navigate to Outfits tab
+- tapOn:
+    text: "Outfits, tab, 2 of 3"
+- extendedWaitUntil:
+    visible: "Outfits"
+    timeout: 5000
+
+# Navigate to Style AI tab
+- tapOn:
+    text: "Style AI, tab, 3 of 3"
+- extendedWaitUntil:
+    visible: "DripAdvisor"
+    timeout: 5000
+
+# Navigate back to Wardrobe tab
+- tapOn:
+    text: "Wardrobe, tab, 1 of 3"
+- extendedWaitUntil:
+    visible: "Wardrobe"
+    timeout: 5000

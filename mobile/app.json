@@ -12,14 +12,18 @@
       "resizeMode": "contain",
       "backgroundColor": "#000000"
     },
+    "owner": "marvinkr",
     "ios": {
       "supportsTablet": true,
+      "bundleIdentifier": "com.marvinkr.dripadvisor",
       "infoPlist": {
         "NSCameraUsageDescription": "DripAdvisor needs camera access to take your avatar photo and photograph clothing items.",
-        "NSPhotoLibraryUsageDescription": "DripAdvisor needs photo library access to upload your avatar or clothing screenshots."
+        "NSPhotoLibraryUsageDescription": "DripAdvisor needs photo library access to upload your avatar or clothing screenshots.",
+        "ITSAppUsesNonExemptEncryption": false
       }
     },
     "android": {
+      "package": "com.marvinkr.dripadvisor",
       "adaptiveIcon": {
         "backgroundColor": "#000000",
         "foregroundImage": "./assets/android-icon-foreground.png",
@@ -27,7 +31,8 @@
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
       "permissions": [
-        "CAMERA"
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
       ],
       "predictiveBackGestureEnabled": false
     },
@@ -55,11 +60,21 @@
             "NSExtensionActivationSupportsImageWithMaxCount": 5,
             "NSExtensionActivationSupportsWebURLWithMaxCount": 1
           },
-          "androidIntentFilters": ["image/*"],
-          "androidMultiIntentFilters": ["image/*"],
+          "androidIntentFilters": [
+            "image/*"
+          ],
+          "androidMultiIntentFilters": [
+            "image/*"
+          ],
           "iosShareExtensionName": "Share to DripAdvisor"
         }
       ]
-    ]
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "fd791ced-1335-41ce-bc79-5b37fd5121b7"
+      }
+    }
   }
 }

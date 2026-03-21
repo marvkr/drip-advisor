@@ -1,5 +1,5 @@
 {
-  "name": "backend",
+  "name": "dripadvisor",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,12 +10,15 @@
   },
   "dependencies": {
     "@ai-sdk/google": "^3.0.52",
+    "@better-auth/expo": "^1.5.5",
+    "@sentry/nextjs": "^10.45.0",
     "@supabase/supabase-js": "^2.99.3",
     "ai": "^6.0.134",
     "better-auth": "^1.5.5",
     "next": "16.2.1",
     "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "react-dom": "19.2.4",
+    "sharp": "^0.34.5"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",

@@ -29,7 +29,7 @@ export default function AgentScreen() {
 
   const sendMessage = async () => {
     const text = input.trim()
-    if (!text || streaming) return
+    if (!text || streaming || !userId) return
 
     const userMsg: Message = {
       id: Date.now().toString(),

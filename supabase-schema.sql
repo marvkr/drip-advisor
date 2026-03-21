@@ -32,6 +32,7 @@ create table if not exists outfits (
   occasion text,
   top_id uuid references wardrobe_items(id),
   bottom_id uuid references wardrobe_items(id),
+  shoes_id uuid references wardrobe_items(id),
   generated_image_url text not null,
   created_at timestamptz default now()
 );
@@ -43,3 +44,8 @@ create index if not exists idx_profiles_user on profiles(user_id);
 
 -- Storage: create a bucket called 'images' with public access
 -- Run in Supabase dashboard: Storage > New bucket > name: images > Public: true
+
+-- Default wardrobe items: add items with user_id = 'template-male' or 'template-female'
+-- These are copied to new users on signup based on their gender selection.
+-- Example: INSERT INTO wardrobe_items (user_id, name, brand, category, original_image_url, extracted_image_url)
+--   VALUES ('template-male', 'Classic White Tee', 'Uniqlo', 'top', '...', '...');

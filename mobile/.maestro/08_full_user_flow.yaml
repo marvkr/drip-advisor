@@ -1,0 +1,47 @@
+appId: host.exp.Exponent
+---
+# Test: Full User Journey
+# End-to-end flow: launch → navigate all tabs → interact with each
+
+- runFlow: helpers/launch_app.yaml
+
+# 1. Wardrobe tab (default) — verify empty state
+- assertVisible: "Wardrobe"
+- assertVisible: "Set up your avatar first"
+
+# 2. Navigate to Outfits
+- tapOn:
+    text: "Outfits, tab, 2 of 3"
+- extendedWaitUntil:
+    visible: "Outfits"
+    timeout: 5000
+- assertVisible: "No outfits yet"
+
+# 3. Navigate to Style AI
+- tapOn:
+    text: "Style AI, tab, 3 of 3"
+- extendedWaitUntil:
+    visible: "DripAdvisor"
+    timeout: 5000
+
+# 4. Type a message in chat
+- tapOn: "What should I wear tonight?"
+- inputText: "Recommend an outfit for a date night"
+
+# 5. Dismiss keyboard before navigating
+- hideKeyboard
+
+# 6. Go back to Wardrobe
+- tapOn:
+    text: "Wardrobe, tab, 1 of 3"
+- extendedWaitUntil:
+    visible: "Wardrobe"
+    timeout: 5000
+
+# 7. Open onboarding
+- tapOn: "Set Up Avatar"
+- extendedWaitUntil:
+    visible: "Set Up Your Avatar"
+    timeout: 5000
+- assertVisible: "Take Photo"
+- assertVisible: "Upload from Gallery"

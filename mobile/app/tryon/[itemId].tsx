@@ -20,7 +20,7 @@ export default function TryOnScreen() {
   const { userId, avatarUrl } = useUser()
 
   useEffect(() => {
-    if (!avatarUrl || !itemId) return
+    if (!avatarUrl || !itemId || !userId) return
 
     api.tryon
       .generate({ avatar_url: avatarUrl, item_id: itemId, user_id: userId })

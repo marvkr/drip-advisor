@@ -1,0 +1,18 @@
+appId: host.exp.Exponent
+---
+# Test: Outfits Screen
+# Verifies the outfits tab loads and shows expected UI elements
+
+- runFlow: helpers/launch_app.yaml
+
+# Navigate to Outfits
+- tapOn:
+    text: "Outfits, tab, 2 of 3"
+- extendedWaitUntil:
+    visible: "Outfits"
+    timeout: 5000
+
+# Should show Outfits header and empty state
+- assertVisible: "Outfits"
+- assertVisible: "No outfits yet"
+- assertVisible: "Combine a top + bottom to create your first outfit"

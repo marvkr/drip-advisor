@@ -60,7 +60,7 @@ export default function WardrobeScreen() {
       quality: 0.8,
     })
 
-    if (result.canceled || !result.assets[0].base64) return
+    if (result.canceled || !result.assets[0].base64 || !userId) return
 
     setAdding(true)
     try {

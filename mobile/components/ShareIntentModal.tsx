@@ -49,7 +49,7 @@ export function ShareIntentModal() {
 
       await api.wardrobe.add({
         image: base64,
-        user_id: userId,
+        user_id: userId!,
         name: name || undefined,
       })
 

@@ -82,7 +82,7 @@ export default function OutfitsScreen() {
     setOccasion('')
     setLoadingItems(true)
     try {
-      const data = await api.wardrobe.list(userId)
+      const data = await api.wardrobe.list(userId!)
       setWardrobeItems(data.items)
     } catch {
       Alert.alert('Error', 'Failed to load wardrobe items.')
@@ -99,7 +99,7 @@ export default function OutfitsScreen() {
         avatar_url: avatarUrl,
         top_id: selectedTop.id,
         bottom_id: selectedBottom.id,
-        user_id: userId,
+        user_id: userId!,
         name: outfitName || `${selectedTop.name} + ${selectedBottom.name}`,
         occasion: occasion || undefined,
       })
