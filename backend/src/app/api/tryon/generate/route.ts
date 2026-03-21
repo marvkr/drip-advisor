@@ -1,6 +1,7 @@
 import { NextRequest } from 'next/server'
 import { createSupabaseClient } from '@/lib/supabase'
 import { geminiFlashImage } from '@/lib/gemini'
+import { extractGarmentLayer } from '@/lib/image'
 import { generateText } from 'ai'
 
 export async function POST(request: NextRequest) {
@@ -78,15 +79,13 @@ OUTPUT: A single photorealistic full-body image, fashion-editorial quality, 1024
       return Response.json({ error: 'Failed to generate try-on image' }, { status: 500 })
     }
 
-    // Store the result
     const tryonBuffer = Buffer.from(files[0].base64, 'base64')
-    const tryonFileName = `tryon/${user_id || 'anon'}/${item_id}_${Date.now()}.png`
 
+    // Upload try-on image
+    const tryonFileName = `tryon/${user_id || 'anon'}/${item_id}_${Date.now()}.png`
     const { error: uploadError } = await supabase.storage
       .from('images')
-      .upload(tryonFileName, tryonBuffer, {
-        contentType: 'image/png',
-      })
+      .upload(tryonFileName, tryonBuffer, { contentType: 'image/png' })
 
     if (uploadError) throw uploadError
 
@@ -94,13 +93,24 @@ OUTPUT: A single photorealistic full-body image, fashion-editorial quality, 1024
       .from('images')
       .getPublicUrl(tryonFileName)
 
-    // Update wardrobe item with try-on URL
+    // Extract garment layer (diff try-on vs avatar → transparent PNG)
+    const layerBuffer = await extractGarmentLayer(avatarBuffer, tryonBuffer)
+    const layerFileName = `layers/${user_id || 'anon'}/${item_id}_${Date.now()}.png`
+    await supabase.storage
+      .from('images')
+      .upload(layerFileName, layerBuffer, { contentType: 'image/png' })
+
+    const { data: { publicUrl: layerUrl } } = supabase.storage
+      .from('images')
+      .getPublicUrl(layerFileName)
+
+    // Update wardrobe item with both URLs (source_url = layer)
     await supabase
       .from('wardrobe_items')
-      .update({ tryon_image_url: tryonUrl })
+      .update({ tryon_image_url: tryonUrl, source_url: layerUrl })
       .eq('id', item_id)
 
-    return Response.json({ tryon_image_url: tryonUrl })
+    return Response.json({ tryon_image_url: tryonUrl, layer_image_url: layerUrl })
   } catch (error) {
     console.error('Try-on generate error:', error)
     return Response.json(

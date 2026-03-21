@@ -11,6 +11,7 @@ type WardrobeItem = {
   category: string;
   extracted_image_url: string;
   tryon_image_url: string | null;
+  source_url: string | null;
 };
 
 type Outfit = {
