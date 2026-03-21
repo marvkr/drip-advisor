@@ -318,15 +318,15 @@ function OutfitsTab({ avatarUrl }: { avatarUrl: string | null }) {
       {/* Try-on previews side by side */}
       <div className="mt-3 flex gap-2 justify-center px-4">
         <div className="flex flex-col items-center gap-1.5">
-          <div className="w-[130px] h-[180px] rounded-xl overflow-hidden bg-zinc-900">
+          <button onClick={() => { const url = selectedTop?.tryon_image_url; if (url) setFullScreenImg(url); }} className="w-[130px] h-[180px] rounded-xl overflow-hidden bg-zinc-900">
             <img src={selectedTop?.tryon_image_url || avatarUrl || ""} alt="top" className="w-full h-full object-cover" />
-          </div>
+          </button>
           <p className="text-[10px] text-zinc-400 bg-zinc-800 px-2 py-0.5 rounded-full truncate max-w-[130px]">{selectedTop?.name || "Pick a top"}</p>
         </div>
         <div className="flex flex-col items-center gap-1.5">
-          <div className="w-[130px] h-[180px] rounded-xl overflow-hidden bg-zinc-900">
+          <button onClick={() => { const url = selectedBottom?.tryon_image_url; if (url) setFullScreenImg(url); }} className="w-[130px] h-[180px] rounded-xl overflow-hidden bg-zinc-900">
             <img src={selectedBottom?.tryon_image_url || avatarUrl || ""} alt="bottom" className="w-full h-full object-cover" />
-          </div>
+          </button>
           <p className="text-[10px] text-zinc-400 bg-zinc-800 px-2 py-0.5 rounded-full truncate max-w-[130px]">{selectedBottom?.name || "Pick a bottom"}</p>
         </div>
       </div>
@@ -362,7 +362,7 @@ function OutfitsTab({ avatarUrl }: { avatarUrl: string | null }) {
           disabled={!selectedTop || !selectedBottom || generating}
           className="w-full py-3 bg-white text-black rounded-full font-semibold text-sm disabled:opacity-30"
         >
-          {generating ? "Creating outfit..." : selectedTop && selectedBottom ? "Try this outfit on me" : "Select a top & bottom"}
+          {generating ? "Combining..." : selectedTop && selectedBottom ? "Combine top & bottom" : "Select a top & bottom"}
         </button>
       </div>
 
