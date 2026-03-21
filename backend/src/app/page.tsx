@@ -315,27 +315,17 @@ function OutfitsTab({ avatarUrl }: { avatarUrl: string | null }) {
 
   return (
     <div className="h-full overflow-y-auto">
-      {/* Try-on preview */}
-      {(() => {
-        const previewUrl = selectedBottom?.tryon_image_url || selectedTop?.tryon_image_url || avatarUrl;
-        return (
-          <div className="mt-3 flex flex-col items-center">
-            <div className="w-[180px] h-[270px] rounded-xl overflow-hidden bg-zinc-900">
-              {previewUrl ? (
-                <img src={previewUrl} alt="preview" className="w-full h-full object-cover" />
-              ) : (
-                <div className="w-full h-full flex items-center justify-center text-zinc-600 text-xs">Upload avatar first</div>
-              )}
-            </div>
-            {(selectedTop || selectedBottom) && (
-              <div className="flex gap-2 mt-2">
-                {selectedTop && <p className="text-[10px] text-zinc-400 bg-zinc-800 px-2 py-0.5 rounded-full">{selectedTop.name}</p>}
-                {selectedBottom && <p className="text-[10px] text-zinc-400 bg-zinc-800 px-2 py-0.5 rounded-full">{selectedBottom.name}</p>}
-              </div>
-            )}
-          </div>
-        );
-      })()}
+      {/* Try-on previews side by side */}
+      <div className="mt-3 flex gap-2 justify-center px-4">
+        <div className="w-[130px] h-[195px] rounded-xl overflow-hidden bg-zinc-900 flex flex-col">
+          <img src={selectedTop?.tryon_image_url || avatarUrl || ""} alt="top" className="w-full flex-1 object-cover" />
+          <p className="text-[10px] text-center text-zinc-400 py-1 truncate px-1">{selectedTop?.name || "Pick a top"}</p>
+        </div>
+        <div className="w-[130px] h-[195px] rounded-xl overflow-hidden bg-zinc-900 flex flex-col">
+          <img src={selectedBottom?.tryon_image_url || avatarUrl || ""} alt="bottom" className="w-full flex-1 object-cover" />
+          <p className="text-[10px] text-center text-zinc-400 py-1 truncate px-1">{selectedBottom?.name || "Pick a bottom"}</p>
+        </div>
+      </div>
 
       {/* Carousels */}
       <div className="mt-3 space-y-3">
@@ -343,7 +333,7 @@ function OutfitsTab({ avatarUrl }: { avatarUrl: string | null }) {
           <p className="text-xs font-semibold text-zinc-500 uppercase tracking-wider px-4 mb-2">Tops</p>
           <div className="flex gap-2 overflow-x-auto px-4 pb-1">
             {tops.map((item) => (
-              <button key={item.id} onClick={() => setSelectedTop(item)} className={`flex-shrink-0 w-16 h-20 rounded-lg overflow-hidden border-2 transition-all ${selectedTop?.id === item.id ? "border-white" : "border-transparent opacity-50"}`}>
+              <button key={item.id} onClick={() => setSelectedTop(selectedTop?.id === item.id ? null : item)} className={`flex-shrink-0 w-16 h-20 rounded-lg overflow-hidden border-2 transition-all ${selectedTop?.id === item.id ? "border-white" : "border-transparent opacity-50"}`}>
                 <img src={item.extracted_image_url} className="w-full h-full object-cover bg-zinc-800" />
               </button>
             ))}
@@ -353,7 +343,7 @@ function OutfitsTab({ avatarUrl }: { avatarUrl: string | null }) {
           <p className="text-xs font-semibold text-zinc-500 uppercase tracking-wider px-4 mb-2">Bottoms</p>
           <div className="flex gap-2 overflow-x-auto px-4 pb-1">
             {bottoms.map((item) => (
-              <button key={item.id} onClick={() => setSelectedBottom(item)} className={`flex-shrink-0 w-16 h-20 rounded-lg overflow-hidden border-2 transition-all ${selectedBottom?.id === item.id ? "border-white" : "border-transparent opacity-50"}`}>
+              <button key={item.id} onClick={() => setSelectedBottom(selectedBottom?.id === item.id ? null : item)} className={`flex-shrink-0 w-16 h-20 rounded-lg overflow-hidden border-2 transition-all ${selectedBottom?.id === item.id ? "border-white" : "border-transparent opacity-50"}`}>
                 <img src={item.extracted_image_url} className="w-full h-full object-cover bg-zinc-800" />
               </button>
             ))}
