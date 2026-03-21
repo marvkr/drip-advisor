@@ -311,16 +311,35 @@ function OutfitsTab({ avatarUrl }: { avatarUrl: string | null }) {
 
   if (loading) return <div className="flex items-center justify-center h-full"><div className="w-6 h-6 border-2 border-white border-t-transparent rounded-full animate-spin" /></div>;
 
-  const previewUrl = selectedBottom?.tryon_image_url || selectedTop?.tryon_image_url || avatarUrl;
-
   return (
     <div className="h-full overflow-y-auto">
-      {/* Try-on preview */}
-      <div className="w-[160px] h-[240px] mx-auto mt-3 rounded-xl overflow-hidden bg-zinc-900">
-        {previewUrl ? (
-          <img src={previewUrl} alt="preview" className="w-full h-full object-cover" />
+      {/* Try-on preview — side by side when both selected */}
+      <div className="flex gap-2 justify-center mt-3 px-4">
+        {selectedTop?.tryon_image_url || selectedBottom?.tryon_image_url ? (
+          <>
+            <div className="w-[120px] h-[180px] rounded-xl overflow-hidden bg-zinc-900">
+              {selectedTop?.tryon_image_url ? (
+                <img src={selectedTop.tryon_image_url} alt="top try-on" className="w-full h-full object-cover" />
+              ) : (
+                <div className="w-full h-full flex items-center justify-center text-zinc-600 text-[10px]">Pick a top</div>
+              )}
+            </div>
+            <div className="w-[120px] h-[180px] rounded-xl overflow-hidden bg-zinc-900">
+              {selectedBottom?.tryon_image_url ? (
+                <img src={selectedBottom.tryon_image_url} alt="bottom try-on" className="w-full h-full object-cover" />
+              ) : (
+                <div className="w-full h-full flex items-center justify-center text-zinc-600 text-[10px]">Pick a bottom</div>
+              )}
+            </div>
+          </>
         ) : (
-          <div className="w-full h-full flex items-center justify-center text-zinc-600 text-xs">Upload avatar first</div>
+          <div className="w-[160px] h-[240px] rounded-xl overflow-hidden bg-zinc-900">
+            {avatarUrl ? (
+              <img src={avatarUrl} alt="avatar" className="w-full h-full object-cover" />
+            ) : (
+              <div className="w-full h-full flex items-center justify-center text-zinc-600 text-xs">Upload avatar first</div>
+            )}
+          </div>
         )}
       </div>
 
