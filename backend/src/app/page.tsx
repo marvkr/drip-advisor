@@ -252,7 +252,7 @@ function WardrobeTab({
       <button
         onClick={handleAdd}
         disabled={adding}
-        className="absolute bottom-4 right-4 w-14 h-14 bg-white text-black rounded-full flex items-center justify-center shadow-lg hover:bg-zinc-200 transition-colors disabled:opacity-50"
+        className="sticky bottom-4 float-right mr-4 w-14 h-14 bg-white text-black rounded-full flex items-center justify-center shadow-lg hover:bg-zinc-200 transition-colors disabled:opacity-50 z-10"
       >
         {adding ? (
           <div className="w-5 h-5 border-2 border-black border-t-transparent rounded-full animate-spin" />
