@@ -1,11 +1,11 @@
 import { betterAuth } from 'better-auth'
 import { expo } from '@better-auth/expo'
+import { Pool } from 'pg'
 
 export const auth = betterAuth({
-  database: {
-    url: process.env.DATABASE_URL!,
-    type: 'postgres',
-  },
+  database: new Pool({
+    connectionString: process.env.DATABASE_URL,
+  }),
   emailAndPassword: {
     enabled: true,
   },
