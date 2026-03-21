@@ -271,6 +271,7 @@ function OutfitsTab({ avatarUrl }: { avatarUrl: string | null }) {
   const [selectedTop, setSelectedTop] = useState<WardrobeItem | null>(null);
   const [selectedBottom, setSelectedBottom] = useState<WardrobeItem | null>(null);
   const [generating, setGenerating] = useState(false);
+  const [fullScreenImg, setFullScreenImg] = useState<string | null>(null);
 
   useEffect(() => {
     Promise.all([
@@ -313,35 +314,27 @@ function OutfitsTab({ avatarUrl }: { avatarUrl: string | null }) {
 
   return (
     <div className="h-full overflow-y-auto">
-      {/* Try-on preview — side by side when both selected */}
-      <div className="flex gap-2 justify-center mt-3 px-4">
-        {selectedTop?.tryon_image_url || selectedBottom?.tryon_image_url ? (
-          <>
-            <div className="w-[120px] h-[180px] rounded-xl overflow-hidden bg-zinc-900">
-              {selectedTop?.tryon_image_url ? (
-                <img src={selectedTop.tryon_image_url} alt="top try-on" className="w-full h-full object-cover" />
+      {/* Try-on preview */}
+      {(() => {
+        const previewUrl = selectedBottom?.tryon_image_url || selectedTop?.tryon_image_url || avatarUrl;
+        return (
+          <div className="mt-3 flex flex-col items-center">
+            <div className="w-[180px] h-[270px] rounded-xl overflow-hidden bg-zinc-900">
+              {previewUrl ? (
+                <img src={previewUrl} alt="preview" className="w-full h-full object-cover" />
               ) : (
-                <div className="w-full h-full flex items-center justify-center text-zinc-600 text-[10px]">Pick a top</div>
+                <div className="w-full h-full flex items-center justify-center text-zinc-600 text-xs">Upload avatar first</div>
               )}
             </div>
-            <div className="w-[120px] h-[180px] rounded-xl overflow-hidden bg-zinc-900">
-              {selectedBottom?.tryon_image_url ? (
-                <img src={selectedBottom.tryon_image_url} alt="bottom try-on" className="w-full h-full object-cover" />
-              ) : (
-                <div className="w-full h-full flex items-center justify-center text-zinc-600 text-[10px]">Pick a bottom</div>
-              )}
-            </div>
-          </>
-        ) : (
-          <div className="w-[160px] h-[240px] rounded-xl overflow-hidden bg-zinc-900">
-            {avatarUrl ? (
-              <img src={avatarUrl} alt="avatar" className="w-full h-full object-cover" />
-            ) : (
-              <div className="w-full h-full flex items-center justify-center text-zinc-600 text-xs">Upload avatar first</div>
+            {(selectedTop || selectedBottom) && (
+              <div className="flex gap-2 mt-2">
+                {selectedTop && <p className="text-[10px] text-zinc-400 bg-zinc-800 px-2 py-0.5 rounded-full">{selectedTop.name}</p>}
+                {selectedBottom && <p className="text-[10px] text-zinc-400 bg-zinc-800 px-2 py-0.5 rounded-full">{selectedBottom.name}</p>}
+              </div>
             )}
           </div>
-        )}
-      </div>
+        );
+      })()}
 
       {/* Carousels */}
       <div className="mt-3 space-y-3">
@@ -384,11 +377,21 @@ function OutfitsTab({ avatarUrl }: { avatarUrl: string | null }) {
           <p className="text-xs font-semibold text-zinc-500 uppercase tracking-wider px-1 mb-2">Your Outfits</p>
           <div className="grid grid-cols-3 gap-1.5">
             {outfits.map((o) => (
-              <div key={o.id} className="bg-zinc-900 rounded-lg overflow-hidden">
+              <button key={o.id} onClick={() => setFullScreenImg(o.generated_image_url)} className="bg-zinc-900 rounded-lg overflow-hidden text-left">
                 <img src={o.generated_image_url} alt={o.name} className="w-full aspect-[3/4] object-cover bg-zinc-800" />
-              </div>
+              </button>
             ))}
           </div>
+        </div>
+      )}
+
+      {/* Full-screen image viewer */}
+      {fullScreenImg && (
+        <div className="absolute inset-0 bg-black z-50 flex items-center justify-center" onClick={() => setFullScreenImg(null)}>
+          <button onClick={() => setFullScreenImg(null)} className="absolute top-4 right-4 w-10 h-10 bg-zinc-800/80 rounded-full flex items-center justify-center text-white z-10">
+            <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" /></svg>
+          </button>
+          <img src={fullScreenImg} alt="outfit" className="max-h-full max-w-full object-contain" />
         </div>
       )}
     </div>
