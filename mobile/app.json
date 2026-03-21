@@ -1,0 +1,65 @@
+{
+  "expo": {
+    "name": "DripAdvisor",
+    "slug": "drip-advisor",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "scheme": "drip-advisor",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "DripAdvisor needs camera access to take your avatar photo and photograph clothing items.",
+        "NSPhotoLibraryUsageDescription": "DripAdvisor needs photo library access to upload your avatar or clothing screenshots."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#000000",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "permissions": [
+        "CAMERA"
+      ],
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "DripAdvisor needs camera access to take your avatar photo."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "DripAdvisor needs photo library access to upload clothing screenshots."
+        }
+      ],
+      [
+        "expo-share-intent",
+        {
+          "iosActivationRules": {
+            "NSExtensionActivationSupportsImageWithMaxCount": 5,
+            "NSExtensionActivationSupportsWebURLWithMaxCount": 1
+          },
+          "androidIntentFilters": ["image/*"],
+          "androidMultiIntentFilters": ["image/*"],
+          "iosShareExtensionName": "Share to DripAdvisor"
+        }
+      ]
+    ]
+  }
+}

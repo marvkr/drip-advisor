@@ -1,0 +1,5207 @@
+{
+  "Whering": {
+    "folder": "whering-ios",
+    "path": "/Users/marvinkaunda/Library/Mobile Documents/com~apple~CloudDocs/brand/whering-ios",
+    "total_images": 318,
+    "screens": {
+      "adding-an-event": [
+        "adding-an-event-1.png",
+        "adding-an-event-10.png",
+        "adding-an-event-11.png",
+        "adding-an-event-12.png",
+        "adding-an-event-13.png",
+        "adding-an-event-14.png",
+        "adding-an-event-2.png",
+        "adding-an-event-3.png",
+        "adding-an-event-4.png",
+        "adding-an-event-5.png",
+        "adding-an-event-6.png",
+        "adding-an-event-7.png",
+        "adding-an-event-8.png",
+        "adding-an-event-9.png"
+      ],
+      "adding-an-item-to-a-folder": [
+        "adding-an-item-to-a-folder-1.png",
+        "adding-an-item-to-a-folder-2.png",
+        "adding-an-item-to-a-folder-3.png",
+        "adding-an-item-to-a-folder-4.png",
+        "adding-an-item-to-a-folder-5.png"
+      ],
+      "adding-an-outfit-to-favourites": [
+        "adding-an-outfit-to-favourites-1.png",
+        "adding-an-outfit-to-favourites-2.png"
+      ],
+      "adding-item-details": [
+        "adding-item-details-1.png",
+        "adding-item-details-10.png",
+        "adding-item-details-11.png",
+        "adding-item-details-12.png",
+        "adding-item-details-13.png",
+        "adding-item-details-14.png",
+        "adding-item-details-15.png",
+        "adding-item-details-16.png",
+        "adding-item-details-17.png",
+        "adding-item-details-18.png",
+        "adding-item-details-2.png",
+        "adding-item-details-3.png",
+        "adding-item-details-4.png",
+        "adding-item-details-5.png",
+        "adding-item-details-6.png",
+        "adding-item-details-7.png",
+        "adding-item-details-8.png",
+        "adding-item-details-9.png"
+      ],
+      "adding-item-to-wishlist": [
+        "adding-item-to-wishlist-1.png",
+        "adding-item-to-wishlist-2.png",
+        "adding-item-to-wishlist-3.png",
+        "adding-item-to-wishlist-4.png",
+        "adding-item-to-wishlist-5.png",
+        "adding-item-to-wishlist-6.png",
+        "adding-item-to-wishlist-7.png",
+        "adding-item-to-wishlist-8.png",
+        "adding-item-to-wishlist-9.png"
+      ],
+      "adding-outfit-to-a-lookbook": [
+        "adding-outfit-to-a-lookbook-1.png",
+        "adding-outfit-to-a-lookbook-2.png",
+        "adding-outfit-to-a-lookbook-3.png",
+        "adding-outfit-to-a-lookbook-4.png",
+        "adding-outfit-to-a-lookbook-5.png"
+      ],
+      "adding-outfit-to-calendar": [
+        "adding-outfit-to-calendar-1.png",
+        "adding-outfit-to-calendar-2.png",
+        "adding-outfit-to-calendar-3.png",
+        "adding-outfit-to-calendar-4.png"
+      ],
+      "archiving-an-outfit": [
+        "archiving-an-outfit-1.png",
+        "archiving-an-outfit-2.png",
+        "archiving-an-outfit-3.png"
+      ],
+      "blocked-users": [
+        "blocked-users-1.png",
+        "blocked-users-2.png",
+        "blocked-users-3.png"
+      ],
+      "blocking-a-user": [
+        "blocking-a-user-1.png",
+        "blocking-a-user-2.png"
+      ],
+      "calendar": [
+        "calendar-1.png",
+        "calendar-2.png",
+        "calendar-3.png"
+      ],
+      "changing-language": [
+        "changing-language-1.png",
+        "changing-language-2.png",
+        "changing-language-3.png",
+        "changing-language-4.png"
+      ],
+      "changing-password": [
+        "changing-password-1.png",
+        "changing-password-2.png",
+        "changing-password-3.png",
+        "changing-password-4.png",
+        "changing-password-5.png",
+        "changing-password-6.png"
+      ],
+      "community": [
+        "community-1.png",
+        "community-2.png",
+        "community-3.png",
+        "community-4.png"
+      ],
+      "creating-a-folder": [
+        "creating-a-folder-1.png",
+        "creating-a-folder-2.png",
+        "creating-a-folder-3.png",
+        "creating-a-folder-4.png",
+        "creating-a-folder-5.png",
+        "creating-a-folder-6.png"
+      ],
+      "creating-a-lookbook": [
+        "creating-a-lookbook-1.png",
+        "creating-a-lookbook-2.png",
+        "creating-a-lookbook-3.png",
+        "creating-a-lookbook-4.png",
+        "creating-a-lookbook-5.png",
+        "creating-a-lookbook-6.png",
+        "creating-a-lookbook-7.png"
+      ],
+      "creating-a-moodboard": [
+        "creating-a-moodboard-1.png",
+        "creating-a-moodboard-2.png",
+        "creating-a-moodboard-3.png",
+        "creating-a-moodboard-4.png",
+        "creating-a-moodboard-5.png",
+        "creating-a-moodboard-6.png"
+      ],
+      "creating-an-outfit": [
+        "creating-an-outfit-1.png",
+        "creating-an-outfit-10.png",
+        "creating-an-outfit-2.png",
+        "creating-an-outfit-3.png",
+        "creating-an-outfit-4.png",
+        "creating-an-outfit-5.png",
+        "creating-an-outfit-6.png",
+        "creating-an-outfit-7.png",
+        "creating-an-outfit-8.png",
+        "creating-an-outfit-9.png"
+      ],
+      "deleting-an-account": [
+        "deleting-an-account-1.png",
+        "deleting-an-account-2.png",
+        "deleting-an-account-3.png",
+        "deleting-an-account-4.png"
+      ],
+      "digitisation-guide": [
+        "digitisation-guide-1.png",
+        "digitisation-guide-2.png",
+        "digitisation-guide-3.png"
+      ],
+      "editing-personal-information": [
+        "editing-personal-information-1.png",
+        "editing-personal-information-2.png",
+        "editing-personal-information-3.png",
+        "editing-personal-information-4.png",
+        "editing-personal-information-5.png",
+        "editing-personal-information-6.png",
+        "editing-personal-information-7.png",
+        "editing-personal-information-8.png",
+        "editing-personal-information-9.png"
+      ],
+      "editing-profile": [
+        "editing-profile-1.png",
+        "editing-profile-2.png",
+        "editing-profile-3.png",
+        "editing-profile-4.png"
+      ],
+      "enabling-personalisation-content": [
+        "enabling-personalisation-content-1.png",
+        "enabling-personalisation-content-2.png",
+        "enabling-personalisation-content-3.png",
+        "enabling-personalisation-content-4.png"
+      ],
+      "faq": [
+        "faq-1.png",
+        "faq-2.png"
+      ],
+      "filtering-wardrobe": [
+        "filtering-wardrobe-1.png",
+        "filtering-wardrobe-2.png",
+        "filtering-wardrobe-3.png",
+        "filtering-wardrobe-4.png",
+        "filtering-wardrobe-5.png",
+        "filtering-wardrobe-6.png"
+      ],
+      "following-a-user": [
+        "following-a-user-1.png",
+        "following-a-user-2.png"
+      ],
+      "help": [
+        "help-1.png",
+        "help-2.png"
+      ],
+      "hiding-an-outfit": [
+        "hiding-an-outfit-1.png",
+        "hiding-an-outfit-2.png"
+      ],
+      "linking-an-item": [
+        "linking-an-item-1.png",
+        "linking-an-item-2.png",
+        "linking-an-item-3.png",
+        "linking-an-item-4.png",
+        "linking-an-item-5.png"
+      ],
+      "logging-in": [
+        "logging-in-1.png",
+        "logging-in-2.png",
+        "logging-in-3.png",
+        "logging-in-4.png",
+        "logging-in-5.png"
+      ],
+      "logging-out": [
+        "logging-out-1.png",
+        "logging-out-2.png",
+        "logging-out-3.png"
+      ],
+      "lookbooks": [
+        "lookbooks-1.png",
+        "lookbooks-2.png"
+      ],
+      "moodboards": [
+        "moodboards-1.png",
+        "moodboards-2.png",
+        "moodboards-3.png",
+        "moodboards-4.png",
+        "moodboards-5.png"
+      ],
+      "my-wishlist": [
+        "my-wishlist-1.png",
+        "my-wishlist-2.png",
+        "my-wishlist-3.png",
+        "my-wishlist-4.png"
+      ],
+      "navigation-sidebar": [
+        "navigation-sidebar-1.png",
+        "navigation-sidebar-2.png"
+      ],
+      "notifications": [
+        "notifications-1.png",
+        "notifications-2.png",
+        "notifications-3.png"
+      ],
+      "notifications-and-reminders": [
+        "notifications-and-reminders-1.png",
+        "notifications-and-reminders-2.png"
+      ],
+      "onboarding": [
+        "onboarding-1.png",
+        "onboarding-10.png",
+        "onboarding-11.png",
+        "onboarding-12.png",
+        "onboarding-13.png",
+        "onboarding-14.png",
+        "onboarding-15.png",
+        "onboarding-16.png",
+        "onboarding-17.png",
+        "onboarding-18.png",
+        "onboarding-19.png",
+        "onboarding-2.png",
+        "onboarding-20.png",
+        "onboarding-21.png",
+        "onboarding-22.png",
+        "onboarding-23.png",
+        "onboarding-24.png",
+        "onboarding-3.png",
+        "onboarding-4.png",
+        "onboarding-5.png",
+        "onboarding-6.png",
+        "onboarding-7.png",
+        "onboarding-8.png",
+        "onboarding-9.png"
+      ],
+      "outfit-detail": [
+        "outfit-detail-1.png",
+        "outfit-detail-2.png",
+        "outfit-detail-3.png",
+        "outfit-detail-4.png",
+        "outfit-detail-5.png"
+      ],
+      "outfits": [
+        "outfits-1.png",
+        "outfits-2.png"
+      ],
+      "password-and-privacy": [
+        "password-and-privacy-1.png",
+        "password-and-privacy-2.png"
+      ],
+      "planner": [
+        "planner-1.png",
+        "planner-2.png",
+        "planner-3.png",
+        "planner-4.png",
+        "planner-5.png",
+        "planner-6.png"
+      ],
+      "privacy-and-settings": [
+        "privacy-and-settings-1.png",
+        "privacy-and-settings-2.png"
+      ],
+      "profile-option-user-profile": [
+        "profile-option-user-profile-1.png",
+        "profile-option-user-profile-2.png"
+      ],
+      "profile-options": [
+        "profile-options-1.png",
+        "profile-options-2.png"
+      ],
+      "reacting-to-a-style": [
+        "reacting-to-a-style-1.png",
+        "reacting-to-a-style-2.png",
+        "reacting-to-a-style-3.png",
+        "reacting-to-a-style-4.png"
+      ],
+      "removing-an-outfit": [
+        "removing-an-outfit-1.png",
+        "removing-an-outfit-2.png",
+        "removing-an-outfit-3.png"
+      ],
+      "reporting-a-user": [
+        "reporting-a-user-1.png",
+        "reporting-a-user-2.png",
+        "reporting-a-user-3.png",
+        "reporting-a-user-4.png",
+        "reporting-a-user-5.png"
+      ],
+      "resetting-password": [
+        "resetting-password-1.png",
+        "resetting-password-2.png",
+        "resetting-password-3.png",
+        "resetting-password-4.png"
+      ],
+      "searching-community": [
+        "searching-community-1.png",
+        "searching-community-2.png",
+        "searching-community-3.png"
+      ],
+      "setting-a-reminder": [
+        "setting-a-reminder-1.png",
+        "setting-a-reminder-2.png",
+        "setting-a-reminder-3.png",
+        "setting-a-reminder-4.png",
+        "setting-a-reminder-5.png",
+        "setting-a-reminder-6.png"
+      ],
+      "share-an-outfit": [
+        "share-an-outfit-1.png",
+        "share-an-outfit-2.png",
+        "share-an-outfit-3.png",
+        "share-an-outfit-4.png"
+      ],
+      "shuffling-existing-outfits": [
+        "shuffling-existing-outfits-1.png",
+        "shuffling-existing-outfits-2.png",
+        "shuffling-existing-outfits-3.png",
+        "shuffling-existing-outfits-4.png",
+        "shuffling-existing-outfits-5.png",
+        "shuffling-existing-outfits-6.png",
+        "shuffling-existing-outfits-7.png"
+      ],
+      "stats": [
+        "stats-1.png",
+        "stats-2.png",
+        "stats-3.png"
+      ],
+      "style-submissions": [
+        "style-submissions-1.png",
+        "style-submissions-2.png",
+        "style-submissions-3.png"
+      ],
+      "styling": [
+        "styling-1.png",
+        "styling-2.png",
+        "styling-3.png",
+        "styling-4.png",
+        "styling-5.png",
+        "styling-6.png",
+        "styling-7.png"
+      ],
+      "styling-outfit-detail": [
+        "styling-outfit-detail-1.png",
+        "styling-outfit-detail-2.png"
+      ],
+      "thoughts": [
+        "thoughts-1.png",
+        "thoughts-2.png",
+        "thoughts-3.png"
+      ],
+      "thoughts-detail": [
+        "thoughts-detail-1.png",
+        "thoughts-detail-2.png",
+        "thoughts-detail-3.png"
+      ],
+      "uploading-an-ootd-photo": [
+        "uploading-an-ootd-photo-1.png",
+        "uploading-an-ootd-photo-2.png",
+        "uploading-an-ootd-photo-3.png",
+        "uploading-an-ootd-photo-4.png",
+        "uploading-an-ootd-photo-5.png",
+        "uploading-an-ootd-photo-6.png",
+        "uploading-an-ootd-photo-7.png"
+      ],
+      "uploading-items": [
+        "uploading-items-1.png",
+        "uploading-items-2.png",
+        "uploading-items-3.png",
+        "uploading-items-4.png",
+        "uploading-items-5.png",
+        "uploading-items-6.png",
+        "uploading-items-7.png",
+        "uploading-items-8.png"
+      ],
+      "view-liked-items": [
+        "view-liked-items-1.png",
+        "view-liked-items-2.png"
+      ],
+      "view-user-profile": [
+        "view-user-profile-1.png",
+        "view-user-profile-2.png"
+      ],
+      "view-weather": [
+        "view-weather-1.png",
+        "view-weather-2.png"
+      ],
+      "wardrobe": [
+        "wardrobe-1.png",
+        "wardrobe-2.png",
+        "wardrobe-3.png",
+        "wardrobe-4.png",
+        "wardrobe-5.png"
+      ],
+      "wardrobe-stats": [
+        "wardrobe-stats-1.png",
+        "wardrobe-stats-10.png",
+        "wardrobe-stats-2.png",
+        "wardrobe-stats-3.png",
+        "wardrobe-stats-4.png",
+        "wardrobe-stats-5.png",
+        "wardrobe-stats-6.png",
+        "wardrobe-stats-7.png",
+        "wardrobe-stats-8.png",
+        "wardrobe-stats-9.png"
+      ]
+    },
+    "screen_count": 66
+  },
+  "GOAT": {
+    "folder": "goat-ios",
+    "path": "/Users/marvinkaunda/Library/Mobile Documents/com~apple~CloudDocs/brand/goat-ios",
+    "total_images": 240,
+    "screens": {
+      "adding-a-cash-out-method": [
+        "adding-a-cash-out-method-1.png",
+        "adding-a-cash-out-method-2.png",
+        "adding-a-cash-out-method-3.png",
+        "adding-a-cash-out-method-4.png",
+        "adding-a-cash-out-method-5.png",
+        "adding-a-cash-out-method-6.png",
+        "adding-a-cash-out-method-7.png",
+        "adding-a-cash-out-method-8.png"
+      ],
+      "adding-a-new-card": [
+        "adding-a-new-card-1.png",
+        "adding-a-new-card-2.png",
+        "adding-a-new-card-3.png",
+        "adding-a-new-card-4.png",
+        "adding-a-new-card-5.png",
+        "adding-a-new-card-6.png"
+      ],
+      "adding-a-product-to-cart": [
+        "adding-a-product-to-cart-1.png",
+        "adding-a-product-to-cart-2.png",
+        "adding-a-product-to-cart-3.png"
+      ],
+      "adding-a-shoe-size": [
+        "adding-a-shoe-size-1.png",
+        "adding-a-shoe-size-2.png",
+        "adding-a-shoe-size-3.png",
+        "adding-a-shoe-size-4.png"
+      ],
+      "adding-product-to-wants": [
+        "adding-product-to-wants-1.png",
+        "adding-product-to-wants-2.png",
+        "adding-product-to-wants-3.png"
+      ],
+      "adding-sku-to-listing": [
+        "adding-sku-to-listing-1.png",
+        "adding-sku-to-listing-10.png",
+        "adding-sku-to-listing-11.png",
+        "adding-sku-to-listing-12.png",
+        "adding-sku-to-listing-13.png",
+        "adding-sku-to-listing-14.png",
+        "adding-sku-to-listing-15.png",
+        "adding-sku-to-listing-16.png",
+        "adding-sku-to-listing-17.png",
+        "adding-sku-to-listing-2.png",
+        "adding-sku-to-listing-3.png",
+        "adding-sku-to-listing-4.png",
+        "adding-sku-to-listing-5.png",
+        "adding-sku-to-listing-6.png",
+        "adding-sku-to-listing-7.png",
+        "adding-sku-to-listing-8.png",
+        "adding-sku-to-listing-9.png"
+      ],
+      "calendar": [
+        "calendar-1.png",
+        "calendar-2.png",
+        "calendar-3.png"
+      ],
+      "canceling-an-order": [
+        "canceling-an-order-1.png",
+        "canceling-an-order-2.png",
+        "canceling-an-order-3.png",
+        "canceling-an-order-4.png",
+        "canceling-an-order-5.png",
+        "canceling-an-order-6.png"
+      ],
+      "changing-notifications-setting": [
+        "changing-notifications-setting-1.png",
+        "changing-notifications-setting-2.png",
+        "changing-notifications-setting-3.png",
+        "changing-notifications-setting-4.png"
+      ],
+      "changing-password": [
+        "changing-password-1.png",
+        "changing-password-2.png",
+        "changing-password-3.png",
+        "changing-password-4.png",
+        "changing-password-5.png",
+        "changing-password-6.png"
+      ],
+      "checking-out-a-product": [
+        "checking-out-a-product-1.png",
+        "checking-out-a-product-2.png",
+        "checking-out-a-product-3.png",
+        "checking-out-a-product-4.png",
+        "checking-out-a-product-5.png",
+        "checking-out-a-product-6.png",
+        "checking-out-a-product-7.png",
+        "checking-out-a-product-8.png"
+      ],
+      "creating-a-post": [
+        "creating-a-post-1.png",
+        "creating-a-post-2.png",
+        "creating-a-post-3.png",
+        "creating-a-post-4.png",
+        "creating-a-post-5.png",
+        "creating-a-post-6.png",
+        "creating-a-post-7.png"
+      ],
+      "credits": [
+        "credits-1.png",
+        "credits-2.png"
+      ],
+      "currency": [
+        "currency-1.png",
+        "currency-2.png"
+      ],
+      "deleting-an-account": [
+        "deleting-an-account-1.png",
+        "deleting-an-account-2.png",
+        "deleting-an-account-3.png"
+      ],
+      "entering-promo-code": [
+        "entering-promo-code-1.png",
+        "entering-promo-code-2.png",
+        "entering-promo-code-3.png",
+        "entering-promo-code-4.png"
+      ],
+      "goat-storage": [
+        "goat-storage-1.png",
+        "goat-storage-2.png"
+      ],
+      "home": [
+        "home-1.png",
+        "home-2.png",
+        "home-3.png",
+        "home-4.png",
+        "home-5.png",
+        "home-6.png"
+      ],
+      "inspiration": [
+        "inspiration-1.png",
+        "inspiration-2.png"
+      ],
+      "liking-a-post": [
+        "liking-a-post-1.png",
+        "liking-a-post-2.png"
+      ],
+      "listings": [
+        "listings-1.png",
+        "listings-2.png"
+      ],
+      "logging-in": [
+        "logging-in-1.png",
+        "logging-in-2.png",
+        "logging-in-3.png",
+        "logging-in-4.png"
+      ],
+      "logging-out": [
+        "logging-out-1.png",
+        "logging-out-2.png"
+      ],
+      "making-an-offer": [
+        "making-an-offer-1.png",
+        "making-an-offer-10.png",
+        "making-an-offer-2.png",
+        "making-an-offer-3.png",
+        "making-an-offer-4.png",
+        "making-an-offer-5.png",
+        "making-an-offer-6.png",
+        "making-an-offer-7.png",
+        "making-an-offer-8.png",
+        "making-an-offer-9.png"
+      ],
+      "my-spaces": [
+        "my-spaces-1.png",
+        "my-spaces-2.png"
+      ],
+      "onboarding": [
+        "onboarding-1.png",
+        "onboarding-2.png",
+        "onboarding-3.png",
+        "onboarding-4.png",
+        "onboarding-5.png",
+        "onboarding-6.png"
+      ],
+      "order-details": [
+        "order-details-1.png",
+        "order-details-2.png"
+      ],
+      "orders": [
+        "orders-1.png",
+        "orders-2.png",
+        "orders-3.png"
+      ],
+      "payment-methods": [
+        "payment-methods-1.png",
+        "payment-methods-2.png"
+      ],
+      "post-detail": [
+        "post-detail-1.png",
+        "post-detail-2.png"
+      ],
+      "privacy-and-security": [
+        "privacy-and-security-1.png",
+        "privacy-and-security-2.png"
+      ],
+      "privacy-policy": [
+        "privacy-policy-1.png",
+        "privacy-policy-2.png"
+      ],
+      "profile": [
+        "profile-1.png",
+        "profile-2.png"
+      ],
+      "profile-detail": [
+        "profile-detail-1.png",
+        "profile-detail-2.png"
+      ],
+      "removing-a-payment-method": [
+        "removing-a-payment-method-1.png",
+        "removing-a-payment-method-2.png",
+        "removing-a-payment-method-3.png"
+      ],
+      "reporting-a-post": [
+        "reporting-a-post-1.png",
+        "reporting-a-post-2.png",
+        "reporting-a-post-3.png",
+        "reporting-a-post-4.png"
+      ],
+      "requesting-to-sell": [
+        "requesting-to-sell-1.png",
+        "requesting-to-sell-10.png",
+        "requesting-to-sell-11.png",
+        "requesting-to-sell-12.png",
+        "requesting-to-sell-13.png",
+        "requesting-to-sell-14.png",
+        "requesting-to-sell-15.png",
+        "requesting-to-sell-16.png",
+        "requesting-to-sell-17.png",
+        "requesting-to-sell-18.png",
+        "requesting-to-sell-2.png",
+        "requesting-to-sell-3.png",
+        "requesting-to-sell-4.png",
+        "requesting-to-sell-5.png",
+        "requesting-to-sell-6.png",
+        "requesting-to-sell-7.png",
+        "requesting-to-sell-8.png",
+        "requesting-to-sell-9.png"
+      ],
+      "resetting-password": [
+        "resetting-password-1.png",
+        "resetting-password-2.png",
+        "resetting-password-3.png",
+        "resetting-password-4.png"
+      ],
+      "return-addresses": [
+        "return-addresses-1.png",
+        "return-addresses-2.png",
+        "return-addresses-3.png"
+      ],
+      "search": [
+        "search-1.png",
+        "search-2.png",
+        "search-3.png",
+        "search-4.png",
+        "search-5.png",
+        "search-6.png",
+        "search-7.png"
+      ],
+      "searching-goat": [
+        "searching-goat-1.png",
+        "searching-goat-2.png",
+        "searching-goat-3.png",
+        "searching-goat-4.png",
+        "searching-goat-5.png",
+        "searching-goat-6.png",
+        "searching-goat-7.png"
+      ],
+      "sell": [
+        "sell-1.png",
+        "sell-2.png",
+        "sell-3.png"
+      ],
+      "seller-id": [
+        "seller-id-1.png",
+        "seller-id-2.png"
+      ],
+      "settings": [
+        "settings-1.png",
+        "settings-2.png",
+        "settings-3.png"
+      ],
+      "share-spaces": [
+        "share-spaces-1.png",
+        "share-spaces-2.png"
+      ],
+      "shop-all": [
+        "shop-all-1.png",
+        "shop-all-2.png",
+        "shop-all-3.png"
+      ],
+      "shopping-region": [
+        "shopping-region-1.png",
+        "shopping-region-2.png"
+      ],
+      "skate-exhibit": [
+        "skate-exhibit-1.png",
+        "skate-exhibit-2.png",
+        "skate-exhibit-3.png",
+        "skate-exhibit-4.png",
+        "skate-exhibit-5.png"
+      ],
+      "skate-exhibit-detail": [
+        "skate-exhibit-detail-1.png",
+        "skate-exhibit-detail-2.png",
+        "skate-exhibit-detail-3.png"
+      ],
+      "sorting-calendar-by-brand": [
+        "sorting-calendar-by-brand-1.png",
+        "sorting-calendar-by-brand-2.png",
+        "sorting-calendar-by-brand-3.png",
+        "sorting-calendar-by-brand-4.png"
+      ],
+      "sorting-calendar-by-date": [
+        "sorting-calendar-by-date-1.png",
+        "sorting-calendar-by-date-2.png",
+        "sorting-calendar-by-date-3.png"
+      ],
+      "sorting-calendar-by-popularity": [
+        "sorting-calendar-by-popularity-1.png",
+        "sorting-calendar-by-popularity-2.png",
+        "sorting-calendar-by-popularity-3.png",
+        "sorting-calendar-by-popularity-4.png"
+      ],
+      "spaces-detail": [
+        "spaces-detail-1.png",
+        "spaces-detail-2.png"
+      ],
+      "style": [
+        "style-1.png",
+        "style-2.png",
+        "style-3.png",
+        "style-4.png",
+        "style-5.png"
+      ],
+      "support": [
+        "support-1.png",
+        "support-2.png"
+      ],
+      "tips-for-selling": [
+        "tips-for-selling-1.png",
+        "tips-for-selling-2.png",
+        "tips-for-selling-3.png"
+      ],
+      "turning-on-vacation-mode": [
+        "turning-on-vacation-mode-1.png",
+        "turning-on-vacation-mode-2.png",
+        "turning-on-vacation-mode-3.png",
+        "turning-on-vacation-mode-4.png"
+      ],
+      "wants": [
+        "wants-1.png",
+        "wants-2.png",
+        "wants-3.png"
+      ]
+    },
+    "screen_count": 58
+  },
+  "Depop": {
+    "folder": "depop-ios",
+    "path": "/Users/marvinkaunda/Library/Mobile Documents/com~apple~CloudDocs/brand/depop-ios",
+    "total_images": 412,
+    "screens": {
+      "adding-a-product-to-bag": [
+        "adding-a-product-to-bag-1.png",
+        "adding-a-product-to-bag-2.png",
+        "adding-a-product-to-bag-3.png"
+      ],
+      "adding-a-profile-picture": [
+        "adding-a-profile-picture-1.png",
+        "adding-a-profile-picture-2.png",
+        "adding-a-profile-picture-3.png",
+        "adding-a-profile-picture-4.png"
+      ],
+      "adding-discounts": [
+        "adding-discounts-1.png",
+        "adding-discounts-2.png",
+        "adding-discounts-3.png",
+        "adding-discounts-4.png",
+        "adding-discounts-5.png",
+        "adding-discounts-6.png",
+        "adding-discounts-7.png"
+      ],
+      "all-sold-items": [
+        "all-sold-items-1.png",
+        "all-sold-items-2.png"
+      ],
+      "bag": [
+        "bag-1.png",
+        "bag-2.png"
+      ],
+      "bundle-shipping": [
+        "bundle-shipping-1.png",
+        "bundle-shipping-2.png",
+        "bundle-shipping-3.png"
+      ],
+      "checking-out-an-item-from-bag": [
+        "checking-out-an-item-from-bag-1.png",
+        "checking-out-an-item-from-bag-10.png",
+        "checking-out-an-item-from-bag-11.png",
+        "checking-out-an-item-from-bag-12.png",
+        "checking-out-an-item-from-bag-13.png",
+        "checking-out-an-item-from-bag-14.png",
+        "checking-out-an-item-from-bag-15.png",
+        "checking-out-an-item-from-bag-16.png",
+        "checking-out-an-item-from-bag-2.png",
+        "checking-out-an-item-from-bag-3.png",
+        "checking-out-an-item-from-bag-4.png",
+        "checking-out-an-item-from-bag-5.png",
+        "checking-out-an-item-from-bag-6.png",
+        "checking-out-an-item-from-bag-7.png",
+        "checking-out-an-item-from-bag-8.png",
+        "checking-out-an-item-from-bag-9.png"
+      ],
+      "commenting-on-a-product": [
+        "commenting-on-a-product-1.png",
+        "commenting-on-a-product-2.png",
+        "commenting-on-a-product-3.png",
+        "commenting-on-a-product-4.png"
+      ],
+      "connecting-a-top-up-card": [
+        "connecting-a-top-up-card-1.png",
+        "connecting-a-top-up-card-2.png",
+        "connecting-a-top-up-card-3.png",
+        "connecting-a-top-up-card-4.png",
+        "connecting-a-top-up-card-5.png",
+        "connecting-a-top-up-card-6.png"
+      ],
+      "copying-depop-link": [
+        "copying-depop-link-1.png",
+        "copying-depop-link-2.png"
+      ],
+      "disconnecting-paypal-account": [
+        "disconnecting-paypal-account-1.png",
+        "disconnecting-paypal-account-2.png",
+        "disconnecting-paypal-account-3.png",
+        "disconnecting-paypal-account-4.png",
+        "disconnecting-paypal-account-5.png",
+        "disconnecting-paypal-account-6.png"
+      ],
+      "drafts": [
+        "drafts-1.png",
+        "drafts-2.png",
+        "drafts-3.png",
+        "drafts-4.png"
+      ],
+      "editing-a-listing": [
+        "editing-a-listing-1.png",
+        "editing-a-listing-2.png",
+        "editing-a-listing-3.png"
+      ],
+      "editing-bag": [
+        "editing-bag-1.png",
+        "editing-bag-2.png",
+        "editing-bag-3.png",
+        "editing-bag-4.png"
+      ],
+      "filtering-shop-items": [
+        "filtering-shop-items-1.png",
+        "filtering-shop-items-10.png",
+        "filtering-shop-items-11.png",
+        "filtering-shop-items-12.png",
+        "filtering-shop-items-13.png",
+        "filtering-shop-items-14.png",
+        "filtering-shop-items-15.png",
+        "filtering-shop-items-16.png",
+        "filtering-shop-items-17.png",
+        "filtering-shop-items-18.png",
+        "filtering-shop-items-19.png",
+        "filtering-shop-items-2.png",
+        "filtering-shop-items-3.png",
+        "filtering-shop-items-4.png",
+        "filtering-shop-items-5.png",
+        "filtering-shop-items-6.png",
+        "filtering-shop-items-7.png",
+        "filtering-shop-items-8.png",
+        "filtering-shop-items-9.png"
+      ],
+      "filtering-unread-messages": [
+        "filtering-unread-messages-1.png",
+        "filtering-unread-messages-2.png"
+      ],
+      "finding-friends": [
+        "finding-friends-1.png",
+        "finding-friends-2.png",
+        "finding-friends-3.png",
+        "finding-friends-4.png",
+        "finding-friends-5.png",
+        "finding-friends-6.png"
+      ],
+      "followers-and-following-profile": [
+        "followers-and-following-profile-1.png",
+        "followers-and-following-profile-2.png",
+        "followers-and-following-profile-3.png"
+      ],
+      "following-a-shop": [
+        "following-a-shop-1.png",
+        "following-a-shop-2.png"
+      ],
+      "get-help-with-this-purchase": [
+        "get-help-with-this-purchase-1.png",
+        "get-help-with-this-purchase-2.png",
+        "get-help-with-this-purchase-3.png",
+        "get-help-with-this-purchase-4.png"
+      ],
+      "help-and-support": [
+        "help-and-support-1.png",
+        "help-and-support-2.png",
+        "help-and-support-3.png",
+        "help-and-support-4.png",
+        "help-and-support-5.png"
+      ],
+      "home": [
+        "home-1.png",
+        "home-2.png",
+        "home-3.png",
+        "home-4.png",
+        "home-5.png",
+        "home-6.png",
+        "home-7.png",
+        "home-8.png"
+      ],
+      "hot-on-depop": [
+        "hot-on-depop-1.png",
+        "hot-on-depop-2.png",
+        "hot-on-depop-3.png"
+      ],
+      "interests-and-sizes": [
+        "interests-and-sizes-1.png",
+        "interests-and-sizes-2.png"
+      ],
+      "leaving-a-feedback": [
+        "leaving-a-feedback-1.png",
+        "leaving-a-feedback-2.png",
+        "leaving-a-feedback-3.png",
+        "leaving-a-feedback-4.png",
+        "leaving-a-feedback-5.png",
+        "leaving-a-feedback-6.png",
+        "leaving-a-feedback-7.png"
+      ],
+      "likes-profile": [
+        "likes-profile-1.png",
+        "likes-profile-2.png",
+        "likes-profile-3.png"
+      ],
+      "logging-in": [
+        "logging-in-1.png",
+        "logging-in-2.png",
+        "logging-in-3.png",
+        "logging-in-4.png",
+        "logging-in-5.png",
+        "logging-in-6.png",
+        "logging-in-7.png",
+        "logging-in-8.png"
+      ],
+      "logging-in-using-recovery-code": [
+        "logging-in-using-recovery-code-1.png",
+        "logging-in-using-recovery-code-2.png",
+        "logging-in-using-recovery-code-3.png",
+        "logging-in-using-recovery-code-4.png",
+        "logging-in-using-recovery-code-5.png",
+        "logging-in-using-recovery-code-6.png",
+        "logging-in-using-recovery-code-7.png"
+      ],
+      "logging-out": [
+        "logging-out-1.png",
+        "logging-out-2.png",
+        "logging-out-3.png"
+      ],
+      "making-an-offer": [
+        "making-an-offer-1.png",
+        "making-an-offer-2.png",
+        "making-an-offer-3.png",
+        "making-an-offer-4.png",
+        "making-an-offer-5.png",
+        "making-an-offer-6.png"
+      ],
+      "messages": [
+        "messages-1.png",
+        "messages-2.png",
+        "messages-3.png",
+        "messages-4.png"
+      ],
+      "messaging-a-shop": [
+        "messaging-a-shop-1.png",
+        "messaging-a-shop-2.png",
+        "messaging-a-shop-3.png",
+        "messaging-a-shop-4.png"
+      ],
+      "messaging-shop-about-a-product": [
+        "messaging-shop-about-a-product-1.png",
+        "messaging-shop-about-a-product-2.png",
+        "messaging-shop-about-a-product-3.png",
+        "messaging-shop-about-a-product-4.png"
+      ],
+      "notifications": [
+        "notifications-1.png",
+        "notifications-2.png",
+        "notifications-3.png"
+      ],
+      "offers": [
+        "offers-1.png",
+        "offers-2.png"
+      ],
+      "onboarding": [
+        "onboarding-1.png",
+        "onboarding-10.png",
+        "onboarding-11.png",
+        "onboarding-12.png",
+        "onboarding-13.png",
+        "onboarding-14.png",
+        "onboarding-15.png",
+        "onboarding-16.png",
+        "onboarding-17.png",
+        "onboarding-18.png",
+        "onboarding-19.png",
+        "onboarding-2.png",
+        "onboarding-20.png",
+        "onboarding-21.png",
+        "onboarding-22.png",
+        "onboarding-23.png",
+        "onboarding-24.png",
+        "onboarding-25.png",
+        "onboarding-26.png",
+        "onboarding-27.png",
+        "onboarding-28.png",
+        "onboarding-29.png",
+        "onboarding-3.png",
+        "onboarding-30.png",
+        "onboarding-31.png",
+        "onboarding-32.png",
+        "onboarding-33.png",
+        "onboarding-34.png",
+        "onboarding-35.png",
+        "onboarding-36.png",
+        "onboarding-4.png",
+        "onboarding-5.png",
+        "onboarding-6.png",
+        "onboarding-7.png",
+        "onboarding-8.png",
+        "onboarding-9.png"
+      ],
+      "past-offers": [
+        "past-offers-1.png",
+        "past-offers-2.png",
+        "past-offers-3.png"
+      ],
+      "payments": [
+        "payments-1.png",
+        "payments-2.png",
+        "payments-3.png",
+        "payments-4.png"
+      ],
+      "posting-your-first-listing": [
+        "posting-your-first-listing-1.png",
+        "posting-your-first-listing-10.png",
+        "posting-your-first-listing-11.png",
+        "posting-your-first-listing-12.png",
+        "posting-your-first-listing-13.png",
+        "posting-your-first-listing-14.png",
+        "posting-your-first-listing-15.png",
+        "posting-your-first-listing-16.png",
+        "posting-your-first-listing-17.png",
+        "posting-your-first-listing-18.png",
+        "posting-your-first-listing-19.png",
+        "posting-your-first-listing-2.png",
+        "posting-your-first-listing-20.png",
+        "posting-your-first-listing-21.png",
+        "posting-your-first-listing-22.png",
+        "posting-your-first-listing-23.png",
+        "posting-your-first-listing-24.png",
+        "posting-your-first-listing-25.png",
+        "posting-your-first-listing-26.png",
+        "posting-your-first-listing-27.png",
+        "posting-your-first-listing-28.png",
+        "posting-your-first-listing-29.png",
+        "posting-your-first-listing-3.png",
+        "posting-your-first-listing-30.png",
+        "posting-your-first-listing-31.png",
+        "posting-your-first-listing-32.png",
+        "posting-your-first-listing-33.png",
+        "posting-your-first-listing-34.png",
+        "posting-your-first-listing-35.png",
+        "posting-your-first-listing-36.png",
+        "posting-your-first-listing-37.png",
+        "posting-your-first-listing-38.png",
+        "posting-your-first-listing-39.png",
+        "posting-your-first-listing-4.png",
+        "posting-your-first-listing-40.png",
+        "posting-your-first-listing-41.png",
+        "posting-your-first-listing-5.png",
+        "posting-your-first-listing-6.png",
+        "posting-your-first-listing-7.png",
+        "posting-your-first-listing-8.png",
+        "posting-your-first-listing-9.png"
+      ],
+      "preferences": [
+        "preferences-1.png",
+        "preferences-2.png",
+        "preferences-3.png"
+      ],
+      "privacy-privacy": [
+        "privacy-privacy-1.png",
+        "privacy-privacy-2.png"
+      ],
+      "product-detail": [
+        "product-detail-1.png",
+        "product-detail-2.png",
+        "product-detail-3.png",
+        "product-detail-4.png",
+        "product-detail-5.png",
+        "product-detail-6.png"
+      ],
+      "profile": [
+        "profile-1.png",
+        "profile-2.png"
+      ],
+      "purchased": [
+        "purchased-1.png",
+        "purchased-2.png",
+        "purchased-3.png",
+        "purchased-4.png",
+        "purchased-5.png"
+      ],
+      "reporting-a-product-listing": [
+        "reporting-a-product-listing-1.png",
+        "reporting-a-product-listing-2.png",
+        "reporting-a-product-listing-3.png",
+        "reporting-a-product-listing-4.png",
+        "reporting-a-product-listing-5.png"
+      ],
+      "reporting-and-blocking-a-shop": [
+        "reporting-and-blocking-a-shop-1.png",
+        "reporting-and-blocking-a-shop-2.png",
+        "reporting-and-blocking-a-shop-3.png",
+        "reporting-and-blocking-a-shop-4.png",
+        "reporting-and-blocking-a-shop-5.png",
+        "reporting-and-blocking-a-shop-6.png",
+        "reporting-and-blocking-a-shop-7.png"
+      ],
+      "resetting-password": [
+        "resetting-password-1.png",
+        "resetting-password-2.png",
+        "resetting-password-3.png",
+        "resetting-password-4.png",
+        "resetting-password-5.png"
+      ],
+      "reviews-profile": [
+        "reviews-profile-1.png",
+        "reviews-profile-2.png",
+        "reviews-profile-3.png",
+        "reviews-profile-4.png",
+        "reviews-profile-5.png"
+      ],
+      "safety-centre": [
+        "safety-centre-1.png",
+        "safety-centre-2.png"
+      ],
+      "saved-profile": [
+        "saved-profile-1.png",
+        "saved-profile-2.png"
+      ],
+      "saving-a-product-to-a-new-collection": [
+        "saving-a-product-to-a-new-collection-1.png",
+        "saving-a-product-to-a-new-collection-2.png",
+        "saving-a-product-to-a-new-collection-3.png",
+        "saving-a-product-to-a-new-collection-4.png",
+        "saving-a-product-to-a-new-collection-5.png",
+        "saving-a-product-to-a-new-collection-6.png"
+      ],
+      "saving-a-product-to-profile": [
+        "saving-a-product-to-profile-1.png",
+        "saving-a-product-to-profile-2.png"
+      ],
+      "saving-search": [
+        "saving-search-1.png",
+        "saving-search-2.png",
+        "saving-search-3.png",
+        "saving-search-4.png",
+        "saving-search-5.png"
+      ],
+      "saving-to-draft": [
+        "saving-to-draft-1.png",
+        "saving-to-draft-2.png"
+      ],
+      "searching-depop": [
+        "searching-depop-1.png",
+        "searching-depop-10.png",
+        "searching-depop-2.png",
+        "searching-depop-3.png",
+        "searching-depop-4.png",
+        "searching-depop-5.png",
+        "searching-depop-6.png",
+        "searching-depop-7.png",
+        "searching-depop-8.png",
+        "searching-depop-9.png"
+      ],
+      "see-a-brand-collection": [
+        "see-a-brand-collection-1.png",
+        "see-a-brand-collection-2.png"
+      ],
+      "see-all-menswear": [
+        "see-all-menswear-1.png",
+        "see-all-menswear-2.png",
+        "see-all-menswear-3.png",
+        "see-all-menswear-4.png"
+      ],
+      "settings": [
+        "settings-1.png",
+        "settings-2.png"
+      ],
+      "sharing-a-product": [
+        "sharing-a-product-1.png",
+        "sharing-a-product-2.png",
+        "sharing-a-product-3.png"
+      ],
+      "shop-followers-and-following": [
+        "shop-followers-and-following-1.png",
+        "shop-followers-and-following-2.png",
+        "shop-followers-and-following-3.png"
+      ],
+      "shop-for-good": [
+        "shop-for-good-1.png",
+        "shop-for-good-2.png",
+        "shop-for-good-3.png",
+        "shop-for-good-4.png"
+      ],
+      "shop-likes": [
+        "shop-likes-1.png",
+        "shop-likes-2.png"
+      ],
+      "shop-policies": [
+        "shop-policies-1.png",
+        "shop-policies-2.png",
+        "shop-policies-3.png",
+        "shop-policies-4.png",
+        "shop-policies-5.png",
+        "shop-policies-6.png"
+      ],
+      "shop-reviews": [
+        "shop-reviews-1.png",
+        "shop-reviews-2.png",
+        "shop-reviews-3.png",
+        "shop-reviews-4.png",
+        "shop-reviews-5.png"
+      ],
+      "sorting-a-collection": [
+        "sorting-a-collection-1.png",
+        "sorting-a-collection-2.png",
+        "sorting-a-collection-3.png"
+      ],
+      "start-selling": [
+        "start-selling-1.png",
+        "start-selling-10.png",
+        "start-selling-11.png",
+        "start-selling-2.png",
+        "start-selling-3.png",
+        "start-selling-4.png",
+        "start-selling-5.png",
+        "start-selling-6.png",
+        "start-selling-7.png",
+        "start-selling-8.png",
+        "start-selling-9.png"
+      ],
+      "suggested-for-you": [
+        "suggested-for-you-1.png",
+        "suggested-for-you-2.png",
+        "suggested-for-you-3.png",
+        "suggested-for-you-4.png"
+      ],
+      "terms-of-service": [
+        "terms-of-service-1.png",
+        "terms-of-service-2.png",
+        "terms-of-service-3.png"
+      ],
+      "the-depop-edit": [
+        "the-depop-edit-1.png",
+        "the-depop-edit-2.png",
+        "the-depop-edit-3.png",
+        "the-depop-edit-4.png",
+        "the-depop-edit-5.png"
+      ],
+      "top-sellers": [
+        "top-sellers-1.png",
+        "top-sellers-2.png",
+        "top-sellers-3.png"
+      ],
+      "turning-on-two-factor-authentication": [
+        "turning-on-two-factor-authentication-1.png",
+        "turning-on-two-factor-authentication-10.png",
+        "turning-on-two-factor-authentication-11.png",
+        "turning-on-two-factor-authentication-12.png",
+        "turning-on-two-factor-authentication-13.png",
+        "turning-on-two-factor-authentication-2.png",
+        "turning-on-two-factor-authentication-3.png",
+        "turning-on-two-factor-authentication-4.png",
+        "turning-on-two-factor-authentication-5.png",
+        "turning-on-two-factor-authentication-6.png",
+        "turning-on-two-factor-authentication-7.png",
+        "turning-on-two-factor-authentication-8.png",
+        "turning-on-two-factor-authentication-9.png"
+      ],
+      "updating-profile": [
+        "updating-profile-1.png",
+        "updating-profile-2.png",
+        "updating-profile-3.png",
+        "updating-profile-4.png",
+        "updating-profile-5.png",
+        "updating-profile-6.png"
+      ],
+      "verify-identity": [
+        "verify-identity-1.png",
+        "verify-identity-2.png",
+        "verify-identity-3.png"
+      ],
+      "video-and-photo-tips": [
+        "video-and-photo-tips-1.png",
+        "video-and-photo-tips-2.png",
+        "video-and-photo-tips-3.png"
+      ],
+      "view-a-shop": [
+        "view-a-shop-1.png",
+        "view-a-shop-2.png",
+        "view-a-shop-3.png"
+      ]
+    },
+    "screen_count": 75
+  },
+  "Nike": {
+    "folder": "nike-ios",
+    "path": "/Users/marvinkaunda/Library/Mobile Documents/com~apple~CloudDocs/brand/nike-ios",
+    "total_images": 368,
+    "screens": {
+      "about-this-version": [
+        "about-this-version-1.png",
+        "about-this-version-2.png"
+      ],
+      "adding-a-shipping-address": [
+        "adding-a-shipping-address-1.png",
+        "adding-a-shipping-address-2.png",
+        "adding-a-shipping-address-3.png",
+        "adding-a-shipping-address-4.png"
+      ],
+      "adding-an-item-to-bag": [
+        "adding-an-item-to-bag-1.png",
+        "adding-an-item-to-bag-2.png",
+        "adding-an-item-to-bag-3.png"
+      ],
+      "adding-mobile-phone-number": [
+        "adding-mobile-phone-number-1.png",
+        "adding-mobile-phone-number-2.png",
+        "adding-mobile-phone-number-3.png",
+        "adding-mobile-phone-number-4.png",
+        "adding-mobile-phone-number-5.png",
+        "adding-mobile-phone-number-6.png",
+        "adding-mobile-phone-number-7.png",
+        "adding-mobile-phone-number-8.png",
+        "adding-mobile-phone-number-9.png"
+      ],
+      "adding-product-to-favorites": [
+        "adding-product-to-favorites-1.png",
+        "adding-product-to-favorites-2.png"
+      ],
+      "adjusting-item-quantity": [
+        "adjusting-item-quantity-1.png",
+        "adjusting-item-quantity-2.png",
+        "adjusting-item-quantity-3.png",
+        "adjusting-item-quantity-4.png"
+      ],
+      "bag": [
+        "bag-1.png",
+        "bag-2.png",
+        "bag-3.png",
+        "bag-4.png"
+      ],
+      "basketball": [
+        "basketball-1.png",
+        "basketball-2.png",
+        "basketball-3.png",
+        "basketball-4.png",
+        "basketball-5.png"
+      ],
+      "bestsellers": [
+        "bestsellers-1.png",
+        "bestsellers-2.png",
+        "bestsellers-3.png"
+      ],
+      "blocked-users": [
+        "blocked-users-1.png",
+        "blocked-users-2.png",
+        "blocked-users-3.png"
+      ],
+      "blocking-a-user": [
+        "blocking-a-user-1.png",
+        "blocking-a-user-2.png",
+        "blocking-a-user-3.png",
+        "blocking-a-user-4.png"
+      ],
+      "call-nike": [
+        "call-nike-1.png",
+        "call-nike-2.png"
+      ],
+      "canceling-an-event-registration": [
+        "canceling-an-event-registration-1.png",
+        "canceling-an-event-registration-2.png",
+        "canceling-an-event-registration-3.png"
+      ],
+      "canceling-an-order": [
+        "canceling-an-order-1.png",
+        "canceling-an-order-2.png",
+        "canceling-an-order-3.png",
+        "canceling-an-order-4.png",
+        "canceling-an-order-5.png"
+      ],
+      "changing-country": [
+        "changing-country-1.png",
+        "changing-country-10.png",
+        "changing-country-2.png",
+        "changing-country-3.png",
+        "changing-country-4.png",
+        "changing-country-5.png",
+        "changing-country-6.png",
+        "changing-country-7.png",
+        "changing-country-8.png",
+        "changing-country-9.png"
+      ],
+      "changing-location": [
+        "changing-location-1.png",
+        "changing-location-2.png",
+        "changing-location-3.png",
+        "changing-location-4.png"
+      ],
+      "changing-profile-visibility": [
+        "changing-profile-visibility-1.png",
+        "changing-profile-visibility-2.png",
+        "changing-profile-visibility-3.png",
+        "changing-profile-visibility-4.png"
+      ],
+      "changing-shopping-settings": [
+        "changing-shopping-settings-1.png",
+        "changing-shopping-settings-2.png",
+        "changing-shopping-settings-3.png",
+        "changing-shopping-settings-4.png"
+      ],
+      "chatting-live-with-nike-bot": [
+        "chatting-live-with-nike-bot-1.png",
+        "chatting-live-with-nike-bot-10.png",
+        "chatting-live-with-nike-bot-2.png",
+        "chatting-live-with-nike-bot-3.png",
+        "chatting-live-with-nike-bot-4.png",
+        "chatting-live-with-nike-bot-5.png",
+        "chatting-live-with-nike-bot-6.png",
+        "chatting-live-with-nike-bot-7.png",
+        "chatting-live-with-nike-bot-8.png",
+        "chatting-live-with-nike-bot-9.png"
+      ],
+      "commenting-on-a-post": [
+        "commenting-on-a-post-1.png",
+        "commenting-on-a-post-2.png",
+        "commenting-on-a-post-3.png",
+        "commenting-on-a-post-4.png",
+        "commenting-on-a-post-5.png"
+      ],
+      "complete-the-look": [
+        "complete-the-look-1.png",
+        "complete-the-look-2.png"
+      ],
+      "contact-nike": [
+        "contact-nike-1.png",
+        "contact-nike-2.png"
+      ],
+      "deleting-an-account": [
+        "deleting-an-account-1.png",
+        "deleting-an-account-2.png",
+        "deleting-an-account-3.png",
+        "deleting-an-account-4.png",
+        "deleting-an-account-5.png"
+      ],
+      "editing-favorites": [
+        "editing-favorites-1.png",
+        "editing-favorites-2.png",
+        "editing-favorites-3.png",
+        "editing-favorites-4.png"
+      ],
+      "editing-profile": [
+        "editing-profile-1.png",
+        "editing-profile-10.png",
+        "editing-profile-2.png",
+        "editing-profile-3.png",
+        "editing-profile-4.png",
+        "editing-profile-5.png",
+        "editing-profile-6.png",
+        "editing-profile-7.png",
+        "editing-profile-8.png",
+        "editing-profile-9.png"
+      ],
+      "editing-schedule": [
+        "editing-schedule-1.png",
+        "editing-schedule-2.png",
+        "editing-schedule-3.png",
+        "editing-schedule-4.png"
+      ],
+      "enabling-pick-up-today": [
+        "enabling-pick-up-today-1.png",
+        "enabling-pick-up-today-2.png"
+      ],
+      "event-detail": [
+        "event-detail-1.png",
+        "event-detail-2.png",
+        "event-detail-3.png",
+        "event-detail-4.png",
+        "event-detail-5.png"
+      ],
+      "events": [
+        "events-1.png",
+        "events-2.png"
+      ],
+      "explore-a-collection": [
+        "explore-a-collection-1.png",
+        "explore-a-collection-2.png",
+        "explore-a-collection-3.png"
+      ],
+      "explore-nike-apps": [
+        "explore-nike-apps-1.png",
+        "explore-nike-apps-2.png"
+      ],
+      "faqs": [
+        "faqs-1.png",
+        "faqs-2.png",
+        "faqs-3.png"
+      ],
+      "favorites": [
+        "favorites-1.png",
+        "favorites-2.png",
+        "favorites-3.png"
+      ],
+      "filtering-bestsellers": [
+        "filtering-bestsellers-1.png",
+        "filtering-bestsellers-2.png",
+        "filtering-bestsellers-3.png",
+        "filtering-bestsellers-4.png",
+        "filtering-bestsellers-5.png",
+        "filtering-bestsellers-6.png",
+        "filtering-bestsellers-7.png",
+        "filtering-bestsellers-8.png",
+        "filtering-bestsellers-9.png"
+      ],
+      "finding-a-nike-store": [
+        "finding-a-nike-store-1.png",
+        "finding-a-nike-store-2.png",
+        "finding-a-nike-store-3.png",
+        "finding-a-nike-store-4.png"
+      ],
+      "following": [
+        "following-1.png",
+        "following-2.png",
+        "following-3.png",
+        "following-4.png"
+      ],
+      "following-a-team": [
+        "following-a-team-1.png",
+        "following-a-team-2.png",
+        "following-a-team-3.png",
+        "following-a-team-4.png"
+      ],
+      "get-support": [
+        "get-support-1.png",
+        "get-support-2.png"
+      ],
+      "home": [
+        "home-1.png",
+        "home-2.png",
+        "home-3.png",
+        "home-4.png",
+        "home-5.png",
+        "home-6.png",
+        "home-7.png"
+      ],
+      "how-others-are-wearing-it": [
+        "how-others-are-wearing-it-1.png",
+        "how-others-are-wearing-it-2.png",
+        "how-others-are-wearing-it-3.png",
+        "how-others-are-wearing-it-4.png",
+        "how-others-are-wearing-it-5.png"
+      ],
+      "in-store-mode": [
+        "in-store-mode-1.png",
+        "in-store-mode-2.png",
+        "in-store-mode-3.png"
+      ],
+      "inbox": [
+        "inbox-1.png",
+        "inbox-2.png",
+        "inbox-3.png"
+      ],
+      "kids-tab": [
+        "kids-tab-1.png",
+        "kids-tab-2.png",
+        "kids-tab-3.png"
+      ],
+      "logging-in": [
+        "logging-in-1.png",
+        "logging-in-2.png",
+        "logging-in-3.png",
+        "logging-in-4.png"
+      ],
+      "logging-out": [
+        "logging-out-1.png",
+        "logging-out-2.png",
+        "logging-out-3.png",
+        "logging-out-4.png"
+      ],
+      "member-rewards": [
+        "member-rewards-1.png",
+        "member-rewards-2.png",
+        "member-rewards-3.png",
+        "member-rewards-4.png",
+        "member-rewards-5.png",
+        "member-rewards-6.png"
+      ],
+      "nearby-stores": [
+        "nearby-stores-1.png",
+        "nearby-stores-2.png",
+        "nearby-stores-3.png"
+      ],
+      "notifications": [
+        "notifications-1.png",
+        "notifications-2.png"
+      ],
+      "onboarding": [
+        "onboarding-1.png",
+        "onboarding-10.png",
+        "onboarding-11.png",
+        "onboarding-12.png",
+        "onboarding-13.png",
+        "onboarding-14.png",
+        "onboarding-15.png",
+        "onboarding-16.png",
+        "onboarding-17.png",
+        "onboarding-18.png",
+        "onboarding-19.png",
+        "onboarding-2.png",
+        "onboarding-20.png",
+        "onboarding-21.png",
+        "onboarding-22.png",
+        "onboarding-23.png",
+        "onboarding-24.png",
+        "onboarding-3.png",
+        "onboarding-4.png",
+        "onboarding-5.png",
+        "onboarding-6.png",
+        "onboarding-7.png",
+        "onboarding-8.png",
+        "onboarding-9.png"
+      ],
+      "order-confirmation": [
+        "order-confirmation-1.png",
+        "order-confirmation-2.png",
+        "order-confirmation-3.png"
+      ],
+      "orders": [
+        "orders-1.png",
+        "orders-2.png",
+        "orders-3.png"
+      ],
+      "pass": [
+        "pass-1.png",
+        "pass-2.png",
+        "pass-3.png"
+      ],
+      "payment-information": [
+        "payment-information-1.png",
+        "payment-information-2.png",
+        "payment-information-3.png"
+      ],
+      "post-detail": [
+        "post-detail-1.png",
+        "post-detail-2.png",
+        "post-detail-3.png",
+        "post-detail-4.png",
+        "post-detail-5.png"
+      ],
+      "posts": [
+        "posts-1.png",
+        "posts-2.png",
+        "posts-3.png",
+        "posts-4.png"
+      ],
+      "privacy": [
+        "privacy-1.png",
+        "privacy-2.png"
+      ],
+      "product-detail": [
+        "product-detail-1.png",
+        "product-detail-10.png",
+        "product-detail-2.png",
+        "product-detail-3.png",
+        "product-detail-4.png",
+        "product-detail-5.png",
+        "product-detail-6.png",
+        "product-detail-7.png",
+        "product-detail-8.png",
+        "product-detail-9.png"
+      ],
+      "profile": [
+        "profile-1.png",
+        "profile-2.png",
+        "profile-3.png",
+        "profile-4.png",
+        "profile-5.png"
+      ],
+      "purchasing-an-item": [
+        "purchasing-an-item-1.png",
+        "purchasing-an-item-2.png",
+        "purchasing-an-item-3.png",
+        "purchasing-an-item-4.png",
+        "purchasing-an-item-5.png"
+      ],
+      "registering-to-an-event": [
+        "registering-to-an-event-1.png",
+        "registering-to-an-event-2.png",
+        "registering-to-an-event-3.png",
+        "registering-to-an-event-4.png",
+        "registering-to-an-event-5.png"
+      ],
+      "removing-a-shipping-address": [
+        "removing-a-shipping-address-1.png",
+        "removing-a-shipping-address-2.png",
+        "removing-a-shipping-address-3.png"
+      ],
+      "removing-item-from-bag": [
+        "removing-item-from-bag-1.png",
+        "removing-item-from-bag-2.png",
+        "removing-item-from-bag-3.png"
+      ],
+      "reviews": [
+        "reviews-1.png",
+        "reviews-2.png"
+      ],
+      "searching-an-area": [
+        "searching-an-area-1.png",
+        "searching-an-area-2.png",
+        "searching-an-area-3.png",
+        "searching-an-area-4.png"
+      ],
+      "searching-for-a-product": [
+        "searching-for-a-product-1.png",
+        "searching-for-a-product-2.png",
+        "searching-for-a-product-3.png",
+        "searching-for-a-product-4.png",
+        "searching-for-a-product-5.png"
+      ],
+      "selecting-a-pick-up-store": [
+        "selecting-a-pick-up-store-1.png",
+        "selecting-a-pick-up-store-2.png",
+        "selecting-a-pick-up-store-3.png",
+        "selecting-a-pick-up-store-4.png",
+        "selecting-a-pick-up-store-5.png",
+        "selecting-a-pick-up-store-6.png",
+        "selecting-a-pick-up-store-7.png"
+      ],
+      "selecting-a-size": [
+        "selecting-a-size-1.png",
+        "selecting-a-size-2.png",
+        "selecting-a-size-3.png"
+      ],
+      "selecting-units-of-measure": [
+        "selecting-units-of-measure-1.png",
+        "selecting-units-of-measure-2.png",
+        "selecting-units-of-measure-3.png"
+      ],
+      "settings": [
+        "settings-1.png",
+        "settings-2.png",
+        "settings-3.png",
+        "settings-4.png"
+      ],
+      "share-a-product": [
+        "share-a-product-1.png",
+        "share-a-product-2.png"
+      ],
+      "shipping-information": [
+        "shipping-information-1.png",
+        "shipping-information-2.png",
+        "shipping-information-3.png"
+      ],
+      "shop": [
+        "shop-1.png",
+        "shop-10.png",
+        "shop-11.png",
+        "shop-12.png",
+        "shop-13.png",
+        "shop-2.png",
+        "shop-3.png",
+        "shop-4.png",
+        "shop-5.png",
+        "shop-6.png",
+        "shop-7.png",
+        "shop-8.png",
+        "shop-9.png"
+      ],
+      "shop-jordan": [
+        "shop-jordan-1.png",
+        "shop-jordan-2.png",
+        "shop-jordan-3.png",
+        "shop-jordan-4.png",
+        "shop-jordan-5.png",
+        "shop-jordan-6.png",
+        "shop-jordan-7.png",
+        "shop-jordan-8.png"
+      ],
+      "sorting-reviews": [
+        "sorting-reviews-1.png",
+        "sorting-reviews-2.png",
+        "sorting-reviews-3.png"
+      ],
+      "stories-for-you": [
+        "stories-for-you-1.png",
+        "stories-for-you-2.png",
+        "stories-for-you-3.png"
+      ],
+      "switching-to-jordan-view": [
+        "switching-to-jordan-view-1.png",
+        "switching-to-jordan-view-2.png",
+        "switching-to-jordan-view-3.png",
+        "switching-to-jordan-view-4.png",
+        "switching-to-jordan-view-5.png",
+        "switching-to-jordan-view-6.png"
+      ],
+      "ticket": [
+        "ticket-1.png",
+        "ticket-2.png"
+      ],
+      "upcoming-events": [
+        "upcoming-events-1.png",
+        "upcoming-events-2.png",
+        "upcoming-events-3.png",
+        "upcoming-events-4.png",
+        "upcoming-events-5.png"
+      ],
+      "updating-account-settings": [
+        "updating-account-settings-1.png",
+        "updating-account-settings-2.png",
+        "updating-account-settings-3.png"
+      ],
+      "user-page-settings": [
+        "user-page-settings-1.png",
+        "user-page-settings-2.png"
+      ],
+      "user-profile": [
+        "user-profile-1.png",
+        "user-profile-2.png"
+      ],
+      "view-a-message": [
+        "view-a-message-1.png",
+        "view-a-message-2.png",
+        "view-a-message-3.png",
+        "view-a-message-4.png"
+      ],
+      "view-a-story": [
+        "view-a-story-1.png",
+        "view-a-story-2.png",
+        "view-a-story-3.png",
+        "view-a-story-4.png"
+      ],
+      "workout-info": [
+        "workout-info-1.png",
+        "workout-info-2.png"
+      ]
+    },
+    "screen_count": 84
+  },
+  "FARFETCH": {
+    "folder": "farfetch-ios",
+    "path": "/Users/marvinkaunda/Library/Mobile Documents/com~apple~CloudDocs/brand/farfetch-ios",
+    "total_images": 288,
+    "screens": {
+      "20-off-with-free-shipping": [
+        "20-off-with-free-shipping-1.png",
+        "20-off-with-free-shipping-2.png",
+        "20-off-with-free-shipping-3.png",
+        "20-off-with-free-shipping-4.png"
+      ],
+      "about-farfetch": [
+        "about-farfetch-1.png",
+        "about-farfetch-2.png",
+        "about-farfetch-3.png"
+      ],
+      "access-loyalty-program": [
+        "access-loyalty-program-1.png",
+        "access-loyalty-program-10.png",
+        "access-loyalty-program-11.png",
+        "access-loyalty-program-12.png",
+        "access-loyalty-program-2.png",
+        "access-loyalty-program-3.png",
+        "access-loyalty-program-4.png",
+        "access-loyalty-program-5.png",
+        "access-loyalty-program-6.png",
+        "access-loyalty-program-7.png",
+        "access-loyalty-program-8.png",
+        "access-loyalty-program-9.png"
+      ],
+      "adding-date-of-birth": [
+        "adding-date-of-birth-1.png",
+        "adding-date-of-birth-2.png",
+        "adding-date-of-birth-3.png",
+        "adding-date-of-birth-4.png"
+      ],
+      "adding-product-pencil-box-to-bag": [
+        "adding-product-pencil-box-to-bag-1.png",
+        "adding-product-pencil-box-to-bag-2.png",
+        "adding-product-pencil-box-to-bag-3.png"
+      ],
+      "adding-product-to-bag": [
+        "adding-product-to-bag-1.png",
+        "adding-product-to-bag-2.png",
+        "adding-product-to-bag-3.png",
+        "adding-product-to-bag-4.png",
+        "adding-product-to-bag-5.png"
+      ],
+      "adding-wishlist-item-to-bag": [
+        "adding-wishlist-item-to-bag-1.png",
+        "adding-wishlist-item-to-bag-2.png",
+        "adding-wishlist-item-to-bag-3.png",
+        "adding-wishlist-item-to-bag-4.png"
+      ],
+      "address-book": [
+        "address-book-1.png",
+        "address-book-2.png"
+      ],
+      "adjusting-item-quantity": [
+        "adjusting-item-quantity-1.png",
+        "adjusting-item-quantity-2.png",
+        "adjusting-item-quantity-3.png",
+        "adjusting-item-quantity-4.png"
+      ],
+      "bag": [
+        "bag-1.png",
+        "bag-2.png",
+        "bag-3.png",
+        "bag-4.png"
+      ],
+      "boutique-detail": [
+        "boutique-detail-1.png",
+        "boutique-detail-2.png",
+        "boutique-detail-3.png",
+        "boutique-detail-4.png",
+        "boutique-detail-5.png",
+        "boutique-detail-6.png",
+        "boutique-detail-7.png"
+      ],
+      "boutiques": [
+        "boutiques-1.png",
+        "boutiques-2.png",
+        "boutiques-3.png",
+        "boutiques-4.png",
+        "boutiques-5.png"
+      ],
+      "brand-detail": [
+        "brand-detail-1.png",
+        "brand-detail-2.png",
+        "brand-detail-3.png",
+        "brand-detail-4.png",
+        "brand-detail-5.png"
+      ],
+      "brands": [
+        "brands-1.png",
+        "brands-2.png",
+        "brands-3.png",
+        "brands-4.png",
+        "brands-5.png",
+        "brands-6.png",
+        "brands-7.png",
+        "brands-8.png"
+      ],
+      "brands-a-z": [
+        "brands-a-z-1.png",
+        "brands-a-z-2.png",
+        "brands-a-z-3.png",
+        "brands-a-z-4.png",
+        "brands-a-z-5.png"
+      ],
+      "cancelling-an-order": [
+        "cancelling-an-order-1.png",
+        "cancelling-an-order-2.png",
+        "cancelling-an-order-3.png"
+      ],
+      "changing-location": [
+        "changing-location-1.png",
+        "changing-location-2.png",
+        "changing-location-3.png",
+        "changing-location-4.png",
+        "changing-location-5.png",
+        "changing-location-6.png",
+        "changing-location-7.png",
+        "changing-location-8.png"
+      ],
+      "complete-the-look": [
+        "complete-the-look-1.png",
+        "complete-the-look-2.png",
+        "complete-the-look-3.png"
+      ],
+      "deleting-my-account": [
+        "deleting-my-account-1.png",
+        "deleting-my-account-2.png",
+        "deleting-my-account-3.png",
+        "deleting-my-account-4.png",
+        "deleting-my-account-5.png",
+        "deleting-my-account-6.png",
+        "deleting-my-account-7.png",
+        "deleting-my-account-8.png"
+      ],
+      "details-password": [
+        "details-password-1.png",
+        "details-password-2.png",
+        "details-password-3.png"
+      ],
+      "enabling-product-notifications": [
+        "enabling-product-notifications-1.png",
+        "enabling-product-notifications-2.png",
+        "enabling-product-notifications-3.png",
+        "enabling-product-notifications-4.png",
+        "enabling-product-notifications-5.png"
+      ],
+      "filtering-offer-items": [
+        "filtering-offer-items-1.png",
+        "filtering-offer-items-10.png",
+        "filtering-offer-items-11.png",
+        "filtering-offer-items-12.png",
+        "filtering-offer-items-13.png",
+        "filtering-offer-items-14.png",
+        "filtering-offer-items-15.png",
+        "filtering-offer-items-16.png",
+        "filtering-offer-items-17.png",
+        "filtering-offer-items-18.png",
+        "filtering-offer-items-2.png",
+        "filtering-offer-items-3.png",
+        "filtering-offer-items-4.png",
+        "filtering-offer-items-5.png",
+        "filtering-offer-items-6.png",
+        "filtering-offer-items-7.png",
+        "filtering-offer-items-8.png",
+        "filtering-offer-items-9.png"
+      ],
+      "home": [
+        "home-1.png",
+        "home-10.png",
+        "home-11.png",
+        "home-12.png",
+        "home-13.png",
+        "home-14.png",
+        "home-15.png",
+        "home-2.png",
+        "home-3.png",
+        "home-4.png",
+        "home-5.png",
+        "home-6.png",
+        "home-7.png",
+        "home-8.png",
+        "home-9.png"
+      ],
+      "inviting-friends-to-farfetch": [
+        "inviting-friends-to-farfetch-1.png",
+        "inviting-friends-to-farfetch-2.png",
+        "inviting-friends-to-farfetch-3.png"
+      ],
+      "logging-in": [
+        "logging-in-1.png",
+        "logging-in-2.png",
+        "logging-in-3.png",
+        "logging-in-4.png",
+        "logging-in-5.png",
+        "logging-in-6.png",
+        "logging-in-7.png"
+      ],
+      "logging-out": [
+        "logging-out-1.png",
+        "logging-out-2.png",
+        "logging-out-3.png",
+        "logging-out-4.png"
+      ],
+      "messages": [
+        "messages-1.png",
+        "messages-2.png"
+      ],
+      "new-in": [
+        "new-in-1.png",
+        "new-in-2.png",
+        "new-in-3.png"
+      ],
+      "onboarding": [
+        "onboarding-1.png",
+        "onboarding-10.png",
+        "onboarding-11.png",
+        "onboarding-12.png",
+        "onboarding-13.png",
+        "onboarding-2.png",
+        "onboarding-3.png",
+        "onboarding-4.png",
+        "onboarding-5.png",
+        "onboarding-6.png",
+        "onboarding-7.png",
+        "onboarding-8.png",
+        "onboarding-9.png"
+      ],
+      "order-detail": [
+        "order-detail-1.png",
+        "order-detail-2.png",
+        "order-detail-3.png",
+        "order-detail-4.png"
+      ],
+      "orders-returns": [
+        "orders-returns-1.png",
+        "orders-returns-2.png",
+        "orders-returns-3.png"
+      ],
+      "product-detail": [
+        "product-detail-1.png",
+        "product-detail-10.png",
+        "product-detail-11.png",
+        "product-detail-2.png",
+        "product-detail-3.png",
+        "product-detail-4.png",
+        "product-detail-5.png",
+        "product-detail-6.png",
+        "product-detail-7.png",
+        "product-detail-8.png",
+        "product-detail-9.png"
+      ],
+      "product-detail-pencil-box": [
+        "product-detail-pencil-box-1.png",
+        "product-detail-pencil-box-2.png",
+        "product-detail-pencil-box-3.png",
+        "product-detail-pencil-box-4.png",
+        "product-detail-pencil-box-5.png",
+        "product-detail-pencil-box-6.png",
+        "product-detail-pencil-box-7.png"
+      ],
+      "product-gallery": [
+        "product-gallery-1.png",
+        "product-gallery-2.png",
+        "product-gallery-3.png"
+      ],
+      "profile": [
+        "profile-1.png",
+        "profile-2.png",
+        "profile-3.png",
+        "profile-4.png"
+      ],
+      "purchasing-items-in-bag": [
+        "purchasing-items-in-bag-1.png",
+        "purchasing-items-in-bag-10.png",
+        "purchasing-items-in-bag-11.png",
+        "purchasing-items-in-bag-12.png",
+        "purchasing-items-in-bag-13.png",
+        "purchasing-items-in-bag-14.png",
+        "purchasing-items-in-bag-15.png",
+        "purchasing-items-in-bag-16.png",
+        "purchasing-items-in-bag-17.png",
+        "purchasing-items-in-bag-18.png",
+        "purchasing-items-in-bag-19.png",
+        "purchasing-items-in-bag-2.png",
+        "purchasing-items-in-bag-20.png",
+        "purchasing-items-in-bag-21.png",
+        "purchasing-items-in-bag-22.png",
+        "purchasing-items-in-bag-23.png",
+        "purchasing-items-in-bag-3.png",
+        "purchasing-items-in-bag-4.png",
+        "purchasing-items-in-bag-5.png",
+        "purchasing-items-in-bag-6.png",
+        "purchasing-items-in-bag-7.png",
+        "purchasing-items-in-bag-8.png",
+        "purchasing-items-in-bag-9.png"
+      ],
+      "removing-item-from-bag": [
+        "removing-item-from-bag-1.png",
+        "removing-item-from-bag-2.png"
+      ],
+      "removing-item-from-wishlist": [
+        "removing-item-from-wishlist-1.png",
+        "removing-item-from-wishlist-2.png"
+      ],
+      "sale-items": [
+        "sale-items-1.png",
+        "sale-items-2.png",
+        "sale-items-3.png",
+        "sale-items-4.png"
+      ],
+      "saving-brand-to-collection": [
+        "saving-brand-to-collection-1.png",
+        "saving-brand-to-collection-2.png"
+      ],
+      "saving-to-collection": [
+        "saving-to-collection-1.png",
+        "saving-to-collection-2.png"
+      ],
+      "search": [
+        "search-1.png",
+        "search-2.png",
+        "search-3.png",
+        "search-4.png",
+        "search-5.png"
+      ],
+      "searching-farfetch-with-photo": [
+        "searching-farfetch-with-photo-1.png",
+        "searching-farfetch-with-photo-2.png",
+        "searching-farfetch-with-photo-3.png",
+        "searching-farfetch-with-photo-4.png",
+        "searching-farfetch-with-photo-5.png",
+        "searching-farfetch-with-photo-6.png",
+        "searching-farfetch-with-photo-7.png",
+        "searching-farfetch-with-photo-8.png"
+      ],
+      "searching-farfetch-with-searchbar": [
+        "searching-farfetch-with-searchbar-1.png",
+        "searching-farfetch-with-searchbar-2.png",
+        "searching-farfetch-with-searchbar-3.png",
+        "searching-farfetch-with-searchbar-4.png",
+        "searching-farfetch-with-searchbar-5.png",
+        "searching-farfetch-with-searchbar-6.png",
+        "searching-farfetch-with-searchbar-7.png"
+      ],
+      "sharing-product-detail": [
+        "sharing-product-detail-1.png",
+        "sharing-product-detail-2.png"
+      ],
+      "size-guide": [
+        "size-guide-1.png",
+        "size-guide-2.png",
+        "size-guide-3.png",
+        "size-guide-4.png",
+        "size-guide-5.png",
+        "size-guide-6.png"
+      ],
+      "sorting-sale-item-by-lowest-price": [
+        "sorting-sale-item-by-lowest-price-1.png",
+        "sorting-sale-item-by-lowest-price-2.png",
+        "sorting-sale-item-by-lowest-price-3.png",
+        "sorting-sale-item-by-lowest-price-4.png",
+        "sorting-sale-item-by-lowest-price-5.png"
+      ],
+      "sorting-this-weeks-highlighted-shoes": [
+        "sorting-this-weeks-highlighted-shoes-1.png",
+        "sorting-this-weeks-highlighted-shoes-2.png",
+        "sorting-this-weeks-highlighted-shoes-3.png",
+        "sorting-this-weeks-highlighted-shoes-4.png",
+        "sorting-this-weeks-highlighted-shoes-5.png",
+        "sorting-this-weeks-highlighted-shoes-6.png"
+      ],
+      "style-essentials": [
+        "style-essentials-1.png",
+        "style-essentials-2.png",
+        "style-essentials-3.png",
+        "style-essentials-4.png",
+        "style-essentials-5.png",
+        "style-essentials-6.png"
+      ],
+      "terms-conditions": [
+        "terms-conditions-1.png",
+        "terms-conditions-2.png"
+      ],
+      "updating-communication-preferences": [
+        "updating-communication-preferences-1.png",
+        "updating-communication-preferences-2.png",
+        "updating-communication-preferences-3.png"
+      ],
+      "wishlist": [
+        "wishlist-1.png"
+      ]
+    },
+    "screen_count": 52
+  },
+  "Pinterest": {
+    "folder": "pinterest-ios",
+    "path": "/Users/marvinkaunda/Library/Mobile Documents/com~apple~CloudDocs/brand/pinterest-ios",
+    "total_images": 410,
+    "screens": {
+      "account": [
+        "account-1.png",
+        "account-2.png",
+        "account-3.png"
+      ],
+      "account-management": [
+        "account-management-1.png",
+        "account-management-2.png"
+      ],
+      "adding-a-comment": [
+        "adding-a-comment-1.png",
+        "adding-a-comment-2.png",
+        "adding-a-comment-3.png",
+        "adding-a-comment-4.png",
+        "adding-a-comment-5.png"
+      ],
+      "adding-a-pin-to-a-section": [
+        "adding-a-pin-to-a-section-1.png",
+        "adding-a-pin-to-a-section-2.png",
+        "adding-a-pin-to-a-section-3.png",
+        "adding-a-pin-to-a-section-4.png",
+        "adding-a-pin-to-a-section-5.png",
+        "adding-a-pin-to-a-section-6.png"
+      ],
+      "adding-a-pin-to-favorites": [
+        "adding-a-pin-to-favorites-1.png",
+        "adding-a-pin-to-favorites-2.png"
+      ],
+      "adding-a-section": [
+        "adding-a-section-1.png",
+        "adding-a-section-2.png",
+        "adding-a-section-3.png",
+        "adding-a-section-4.png"
+      ],
+      "blocking-a-user": [
+        "blocking-a-user-1.png",
+        "blocking-a-user-2.png",
+        "blocking-a-user-3.png"
+      ],
+      "board-options": [
+        "board-options-1.png",
+        "board-options-2.png"
+      ],
+      "board-tools": [
+        "board-tools-1.png",
+        "board-tools-2.png"
+      ],
+      "comments": [
+        "comments-1.png",
+        "comments-2.png",
+        "comments-3.png",
+        "comments-4.png"
+      ],
+      "converting-to-a-business-account": [
+        "converting-to-a-business-account-1.png",
+        "converting-to-a-business-account-10.png",
+        "converting-to-a-business-account-11.png",
+        "converting-to-a-business-account-2.png",
+        "converting-to-a-business-account-3.png",
+        "converting-to-a-business-account-4.png",
+        "converting-to-a-business-account-5.png",
+        "converting-to-a-business-account-6.png",
+        "converting-to-a-business-account-7.png",
+        "converting-to-a-business-account-8.png",
+        "converting-to-a-business-account-9.png"
+      ],
+      "create": [
+        "create-1.png",
+        "create-2.png"
+      ],
+      "creating-a-board": [
+        "creating-a-board-1.png",
+        "creating-a-board-2.png",
+        "creating-a-board-3.png",
+        "creating-a-board-4.png",
+        "creating-a-board-5.png",
+        "creating-a-board-6.png"
+      ],
+      "creating-a-collage": [
+        "creating-a-collage-1.png",
+        "creating-a-collage-10.png",
+        "creating-a-collage-11.png",
+        "creating-a-collage-12.png",
+        "creating-a-collage-13.png",
+        "creating-a-collage-14.png",
+        "creating-a-collage-15.png",
+        "creating-a-collage-16.png",
+        "creating-a-collage-17.png",
+        "creating-a-collage-18.png",
+        "creating-a-collage-2.png",
+        "creating-a-collage-3.png",
+        "creating-a-collage-4.png",
+        "creating-a-collage-5.png",
+        "creating-a-collage-6.png",
+        "creating-a-collage-7.png",
+        "creating-a-collage-8.png",
+        "creating-a-collage-9.png"
+      ],
+      "creating-a-new-message": [
+        "creating-a-new-message-1.png",
+        "creating-a-new-message-2.png",
+        "creating-a-new-message-3.png",
+        "creating-a-new-message-4.png",
+        "creating-a-new-message-5.png",
+        "creating-a-new-message-6.png"
+      ],
+      "creating-a-pin": [
+        "creating-a-pin-1.png",
+        "creating-a-pin-2.png",
+        "creating-a-pin-3.png",
+        "creating-a-pin-4.png",
+        "creating-a-pin-5.png",
+        "creating-a-pin-6.png"
+      ],
+      "deactivating-an-account": [
+        "deactivating-an-account-1.png",
+        "deactivating-an-account-2.png",
+        "deactivating-an-account-3.png"
+      ],
+      "deleting-a-comment": [
+        "deleting-a-comment-1.png",
+        "deleting-a-comment-2.png",
+        "deleting-a-comment-3.png",
+        "deleting-a-comment-4.png"
+      ],
+      "deleting-a-pin": [
+        "deleting-a-pin-1.png",
+        "deleting-a-pin-2.png",
+        "deleting-a-pin-3.png",
+        "deleting-a-pin-4.png"
+      ],
+      "downloading-an-image": [
+        "downloading-an-image-1.png",
+        "downloading-an-image-2.png"
+      ],
+      "editing-a-board": [
+        "editing-a-board-1.png",
+        "editing-a-board-10.png",
+        "editing-a-board-2.png",
+        "editing-a-board-3.png",
+        "editing-a-board-4.png",
+        "editing-a-board-5.png",
+        "editing-a-board-6.png",
+        "editing-a-board-7.png",
+        "editing-a-board-8.png",
+        "editing-a-board-9.png"
+      ],
+      "editing-a-pin": [
+        "editing-a-pin-1.png",
+        "editing-a-pin-10.png",
+        "editing-a-pin-11.png",
+        "editing-a-pin-12.png",
+        "editing-a-pin-13.png",
+        "editing-a-pin-14.png",
+        "editing-a-pin-15.png",
+        "editing-a-pin-16.png",
+        "editing-a-pin-17.png",
+        "editing-a-pin-18.png",
+        "editing-a-pin-19.png",
+        "editing-a-pin-2.png",
+        "editing-a-pin-20.png",
+        "editing-a-pin-21.png",
+        "editing-a-pin-22.png",
+        "editing-a-pin-23.png",
+        "editing-a-pin-24.png",
+        "editing-a-pin-25.png",
+        "editing-a-pin-26.png",
+        "editing-a-pin-27.png",
+        "editing-a-pin-28.png",
+        "editing-a-pin-29.png",
+        "editing-a-pin-3.png",
+        "editing-a-pin-30.png",
+        "editing-a-pin-31.png",
+        "editing-a-pin-32.png",
+        "editing-a-pin-33.png",
+        "editing-a-pin-34.png",
+        "editing-a-pin-35.png",
+        "editing-a-pin-36.png",
+        "editing-a-pin-37.png",
+        "editing-a-pin-38.png",
+        "editing-a-pin-39.png",
+        "editing-a-pin-4.png",
+        "editing-a-pin-40.png",
+        "editing-a-pin-41.png",
+        "editing-a-pin-42.png",
+        "editing-a-pin-43.png",
+        "editing-a-pin-44.png",
+        "editing-a-pin-45.png",
+        "editing-a-pin-5.png",
+        "editing-a-pin-6.png",
+        "editing-a-pin-7.png",
+        "editing-a-pin-8.png",
+        "editing-a-pin-9.png"
+      ],
+      "editing-profile": [
+        "editing-profile-1.png",
+        "editing-profile-2.png",
+        "editing-profile-3.png",
+        "editing-profile-4.png",
+        "editing-profile-5.png"
+      ],
+      "filtering-a-search": [
+        "filtering-a-search-1.png",
+        "filtering-a-search-10.png",
+        "filtering-a-search-11.png",
+        "filtering-a-search-12.png",
+        "filtering-a-search-13.png",
+        "filtering-a-search-2.png",
+        "filtering-a-search-3.png",
+        "filtering-a-search-4.png",
+        "filtering-a-search-5.png",
+        "filtering-a-search-6.png",
+        "filtering-a-search-7.png",
+        "filtering-a-search-8.png",
+        "filtering-a-search-9.png"
+      ],
+      "filtering-pins": [
+        "filtering-pins-1.png",
+        "filtering-pins-2.png"
+      ],
+      "filtering-try-on": [
+        "filtering-try-on-1.png",
+        "filtering-try-on-2.png",
+        "filtering-try-on-3.png",
+        "filtering-try-on-4.png",
+        "filtering-try-on-5.png"
+      ],
+      "following-a-user": [
+        "following-a-user-1.png",
+        "following-a-user-2.png"
+      ],
+      "hiding-a-comment": [
+        "hiding-a-comment-1.png",
+        "hiding-a-comment-2.png",
+        "hiding-a-comment-3.png"
+      ],
+      "hiding-a-pin": [
+        "hiding-a-pin-1.png",
+        "hiding-a-pin-2.png",
+        "hiding-a-pin-3.png"
+      ],
+      "home": [
+        "home-1.png",
+        "home-2.png"
+      ],
+      "inbox": [
+        "inbox-1.png",
+        "inbox-2.png",
+        "inbox-3.png",
+        "inbox-4.png",
+        "inbox-5.png"
+      ],
+      "inviting-collaborators": [
+        "inviting-collaborators-1.png",
+        "inviting-collaborators-2.png",
+        "inviting-collaborators-3.png",
+        "inviting-collaborators-4.png",
+        "inviting-collaborators-5.png",
+        "inviting-collaborators-6.png",
+        "inviting-collaborators-7.png"
+      ],
+      "liking-a-comment-section": [
+        "liking-a-comment-section-1.png",
+        "liking-a-comment-section-2.png"
+      ],
+      "logging-in": [
+        "logging-in-1.png",
+        "logging-in-2.png",
+        "logging-in-3.png",
+        "logging-in-4.png"
+      ],
+      "logging-out": [
+        "logging-out-1.png",
+        "logging-out-2.png",
+        "logging-out-3.png"
+      ],
+      "merging-boards": [
+        "merging-boards-1.png",
+        "merging-boards-2.png",
+        "merging-boards-3.png",
+        "merging-boards-4.png",
+        "merging-boards-5.png",
+        "merging-boards-6.png"
+      ],
+      "message-settings": [
+        "message-settings-1.png",
+        "message-settings-2.png"
+      ],
+      "moving-a-pin": [
+        "moving-a-pin-1.png",
+        "moving-a-pin-2.png",
+        "moving-a-pin-3.png",
+        "moving-a-pin-4.png"
+      ],
+      "muting-notifications": [
+        "muting-notifications-1.png",
+        "muting-notifications-2.png",
+        "muting-notifications-3.png"
+      ],
+      "onboarding": [
+        "onboarding-1.png",
+        "onboarding-10.png",
+        "onboarding-11.png",
+        "onboarding-12.png",
+        "onboarding-13.png",
+        "onboarding-14.png",
+        "onboarding-15.png",
+        "onboarding-16.png",
+        "onboarding-17.png",
+        "onboarding-18.png",
+        "onboarding-19.png",
+        "onboarding-2.png",
+        "onboarding-20.png",
+        "onboarding-21.png",
+        "onboarding-22.png",
+        "onboarding-23.png",
+        "onboarding-3.png",
+        "onboarding-4.png",
+        "onboarding-5.png",
+        "onboarding-6.png",
+        "onboarding-7.png",
+        "onboarding-8.png",
+        "onboarding-9.png"
+      ],
+      "organize-a-board": [
+        "organize-a-board-1.png",
+        "organize-a-board-2.png",
+        "organize-a-board-3.png"
+      ],
+      "pin-options": [
+        "pin-options-1.png",
+        "pin-options-2.png"
+      ],
+      "pin-settings": [
+        "pin-settings-1.png",
+        "pin-settings-2.png"
+      ],
+      "privacy-and-data": [
+        "privacy-and-data-1.png",
+        "privacy-and-data-2.png",
+        "privacy-and-data-3.png"
+      ],
+      "publishing-a-pin": [
+        "publishing-a-pin-1.png",
+        "publishing-a-pin-10.png",
+        "publishing-a-pin-11.png",
+        "publishing-a-pin-12.png",
+        "publishing-a-pin-13.png",
+        "publishing-a-pin-14.png",
+        "publishing-a-pin-15.png",
+        "publishing-a-pin-16.png",
+        "publishing-a-pin-17.png",
+        "publishing-a-pin-18.png",
+        "publishing-a-pin-19.png",
+        "publishing-a-pin-2.png",
+        "publishing-a-pin-20.png",
+        "publishing-a-pin-21.png",
+        "publishing-a-pin-3.png",
+        "publishing-a-pin-4.png",
+        "publishing-a-pin-5.png",
+        "publishing-a-pin-6.png",
+        "publishing-a-pin-7.png",
+        "publishing-a-pin-8.png",
+        "publishing-a-pin-9.png"
+      ],
+      "publishing-as-a-pin": [
+        "publishing-as-a-pin-1.png",
+        "publishing-as-a-pin-2.png",
+        "publishing-as-a-pin-3.png",
+        "publishing-as-a-pin-4.png",
+        "publishing-as-a-pin-5.png",
+        "publishing-as-a-pin-6.png"
+      ],
+      "reacting-to-a-comment": [
+        "reacting-to-a-comment-1.png",
+        "reacting-to-a-comment-2.png"
+      ],
+      "reordering-boards": [
+        "reordering-boards-1.png",
+        "reordering-boards-2.png",
+        "reordering-boards-3.png",
+        "reordering-boards-4.png"
+      ],
+      "reordering-pins": [
+        "reordering-pins-1.png",
+        "reordering-pins-2.png",
+        "reordering-pins-3.png",
+        "reordering-pins-4.png",
+        "reordering-pins-5.png",
+        "reordering-pins-6.png"
+      ],
+      "reporting-a-user": [
+        "reporting-a-user-1.png",
+        "reporting-a-user-2.png",
+        "reporting-a-user-3.png",
+        "reporting-a-user-4.png"
+      ],
+      "saved": [
+        "saved-1.png",
+        "saved-2.png",
+        "saved-3.png",
+        "saved-4.png",
+        "saved-5.png",
+        "saved-6.png"
+      ],
+      "saving-a-pin": [
+        "saving-a-pin-1.png",
+        "saving-a-pin-2.png"
+      ],
+      "saving-pincode": [
+        "saving-pincode-1.png",
+        "saving-pincode-2.png"
+      ],
+      "saving-to-collage": [
+        "saving-to-collage-1.png",
+        "saving-to-collage-2.png",
+        "saving-to-collage-3.png"
+      ],
+      "scheduling-a-publish": [
+        "scheduling-a-publish-1.png",
+        "scheduling-a-publish-2.png",
+        "scheduling-a-publish-3.png",
+        "scheduling-a-publish-4.png",
+        "scheduling-a-publish-5.png",
+        "scheduling-a-publish-6.png",
+        "scheduling-a-publish-7.png"
+      ],
+      "search": [
+        "search-1.png",
+        "search-2.png",
+        "search-3.png",
+        "search-4.png",
+        "search-5.png"
+      ],
+      "search-history-camera": [
+        "search-history-camera-1.png",
+        "search-history-camera-2.png"
+      ],
+      "search-pinterest-camera": [
+        "search-pinterest-camera-1.png",
+        "search-pinterest-camera-2.png"
+      ],
+      "searching-an-image": [
+        "searching-an-image-1.png",
+        "searching-an-image-2.png",
+        "searching-an-image-3.png"
+      ],
+      "searching-gallery": [
+        "searching-gallery-1.png",
+        "searching-gallery-2.png",
+        "searching-gallery-3.png",
+        "searching-gallery-4.png",
+        "searching-gallery-5.png"
+      ],
+      "searching-pinterest": [
+        "searching-pinterest-1.png",
+        "searching-pinterest-2.png",
+        "searching-pinterest-3.png",
+        "searching-pinterest-4.png"
+      ],
+      "searching-saved-ideas": [
+        "searching-saved-ideas-1.png",
+        "searching-saved-ideas-2.png",
+        "searching-saved-ideas-3.png",
+        "searching-saved-ideas-4.png",
+        "searching-saved-ideas-5.png"
+      ],
+      "sending-a-pin": [
+        "sending-a-pin-1.png",
+        "sending-a-pin-2.png",
+        "sending-a-pin-3.png",
+        "sending-a-pin-4.png",
+        "sending-a-pin-5.png",
+        "sending-a-pin-6.png"
+      ],
+      "sharing-a-pin": [
+        "sharing-a-pin-1.png",
+        "sharing-a-pin-2.png",
+        "sharing-a-pin-3.png"
+      ],
+      "sharing-to-contacts": [
+        "sharing-to-contacts-1.png",
+        "sharing-to-contacts-2.png",
+        "sharing-to-contacts-3.png",
+        "sharing-to-contacts-4.png",
+        "sharing-to-contacts-5.png"
+      ],
+      "shopping-spotlight": [
+        "shopping-spotlight-1.png",
+        "shopping-spotlight-2.png"
+      ],
+      "sorting-boards": [
+        "sorting-boards-1.png",
+        "sorting-boards-2.png",
+        "sorting-boards-3.png"
+      ],
+      "start-new-collage": [
+        "start-new-collage-1.png",
+        "start-new-collage-2.png",
+        "start-new-collage-3.png"
+      ],
+      "storing-a-pin-to-drafts": [
+        "storing-a-pin-to-drafts-1.png",
+        "storing-a-pin-to-drafts-2.png",
+        "storing-a-pin-to-drafts-3.png",
+        "storing-a-pin-to-drafts-4.png",
+        "storing-a-pin-to-drafts-5.png"
+      ],
+      "switching-view": [
+        "switching-view-1.png",
+        "switching-view-2.png",
+        "switching-view-3.png"
+      ],
+      "trying-on-a-product": [
+        "trying-on-a-product-1.png",
+        "trying-on-a-product-2.png",
+        "trying-on-a-product-3.png",
+        "trying-on-a-product-4.png",
+        "trying-on-a-product-5.png",
+        "trying-on-a-product-6.png",
+        "trying-on-a-product-7.png"
+      ],
+      "tuning-home-feed": [
+        "tuning-home-feed-1.png",
+        "tuning-home-feed-2.png",
+        "tuning-home-feed-3.png",
+        "tuning-home-feed-4.png",
+        "tuning-home-feed-5.png",
+        "tuning-home-feed-6.png",
+        "tuning-home-feed-7.png",
+        "tuning-home-feed-8.png",
+        "tuning-home-feed-9.png"
+      ],
+      "updating-profile-picture": [
+        "updating-profile-picture-1.png",
+        "updating-profile-picture-2.png",
+        "updating-profile-picture-3.png",
+        "updating-profile-picture-4.png",
+        "updating-profile-picture-5.png"
+      ],
+      "user-detail": [
+        "user-detail-1.png",
+        "user-detail-2.png",
+        "user-detail-3.png",
+        "user-detail-4.png"
+      ],
+      "user-profile-options": [
+        "user-profile-options-1.png",
+        "user-profile-options-2.png"
+      ],
+      "view-a-pin": [
+        "view-a-pin-1.png",
+        "view-a-pin-2.png",
+        "view-a-pin-3.png",
+        "view-a-pin-4.png"
+      ],
+      "view-a-topic": [
+        "view-a-topic-1.png",
+        "view-a-topic-2.png"
+      ],
+      "view-profile": [
+        "view-profile-1.png",
+        "view-profile-2.png",
+        "view-profile-3.png",
+        "view-profile-4.png"
+      ]
+    },
+    "screen_count": 78
+  },
+  "Lensa AI": {
+    "folder": "lensa-ai-ios",
+    "path": "/Users/marvinkaunda/Library/Mobile Documents/com~apple~CloudDocs/brand/lensa-ai-ios",
+    "total_images": 179,
+    "screens": {
+      "deleting-account": [
+        "deleting-account-1.png",
+        "deleting-account-2.png",
+        "deleting-account-3.png",
+        "deleting-account-4.png",
+        "deleting-account-5.png"
+      ],
+      "deleting-photos": [
+        "deleting-photos-1.png",
+        "deleting-photos-2.png",
+        "deleting-photos-3.png",
+        "deleting-photos-4.png"
+      ],
+      "editing-photos": [
+        "editing-photos-1.png",
+        "editing-photos-10.png",
+        "editing-photos-11.png",
+        "editing-photos-12.png",
+        "editing-photos-13.png",
+        "editing-photos-14.png",
+        "editing-photos-15.png",
+        "editing-photos-16.png",
+        "editing-photos-17.png",
+        "editing-photos-18.png",
+        "editing-photos-19.png",
+        "editing-photos-2.png",
+        "editing-photos-20.png",
+        "editing-photos-21.png",
+        "editing-photos-22.png",
+        "editing-photos-3.png",
+        "editing-photos-4.png",
+        "editing-photos-5.png",
+        "editing-photos-6.png",
+        "editing-photos-7.png",
+        "editing-photos-8.png",
+        "editing-photos-9.png"
+      ],
+      "faq": [
+        "faq-1.png",
+        "faq-2.png",
+        "faq-3.png"
+      ],
+      "faq-guides": [
+        "faq-guides-1.png",
+        "faq-guides-2.png",
+        "faq-guides-3.png",
+        "faq-guides-4.png"
+      ],
+      "faq-questions": [
+        "faq-questions-1.png",
+        "faq-questions-2.png",
+        "faq-questions-3.png"
+      ],
+      "generating-magic-avatars": [
+        "generating-magic-avatars-1.png",
+        "generating-magic-avatars-10.png",
+        "generating-magic-avatars-11.png",
+        "generating-magic-avatars-12.png",
+        "generating-magic-avatars-13.png",
+        "generating-magic-avatars-14.png",
+        "generating-magic-avatars-15.png",
+        "generating-magic-avatars-16.png",
+        "generating-magic-avatars-17.png",
+        "generating-magic-avatars-18.png",
+        "generating-magic-avatars-19.png",
+        "generating-magic-avatars-2.png",
+        "generating-magic-avatars-20.png",
+        "generating-magic-avatars-21.png",
+        "generating-magic-avatars-22.png",
+        "generating-magic-avatars-23.png",
+        "generating-magic-avatars-24.png",
+        "generating-magic-avatars-25.png",
+        "generating-magic-avatars-26.png",
+        "generating-magic-avatars-3.png",
+        "generating-magic-avatars-4.png",
+        "generating-magic-avatars-5.png",
+        "generating-magic-avatars-6.png",
+        "generating-magic-avatars-7.png",
+        "generating-magic-avatars-8.png",
+        "generating-magic-avatars-9.png"
+      ],
+      "logging-in": [
+        "logging-in-1.png",
+        "logging-in-2.png",
+        "logging-in-3.png",
+        "logging-in-4.png",
+        "logging-in-5.png",
+        "logging-in-6.png",
+        "logging-in-7.png",
+        "logging-in-8.png"
+      ],
+      "logging-out": [
+        "logging-out-1.png",
+        "logging-out-2.png",
+        "logging-out-3.png"
+      ],
+      "onboarding": [
+        "onboarding-1.png",
+        "onboarding-10.png",
+        "onboarding-11.png",
+        "onboarding-12.png",
+        "onboarding-13.png",
+        "onboarding-14.png",
+        "onboarding-15.png",
+        "onboarding-16.png",
+        "onboarding-17.png",
+        "onboarding-18.png",
+        "onboarding-19.png",
+        "onboarding-2.png",
+        "onboarding-20.png",
+        "onboarding-21.png",
+        "onboarding-22.png",
+        "onboarding-23.png",
+        "onboarding-24.png",
+        "onboarding-3.png",
+        "onboarding-4.png",
+        "onboarding-5.png",
+        "onboarding-6.png",
+        "onboarding-7.png",
+        "onboarding-8.png",
+        "onboarding-9.png"
+      ],
+      "order-a-print": [
+        "order-a-print-1.png",
+        "order-a-print-2.png",
+        "order-a-print-3.png"
+      ],
+      "photos": [
+        "photos-1.png",
+        "photos-2.png"
+      ],
+      "privacy-policy": [
+        "privacy-policy-1.png",
+        "privacy-policy-2.png",
+        "privacy-policy-3.png"
+      ],
+      "reordering-photo-editor-setup": [
+        "reordering-photo-editor-setup-1.png",
+        "reordering-photo-editor-setup-2.png",
+        "reordering-photo-editor-setup-3.png",
+        "reordering-photo-editor-setup-4.png",
+        "reordering-photo-editor-setup-5.png",
+        "reordering-photo-editor-setup-6.png"
+      ],
+      "saving-to-photos": [
+        "saving-to-photos-1.png",
+        "saving-to-photos-2.png",
+        "saving-to-photos-3.png",
+        "saving-to-photos-4.png"
+      ],
+      "see-whats-new": [
+        "see-whats-new-1.png",
+        "see-whats-new-2.png",
+        "see-whats-new-3.png",
+        "see-whats-new-4.png",
+        "see-whats-new-5.png",
+        "see-whats-new-6.png"
+      ],
+      "send-feedback": [
+        "send-feedback-1.png",
+        "send-feedback-2.png",
+        "send-feedback-3.png",
+        "send-feedback-4.png"
+      ],
+      "settings": [
+        "settings-1.png",
+        "settings-2.png"
+      ],
+      "sharing-photos": [
+        "sharing-photos-1.png",
+        "sharing-photos-2.png",
+        "sharing-photos-3.png",
+        "sharing-photos-4.png",
+        "sharing-photos-5.png",
+        "sharing-photos-6.png"
+      ],
+      "subscribing-to-membership": [
+        "subscribing-to-membership-1.png",
+        "subscribing-to-membership-2.png",
+        "subscribing-to-membership-3.png",
+        "subscribing-to-membership-4.png",
+        "subscribing-to-membership-5.png"
+      ],
+      "switching-to-dark-mode": [
+        "switching-to-dark-mode-1.png",
+        "switching-to-dark-mode-2.png",
+        "switching-to-dark-mode-3.png",
+        "switching-to-dark-mode-4.png",
+        "switching-to-dark-mode-5.png",
+        "switching-to-dark-mode-6.png",
+        "switching-to-dark-mode-7.png",
+        "switching-to-dark-mode-8.png"
+      ],
+      "terms-of-use": [
+        "terms-of-use-1.png",
+        "terms-of-use-2.png"
+      ],
+      "uploading-and-editing-a-video": [
+        "uploading-and-editing-a-video-1.png",
+        "uploading-and-editing-a-video-10.png",
+        "uploading-and-editing-a-video-11.png",
+        "uploading-and-editing-a-video-12.png",
+        "uploading-and-editing-a-video-13.png",
+        "uploading-and-editing-a-video-2.png",
+        "uploading-and-editing-a-video-3.png",
+        "uploading-and-editing-a-video-4.png",
+        "uploading-and-editing-a-video-5.png",
+        "uploading-and-editing-a-video-6.png",
+        "uploading-and-editing-a-video-7.png",
+        "uploading-and-editing-a-video-8.png",
+        "uploading-and-editing-a-video-9.png"
+      ],
+      "videos": [
+        "videos-1.png",
+        "videos-2.png",
+        "videos-3.png",
+        "videos-4.png",
+        "videos-5.png",
+        "videos-6.png",
+        "videos-7.png"
+      ],
+      "view-magic-avatar-pack": [
+        "view-magic-avatar-pack-1.png",
+        "view-magic-avatar-pack-2.png",
+        "view-magic-avatar-pack-3.png",
+        "view-magic-avatar-pack-4.png",
+        "view-magic-avatar-pack-5.png",
+        "view-magic-avatar-pack-6.png"
+      ]
+    },
+    "screen_count": 25
+  },
+  "VSCO": {
+    "folder": "vsco-ios",
+    "path": "/Users/marvinkaunda/Library/Mobile Documents/com~apple~CloudDocs/brand/vsco-ios",
+    "total_images": 461,
+    "screens": {
+      "about": [
+        "about-1.png",
+        "about-2.png"
+      ],
+      "accepting-a-request": [
+        "accepting-a-request-1.png",
+        "accepting-a-request-2.png"
+      ],
+      "account": [
+        "account-1.png",
+        "account-2.png"
+      ],
+      "activity": [
+        "activity-1.png",
+        "activity-2.png",
+        "activity-3.png"
+      ],
+      "add-to-space": [
+        "add-to-space-1.png",
+        "add-to-space-2.png"
+      ],
+      "adding-a-post-to-favorites": [
+        "adding-a-post-to-favorites-1.png",
+        "adding-a-post-to-favorites-2.png"
+      ],
+      "adding-image-to-a-collage": [
+        "adding-image-to-a-collage-1.png",
+        "adding-image-to-a-collage-2.png",
+        "adding-image-to-a-collage-3.png",
+        "adding-image-to-a-collage-4.png",
+        "adding-image-to-a-collage-5.png",
+        "adding-image-to-a-collage-6.png"
+      ],
+      "adding-media": [
+        "adding-media-1.png",
+        "adding-media-2.png",
+        "adding-media-3.png",
+        "adding-media-4.png",
+        "adding-media-5.png",
+        "adding-media-6.png",
+        "adding-media-7.png"
+      ],
+      "adding-text": [
+        "adding-text-1.png",
+        "adding-text-2.png",
+        "adding-text-3.png",
+        "adding-text-4.png"
+      ],
+      "adding-to-a-collection": [
+        "adding-to-a-collection-1.png",
+        "adding-to-a-collection-2.png",
+        "adding-to-a-collection-3.png",
+        "adding-to-a-collection-4.png",
+        "adding-to-a-collection-5.png",
+        "adding-to-a-collection-6.png",
+        "adding-to-a-collection-7.png"
+      ],
+      "applying-a-preset": [
+        "applying-a-preset-1.png",
+        "applying-a-preset-10.png",
+        "applying-a-preset-11.png",
+        "applying-a-preset-2.png",
+        "applying-a-preset-3.png",
+        "applying-a-preset-4.png",
+        "applying-a-preset-5.png",
+        "applying-a-preset-6.png",
+        "applying-a-preset-7.png",
+        "applying-a-preset-8.png",
+        "applying-a-preset-9.png"
+      ],
+      "applying-filter-to-camera-aurora": [
+        "applying-filter-to-camera-aurora-1.png",
+        "applying-filter-to-camera-aurora-2.png",
+        "applying-filter-to-camera-aurora-3.png",
+        "applying-filter-to-camera-aurora-4.png"
+      ],
+      "applying-filter-to-camera-prism": [
+        "applying-filter-to-camera-prism-1.png",
+        "applying-filter-to-camera-prism-2.png",
+        "applying-filter-to-camera-prism-3.png",
+        "applying-filter-to-camera-prism-4.png",
+        "applying-filter-to-camera-prism-5.png"
+      ],
+      "applying-filter-to-camera-retro": [
+        "applying-filter-to-camera-retro-1.png",
+        "applying-filter-to-camera-retro-2.png",
+        "applying-filter-to-camera-retro-3.png",
+        "applying-filter-to-camera-retro-4.png"
+      ],
+      "blocking-a-user": [
+        "blocking-a-user-1.png",
+        "blocking-a-user-2.png",
+        "blocking-a-user-3.png"
+      ],
+      "browse-a-category": [
+        "browse-a-category-1.png",
+        "browse-a-category-2.png",
+        "browse-a-category-3.png"
+      ],
+      "camera": [
+        "camera-1.png",
+        "camera-2.png"
+      ],
+      "changing-password": [
+        "changing-password-1.png",
+        "changing-password-2.png",
+        "changing-password-3.png",
+        "changing-password-4.png",
+        "changing-password-5.png"
+      ],
+      "contributors": [
+        "contributors-1.png",
+        "contributors-2.png"
+      ],
+      "copying-a-link": [
+        "copying-a-link-1.png",
+        "copying-a-link-2.png",
+        "copying-a-link-3.png"
+      ],
+      "creating-a-collage-post": [
+        "creating-a-collage-post-1.png",
+        "creating-a-collage-post-2.png",
+        "creating-a-collage-post-3.png",
+        "creating-a-collage-post-4.png",
+        "creating-a-collage-post-5.png",
+        "creating-a-collage-post-6.png"
+      ],
+      "creating-a-gallery": [
+        "creating-a-gallery-1.png",
+        "creating-a-gallery-2.png",
+        "creating-a-gallery-3.png",
+        "creating-a-gallery-4.png",
+        "creating-a-gallery-5.png",
+        "creating-a-gallery-6.png"
+      ],
+      "creating-a-montage-post": [
+        "creating-a-montage-post-1.png",
+        "creating-a-montage-post-10.png",
+        "creating-a-montage-post-11.png",
+        "creating-a-montage-post-2.png",
+        "creating-a-montage-post-3.png",
+        "creating-a-montage-post-4.png",
+        "creating-a-montage-post-5.png",
+        "creating-a-montage-post-6.png",
+        "creating-a-montage-post-7.png",
+        "creating-a-montage-post-8.png",
+        "creating-a-montage-post-9.png"
+      ],
+      "creating-a-space": [
+        "creating-a-space-1.png",
+        "creating-a-space-10.png",
+        "creating-a-space-11.png",
+        "creating-a-space-12.png",
+        "creating-a-space-13.png",
+        "creating-a-space-14.png",
+        "creating-a-space-2.png",
+        "creating-a-space-3.png",
+        "creating-a-space-4.png",
+        "creating-a-space-5.png",
+        "creating-a-space-6.png",
+        "creating-a-space-7.png",
+        "creating-a-space-8.png",
+        "creating-a-space-9.png"
+      ],
+      "deleting-a-shape": [
+        "deleting-a-shape-1.png",
+        "deleting-a-shape-2.png",
+        "deleting-a-shape-3.png"
+      ],
+      "deleting-a-space": [
+        "deleting-a-space-1.png",
+        "deleting-a-space-2.png",
+        "deleting-a-space-3.png"
+      ],
+      "deleting-an-account": [
+        "deleting-an-account-1.png",
+        "deleting-an-account-2.png",
+        "deleting-an-account-3.png",
+        "deleting-an-account-4.png",
+        "deleting-an-account-5.png",
+        "deleting-an-account-6.png",
+        "deleting-an-account-7.png"
+      ],
+      "disabling-previous-invites": [
+        "disabling-previous-invites-1.png",
+        "disabling-previous-invites-2.png",
+        "disabling-previous-invites-3.png"
+      ],
+      "discover": [
+        "discover-1.png",
+        "discover-2.png",
+        "discover-3.png",
+        "discover-4.png",
+        "discover-5.png",
+        "discover-6.png"
+      ],
+      "editing-an-image-borders": [
+        "editing-an-image-borders-1.png",
+        "editing-an-image-borders-2.png",
+        "editing-an-image-borders-3.png",
+        "editing-an-image-borders-4.png",
+        "editing-an-image-borders-5.png"
+      ],
+      "editing-an-image-colors": [
+        "editing-an-image-colors-1.png",
+        "editing-an-image-colors-10.png",
+        "editing-an-image-colors-11.png",
+        "editing-an-image-colors-12.png",
+        "editing-an-image-colors-13.png",
+        "editing-an-image-colors-2.png",
+        "editing-an-image-colors-3.png",
+        "editing-an-image-colors-4.png",
+        "editing-an-image-colors-5.png",
+        "editing-an-image-colors-6.png",
+        "editing-an-image-colors-7.png",
+        "editing-an-image-colors-8.png",
+        "editing-an-image-colors-9.png"
+      ],
+      "editing-an-image-dodge-burn": [
+        "editing-an-image-dodge-burn-1.png",
+        "editing-an-image-dodge-burn-2.png",
+        "editing-an-image-dodge-burn-3.png",
+        "editing-an-image-dodge-burn-4.png",
+        "editing-an-image-dodge-burn-5.png",
+        "editing-an-image-dodge-burn-6.png"
+      ],
+      "editing-an-image-remove": [
+        "editing-an-image-remove-1.png",
+        "editing-an-image-remove-2.png",
+        "editing-an-image-remove-3.png",
+        "editing-an-image-remove-4.png",
+        "editing-an-image-remove-5.png"
+      ],
+      "editing-an-image-shape": [
+        "editing-an-image-shape-1.png",
+        "editing-an-image-shape-10.png",
+        "editing-an-image-shape-11.png",
+        "editing-an-image-shape-12.png",
+        "editing-an-image-shape-2.png",
+        "editing-an-image-shape-3.png",
+        "editing-an-image-shape-4.png",
+        "editing-an-image-shape-5.png",
+        "editing-an-image-shape-6.png",
+        "editing-an-image-shape-7.png",
+        "editing-an-image-shape-8.png",
+        "editing-an-image-shape-9.png"
+      ],
+      "editing-an-image-skew": [
+        "editing-an-image-skew-1.png",
+        "editing-an-image-skew-2.png",
+        "editing-an-image-skew-3.png",
+        "editing-an-image-skew-4.png",
+        "editing-an-image-skew-5.png",
+        "editing-an-image-skew-6.png",
+        "editing-an-image-skew-7.png"
+      ],
+      "editing-an-image-text": [
+        "editing-an-image-text-1.png",
+        "editing-an-image-text-2.png",
+        "editing-an-image-text-3.png",
+        "editing-an-image-text-4.png",
+        "editing-an-image-text-5.png",
+        "editing-an-image-text-6.png",
+        "editing-an-image-text-7.png",
+        "editing-an-image-text-8.png",
+        "editing-an-image-text-9.png"
+      ],
+      "editing-profile": [
+        "editing-profile-1.png",
+        "editing-profile-10.png",
+        "editing-profile-11.png",
+        "editing-profile-12.png",
+        "editing-profile-13.png",
+        "editing-profile-14.png",
+        "editing-profile-15.png",
+        "editing-profile-16.png",
+        "editing-profile-17.png",
+        "editing-profile-2.png",
+        "editing-profile-3.png",
+        "editing-profile-4.png",
+        "editing-profile-5.png",
+        "editing-profile-6.png",
+        "editing-profile-7.png",
+        "editing-profile-8.png",
+        "editing-profile-9.png"
+      ],
+      "editing-space-details": [
+        "editing-space-details-1.png",
+        "editing-space-details-2.png",
+        "editing-space-details-3.png",
+        "editing-space-details-4.png"
+      ],
+      "effect-detail": [
+        "effect-detail-1.png",
+        "effect-detail-2.png",
+        "effect-detail-3.png",
+        "effect-detail-4.png"
+      ],
+      "exporting-all-drafts": [
+        "exporting-all-drafts-1.png",
+        "exporting-all-drafts-2.png"
+      ],
+      "favorites": [
+        "favorites-1.png",
+        "favorites-2.png",
+        "favorites-3.png"
+      ],
+      "feed": [
+        "feed-1.png",
+        "feed-2.png",
+        "feed-3.png",
+        "feed-4.png",
+        "feed-5.png"
+      ],
+      "filtering-posts": [
+        "filtering-posts-1.png",
+        "filtering-posts-2.png",
+        "filtering-posts-3.png"
+      ],
+      "following-a-user": [
+        "following-a-user-1.png",
+        "following-a-user-2.png"
+      ],
+      "forwarding-a-profile": [
+        "forwarding-a-profile-1.png",
+        "forwarding-a-profile-2.png",
+        "forwarding-a-profile-3.png",
+        "forwarding-a-profile-4.png",
+        "forwarding-a-profile-5.png",
+        "forwarding-a-profile-6.png"
+      ],
+      "importing-an-image": [
+        "importing-an-image-1.png",
+        "importing-an-image-2.png",
+        "importing-an-image-3.png",
+        "importing-an-image-4.png"
+      ],
+      "inviting-contributors": [
+        "inviting-contributors-1.png",
+        "inviting-contributors-2.png",
+        "inviting-contributors-3.png",
+        "inviting-contributors-4.png"
+      ],
+      "joining-a-discussion": [
+        "joining-a-discussion-1.png",
+        "joining-a-discussion-2.png",
+        "joining-a-discussion-3.png",
+        "joining-a-discussion-4.png"
+      ],
+      "leaving-a-message-thread": [
+        "leaving-a-message-thread-1.png",
+        "leaving-a-message-thread-2.png",
+        "leaving-a-message-thread-3.png"
+      ],
+      "logging-in": [
+        "logging-in-1.png",
+        "logging-in-2.png",
+        "logging-in-3.png",
+        "logging-in-4.png",
+        "logging-in-5.png",
+        "logging-in-6.png",
+        "logging-in-7.png"
+      ],
+      "logging-out": [
+        "logging-out-1.png",
+        "logging-out-2.png",
+        "logging-out-3.png"
+      ],
+      "message-settings": [
+        "message-settings-1.png",
+        "message-settings-2.png"
+      ],
+      "messages": [
+        "messages-1.png",
+        "messages-2.png",
+        "messages-3.png",
+        "messages-4.png"
+      ],
+      "muting-a-space": [
+        "muting-a-space-1.png",
+        "muting-a-space-2.png"
+      ],
+      "onboarding": [
+        "onboarding-1.png",
+        "onboarding-10.png",
+        "onboarding-11.png",
+        "onboarding-12.png",
+        "onboarding-13.png",
+        "onboarding-14.png",
+        "onboarding-15.png",
+        "onboarding-16.png",
+        "onboarding-17.png",
+        "onboarding-18.png",
+        "onboarding-19.png",
+        "onboarding-2.png",
+        "onboarding-20.png",
+        "onboarding-21.png",
+        "onboarding-22.png",
+        "onboarding-23.png",
+        "onboarding-3.png",
+        "onboarding-4.png",
+        "onboarding-5.png",
+        "onboarding-6.png",
+        "onboarding-7.png",
+        "onboarding-8.png",
+        "onboarding-9.png"
+      ],
+      "people": [
+        "people-1.png",
+        "people-2.png",
+        "people-3.png",
+        "people-4.png",
+        "people-5.png"
+      ],
+      "post-detail": [
+        "post-detail-1.png",
+        "post-detail-2.png",
+        "post-detail-3.png",
+        "post-detail-4.png"
+      ],
+      "posting-a-collage": [
+        "posting-a-collage-1.png",
+        "posting-a-collage-2.png",
+        "posting-a-collage-3.png",
+        "posting-a-collage-4.png",
+        "posting-a-collage-5.png",
+        "posting-a-collage-6.png"
+      ],
+      "posting-a-montage": [
+        "posting-a-montage-1.png",
+        "posting-a-montage-2.png",
+        "posting-a-montage-3.png",
+        "posting-a-montage-4.png",
+        "posting-a-montage-5.png",
+        "posting-a-montage-6.png",
+        "posting-a-montage-7.png",
+        "posting-a-montage-8.png"
+      ],
+      "privacy-data": [
+        "privacy-data-1.png",
+        "privacy-data-2.png"
+      ],
+      "profile": [
+        "profile-1.png",
+        "profile-2.png",
+        "profile-3.png",
+        "profile-4.png",
+        "profile-5.png",
+        "profile-6.png",
+        "profile-7.png",
+        "profile-8.png"
+      ],
+      "profile-settings": [
+        "profile-settings-1.png",
+        "profile-settings-2.png"
+      ],
+      "publishing-a-draft": [
+        "publishing-a-draft-1.png",
+        "publishing-a-draft-2.png",
+        "publishing-a-draft-3.png",
+        "publishing-a-draft-4.png",
+        "publishing-a-draft-5.png",
+        "publishing-a-draft-6.png",
+        "publishing-a-draft-7.png",
+        "publishing-a-draft-8.png"
+      ],
+      "recording-a-video-dsco": [
+        "recording-a-video-dsco-1.png",
+        "recording-a-video-dsco-2.png",
+        "recording-a-video-dsco-3.png",
+        "recording-a-video-dsco-4.png"
+      ],
+      "reporting-a-user": [
+        "reporting-a-user-1.png",
+        "reporting-a-user-2.png",
+        "reporting-a-user-3.png",
+        "reporting-a-user-4.png"
+      ],
+      "reposting-a-post": [
+        "reposting-a-post-1.png",
+        "reposting-a-post-2.png"
+      ],
+      "requesting-to-join-a-space": [
+        "requesting-to-join-a-space-1.png",
+        "requesting-to-join-a-space-2.png"
+      ],
+      "resetting-colors": [
+        "resetting-colors-1.png",
+        "resetting-colors-2.png",
+        "resetting-colors-3.png"
+      ],
+      "resetting-password": [
+        "resetting-password-1.png",
+        "resetting-password-2.png",
+        "resetting-password-3.png"
+      ],
+      "searching-a-space": [
+        "searching-a-space-1.png",
+        "searching-a-space-2.png",
+        "searching-a-space-3.png"
+      ],
+      "searching-vsco": [
+        "searching-vsco-1.png",
+        "searching-vsco-2.png",
+        "searching-vsco-3.png",
+        "searching-vsco-4.png",
+        "searching-vsco-5.png",
+        "searching-vsco-6.png"
+      ],
+      "sending-a-message": [
+        "sending-a-message-1.png",
+        "sending-a-message-2.png",
+        "sending-a-message-3.png",
+        "sending-a-message-4.png"
+      ],
+      "settings": [
+        "settings-1.png",
+        "settings-2.png",
+        "settings-3.png"
+      ],
+      "sharing-a-recipe": [
+        "sharing-a-recipe-1.png",
+        "sharing-a-recipe-2.png",
+        "sharing-a-recipe-3.png",
+        "sharing-a-recipe-4.png",
+        "sharing-a-recipe-5.png"
+      ],
+      "sharing-with-viewers": [
+        "sharing-with-viewers-1.png",
+        "sharing-with-viewers-2.png",
+        "sharing-with-viewers-3.png",
+        "sharing-with-viewers-4.png"
+      ],
+      "signing-out-of-all-devices": [
+        "signing-out-of-all-devices-1.png",
+        "signing-out-of-all-devices-2.png",
+        "signing-out-of-all-devices-3.png"
+      ],
+      "sort-and-filter": [
+        "sort-and-filter-1.png",
+        "sort-and-filter-2.png"
+      ],
+      "sorting-posts": [
+        "sorting-posts-1.png",
+        "sorting-posts-2.png",
+        "sorting-posts-3.png"
+      ],
+      "space-settings": [
+        "space-settings-1.png",
+        "space-settings-2.png"
+      ],
+      "spaces": [
+        "spaces-1.png",
+        "spaces-2.png",
+        "spaces-3.png",
+        "spaces-4.png",
+        "spaces-5.png",
+        "spaces-6.png",
+        "spaces-7.png",
+        "spaces-8.png"
+      ],
+      "studio": [
+        "studio-1.png",
+        "studio-2.png"
+      ],
+      "studio-options": [
+        "studio-options-1.png",
+        "studio-options-2.png"
+      ],
+      "switching-to-dark-mode": [
+        "switching-to-dark-mode-1.png",
+        "switching-to-dark-mode-2.png",
+        "switching-to-dark-mode-3.png",
+        "switching-to-dark-mode-4.png",
+        "switching-to-dark-mode-5.png",
+        "switching-to-dark-mode-6.png",
+        "switching-to-dark-mode-7.png",
+        "switching-to-dark-mode-8.png"
+      ],
+      "switching-view": [
+        "switching-view-1.png",
+        "switching-view-2.png",
+        "switching-view-3.png"
+      ],
+      "switching-view-preset": [
+        "switching-view-preset-1.png",
+        "switching-view-preset-2.png",
+        "switching-view-preset-3.png"
+      ],
+      "syncing-contacts": [
+        "syncing-contacts-1.png",
+        "syncing-contacts-2.png"
+      ],
+      "syncing-to-cloud": [
+        "syncing-to-cloud-1.png",
+        "syncing-to-cloud-2.png",
+        "syncing-to-cloud-3.png",
+        "syncing-to-cloud-4.png",
+        "syncing-to-cloud-5.png",
+        "syncing-to-cloud-6.png"
+      ],
+      "view-a-collection": [
+        "view-a-collection-1.png",
+        "view-a-collection-2.png",
+        "view-a-collection-3.png"
+      ],
+      "view-a-gallery": [
+        "view-a-gallery-1.png",
+        "view-a-gallery-2.png",
+        "view-a-gallery-3.png"
+      ],
+      "view-a-journal": [
+        "view-a-journal-1.png",
+        "view-a-journal-2.png",
+        "view-a-journal-3.png",
+        "view-a-journal-4.png"
+      ],
+      "view-a-space": [
+        "view-a-space-1.png",
+        "view-a-space-2.png"
+      ],
+      "view-followers": [
+        "view-followers-1.png",
+        "view-followers-2.png"
+      ],
+      "view-requests": [
+        "view-requests-1.png",
+        "view-requests-2.png",
+        "view-requests-3.png"
+      ],
+      "view-rgb-setting": [
+        "view-rgb-setting-1.png",
+        "view-rgb-setting-2.png",
+        "view-rgb-setting-3.png",
+        "view-rgb-setting-4.png",
+        "view-rgb-setting-5.png"
+      ],
+      "view-suggested-profiles": [
+        "view-suggested-profiles-1.png",
+        "view-suggested-profiles-2.png",
+        "view-suggested-profiles-3.png"
+      ],
+      "view-user-profile": [
+        "view-user-profile-1.png",
+        "view-user-profile-2.png",
+        "view-user-profile-3.png",
+        "view-user-profile-4.png",
+        "view-user-profile-5.png"
+      ],
+      "vsco-membership": [
+        "vsco-membership-1.png",
+        "vsco-membership-2.png",
+        "vsco-membership-3.png",
+        "vsco-membership-4.png"
+      ]
+    },
+    "screen_count": 97
+  },
+  "ZARA": {
+    "folder": "zara-ios",
+    "path": "/Users/marvinkaunda/Library/Mobile Documents/com~apple~CloudDocs/brand/zara-ios",
+    "total_images": 146,
+    "screens": {
+      "add-a-new-card": [
+        "add-a-new-card-1.png",
+        "add-a-new-card-2.png",
+        "add-a-new-card-3.png",
+        "add-a-new-card-4.png",
+        "add-a-new-card-5.png"
+      ],
+      "add-receipt": [
+        "add-receipt-1.png",
+        "add-receipt-2.png"
+      ],
+      "adding-product-to-cart": [
+        "adding-product-to-cart-1.png",
+        "adding-product-to-cart-2.png",
+        "adding-product-to-cart-3.png"
+      ],
+      "addresses": [
+        "addresses-1.png",
+        "addresses-2.png"
+      ],
+      "canceling-an-order": [
+        "canceling-an-order-1.png",
+        "canceling-an-order-2.png",
+        "canceling-an-order-3.png",
+        "canceling-an-order-4.png",
+        "canceling-an-order-5.png",
+        "canceling-an-order-6.png"
+      ],
+      "cart": [
+        "cart-1.png",
+        "cart-2.png",
+        "cart-3.png",
+        "cart-4.png"
+      ],
+      "changing-a-password": [
+        "changing-a-password-1.png",
+        "changing-a-password-2.png",
+        "changing-a-password-3.png",
+        "changing-a-password-4.png"
+      ],
+      "changing-list-settings": [
+        "changing-list-settings-1.png",
+        "changing-list-settings-2.png",
+        "changing-list-settings-3.png",
+        "changing-list-settings-4.png",
+        "changing-list-settings-5.png"
+      ],
+      "changing-newsletter-settings": [
+        "changing-newsletter-settings-1.png",
+        "changing-newsletter-settings-2.png",
+        "changing-newsletter-settings-3.png",
+        "changing-newsletter-settings-4.png"
+      ],
+      "chatting-with-virtual-assistant": [
+        "chatting-with-virtual-assistant-1.png",
+        "chatting-with-virtual-assistant-2.png",
+        "chatting-with-virtual-assistant-3.png",
+        "chatting-with-virtual-assistant-4.png",
+        "chatting-with-virtual-assistant-5.png"
+      ],
+      "checking-out-a-product": [
+        "checking-out-a-product-1.png",
+        "checking-out-a-product-2.png",
+        "checking-out-a-product-3.png",
+        "checking-out-a-product-4.png",
+        "checking-out-a-product-5.png",
+        "checking-out-a-product-6.png",
+        "checking-out-a-product-7.png",
+        "checking-out-a-product-8.png",
+        "checking-out-a-product-9.png"
+      ],
+      "collection-detail": [
+        "collection-detail-1.png",
+        "collection-detail-2.png",
+        "collection-detail-3.png"
+      ],
+      "cookies-settings": [
+        "cookies-settings-1.png",
+        "cookies-settings-2.png"
+      ],
+      "creating-a-new-list": [
+        "creating-a-new-list-1.png",
+        "creating-a-new-list-2.png",
+        "creating-a-new-list-3.png",
+        "creating-a-new-list-4.png"
+      ],
+      "deleting-an-account": [
+        "deleting-an-account-1.png",
+        "deleting-an-account-2.png",
+        "deleting-an-account-3.png",
+        "deleting-an-account-4.png",
+        "deleting-an-account-5.png",
+        "deleting-an-account-6.png"
+      ],
+      "deleting-an-item-from-cart": [
+        "deleting-an-item-from-cart-1.png",
+        "deleting-an-item-from-cart-2.png",
+        "deleting-an-item-from-cart-3.png",
+        "deleting-an-item-from-cart-4.png"
+      ],
+      "ending-chat-with-virtual-assistant": [
+        "ending-chat-with-virtual-assistant-1.png",
+        "ending-chat-with-virtual-assistant-2.png",
+        "ending-chat-with-virtual-assistant-3.png"
+      ],
+      "filtering-collection": [
+        "filtering-collection-1.png",
+        "filtering-collection-2.png",
+        "filtering-collection-3.png",
+        "filtering-collection-4.png",
+        "filtering-collection-5.png"
+      ],
+      "home": [
+        "home-1.png",
+        "home-2.png"
+      ],
+      "join-life": [
+        "join-life-1.png",
+        "join-life-2.png",
+        "join-life-3.png",
+        "join-life-4.png",
+        "join-life-5.png",
+        "join-life-6.png"
+      ],
+      "logging-in": [
+        "logging-in-1.png",
+        "logging-in-2.png",
+        "logging-in-3.png",
+        "logging-in-4.png",
+        "logging-in-5.png",
+        "logging-in-6.png"
+      ],
+      "logging-out": [
+        "logging-out-1.png",
+        "logging-out-2.png",
+        "logging-out-3.png"
+      ],
+      "marking-notifications-as-read": [
+        "marking-notifications-as-read-1.png",
+        "marking-notifications-as-read-2.png"
+      ],
+      "menu": [
+        "menu-1.png",
+        "menu-2.png",
+        "menu-3.png"
+      ],
+      "my-profile": [
+        "my-profile-1.png",
+        "my-profile-2.png"
+      ],
+      "notifications": [
+        "notifications-1.png",
+        "notifications-2.png"
+      ],
+      "onboarding": [
+        "onboarding-1.png",
+        "onboarding-10.png",
+        "onboarding-2.png",
+        "onboarding-3.png",
+        "onboarding-4.png",
+        "onboarding-5.png",
+        "onboarding-6.png",
+        "onboarding-7.png",
+        "onboarding-8.png",
+        "onboarding-9.png"
+      ],
+      "payment-methods": [
+        "payment-methods-1.png",
+        "payment-methods-2.png"
+      ],
+      "product-detail": [
+        "product-detail-1.png",
+        "product-detail-2.png",
+        "product-detail-3.png",
+        "product-detail-4.png",
+        "product-detail-5.png",
+        "product-detail-6.png"
+      ],
+      "profile": [
+        "profile-1.png",
+        "profile-2.png",
+        "profile-3.png"
+      ],
+      "purchases": [
+        "purchases-1.png",
+        "purchases-2.png",
+        "purchases-3.png",
+        "purchases-4.png"
+      ],
+      "saving-product-to-list": [
+        "saving-product-to-list-1.png",
+        "saving-product-to-list-2.png"
+      ],
+      "searching-zara": [
+        "searching-zara-1.png",
+        "searching-zara-2.png",
+        "searching-zara-3.png",
+        "searching-zara-4.png",
+        "searching-zara-5.png",
+        "searching-zara-6.png"
+      ],
+      "selecting-a-pick-up-store": [
+        "selecting-a-pick-up-store-1.png",
+        "selecting-a-pick-up-store-2.png",
+        "selecting-a-pick-up-store-3.png",
+        "selecting-a-pick-up-store-4.png"
+      ],
+      "settings": [
+        "settings-1.png",
+        "settings-2.png"
+      ],
+      "switching-view": [
+        "switching-view-1.png",
+        "switching-view-2.png",
+        "switching-view-3.png"
+      ],
+      "zara-qr": [
+        "zara-qr-1.png",
+        "zara-qr-2.png"
+      ]
+    },
+    "screen_count": 37
+  },
+  "SKIMS": {
+    "folder": "skims-ios",
+    "path": "/Users/marvinkaunda/Library/Mobile Documents/com~apple~CloudDocs/brand/skims-ios",
+    "total_images": 211,
+    "screens": {
+      "about-skims": [
+        "about-skims-1.png",
+        "about-skims-2.png",
+        "about-skims-3.png"
+      ],
+      "accessibility": [
+        "accessibility-1.png",
+        "accessibility-2.png",
+        "accessibility-3.png"
+      ],
+      "account": [
+        "account-1.png",
+        "account-2.png",
+        "account-3.png"
+      ],
+      "adding-an-address": [
+        "adding-an-address-1.png",
+        "adding-an-address-2.png",
+        "adding-an-address-3.png",
+        "adding-an-address-4.png",
+        "adding-an-address-5.png",
+        "adding-an-address-6.png",
+        "adding-an-address-7.png"
+      ],
+      "adding-to-bag": [
+        "adding-to-bag-1.png",
+        "adding-to-bag-2.png",
+        "adding-to-bag-3.png",
+        "adding-to-bag-4.png",
+        "adding-to-bag-5.png"
+      ],
+      "bag": [
+        "bag-1.png",
+        "bag-2.png",
+        "bag-3.png"
+      ],
+      "browse-a-category": [
+        "browse-a-category-1.png",
+        "browse-a-category-2.png",
+        "browse-a-category-3.png",
+        "browse-a-category-4.png",
+        "browse-a-category-5.png"
+      ],
+      "changing-country": [
+        "changing-country-1.png",
+        "changing-country-2.png",
+        "changing-country-3.png",
+        "changing-country-4.png",
+        "changing-country-5.png"
+      ],
+      "checking-out-a-product": [
+        "checking-out-a-product-1.png",
+        "checking-out-a-product-2.png",
+        "checking-out-a-product-3.png",
+        "checking-out-a-product-4.png",
+        "checking-out-a-product-5.png",
+        "checking-out-a-product-6.png",
+        "checking-out-a-product-7.png",
+        "checking-out-a-product-8.png",
+        "checking-out-a-product-9.png"
+      ],
+      "customer-service": [
+        "customer-service-1.png",
+        "customer-service-2.png",
+        "customer-service-3.png",
+        "customer-service-4.png"
+      ],
+      "data-preference": [
+        "data-preference-1.png",
+        "data-preference-2.png"
+      ],
+      "deleting-an-account": [
+        "deleting-an-account-1.png",
+        "deleting-an-account-10.png",
+        "deleting-an-account-11.png",
+        "deleting-an-account-2.png",
+        "deleting-an-account-3.png",
+        "deleting-an-account-4.png",
+        "deleting-an-account-5.png",
+        "deleting-an-account-6.png",
+        "deleting-an-account-7.png",
+        "deleting-an-account-8.png",
+        "deleting-an-account-9.png"
+      ],
+      "filtering-products": [
+        "filtering-products-1.png",
+        "filtering-products-10.png",
+        "filtering-products-2.png",
+        "filtering-products-3.png",
+        "filtering-products-4.png",
+        "filtering-products-5.png",
+        "filtering-products-6.png",
+        "filtering-products-7.png",
+        "filtering-products-8.png",
+        "filtering-products-9.png"
+      ],
+      "filtering-reviews": [
+        "filtering-reviews-1.png",
+        "filtering-reviews-2.png",
+        "filtering-reviews-3.png",
+        "filtering-reviews-4.png",
+        "filtering-reviews-5.png"
+      ],
+      "find-your-size": [
+        "find-your-size-1.png",
+        "find-your-size-2.png",
+        "find-your-size-3.png",
+        "find-your-size-4.png"
+      ],
+      "home": [
+        "home-1.png",
+        "home-2.png",
+        "home-3.png",
+        "home-4.png",
+        "home-5.png"
+      ],
+      "liking-a-product": [
+        "liking-a-product-1.png",
+        "liking-a-product-2.png",
+        "liking-a-product-3.png"
+      ],
+      "locating-a-store": [
+        "locating-a-store-1.png",
+        "locating-a-store-2.png",
+        "locating-a-store-3.png",
+        "locating-a-store-4.png",
+        "locating-a-store-5.png",
+        "locating-a-store-6.png"
+      ],
+      "logging-in": [
+        "logging-in-1.png",
+        "logging-in-2.png",
+        "logging-in-3.png",
+        "logging-in-4.png"
+      ],
+      "logging-out": [
+        "logging-out-1.png",
+        "logging-out-2.png",
+        "logging-out-3.png"
+      ],
+      "messaging-skims-virtual-asistant": [
+        "messaging-skims-virtual-asistant-1.png",
+        "messaging-skims-virtual-asistant-2.png",
+        "messaging-skims-virtual-asistant-3.png"
+      ],
+      "more": [
+        "more-1.png",
+        "more-2.png"
+      ],
+      "my-addresses": [
+        "my-addresses-1.png",
+        "my-addresses-2.png",
+        "my-addresses-3.png"
+      ],
+      "my-orders": [
+        "my-orders-1.png",
+        "my-orders-2.png",
+        "my-orders-3.png"
+      ],
+      "notifications": [
+        "notifications-1.png",
+        "notifications-2.png"
+      ],
+      "onboarding": [
+        "onboarding-1.png",
+        "onboarding-10.png",
+        "onboarding-11.png",
+        "onboarding-12.png",
+        "onboarding-13.png",
+        "onboarding-14.png",
+        "onboarding-15.png",
+        "onboarding-16.png",
+        "onboarding-17.png",
+        "onboarding-18.png",
+        "onboarding-19.png",
+        "onboarding-2.png",
+        "onboarding-20.png",
+        "onboarding-21.png",
+        "onboarding-3.png",
+        "onboarding-4.png",
+        "onboarding-5.png",
+        "onboarding-6.png",
+        "onboarding-7.png",
+        "onboarding-8.png",
+        "onboarding-9.png"
+      ],
+      "opt-out-of-skims-rewards": [
+        "opt-out-of-skims-rewards-1.png",
+        "opt-out-of-skims-rewards-2.png",
+        "opt-out-of-skims-rewards-3.png",
+        "opt-out-of-skims-rewards-4.png"
+      ],
+      "ordering": [
+        "ordering-1.png",
+        "ordering-2.png"
+      ],
+      "personal-details": [
+        "personal-details-1.png",
+        "personal-details-2.png"
+      ],
+      "product-detail": [
+        "product-detail-1.png",
+        "product-detail-10.png",
+        "product-detail-11.png",
+        "product-detail-12.png",
+        "product-detail-13.png",
+        "product-detail-2.png",
+        "product-detail-3.png",
+        "product-detail-4.png",
+        "product-detail-5.png",
+        "product-detail-6.png",
+        "product-detail-7.png",
+        "product-detail-8.png",
+        "product-detail-9.png"
+      ],
+      "purchase-a-gift-card": [
+        "purchase-a-gift-card-1.png",
+        "purchase-a-gift-card-10.png",
+        "purchase-a-gift-card-11.png",
+        "purchase-a-gift-card-12.png",
+        "purchase-a-gift-card-13.png",
+        "purchase-a-gift-card-2.png",
+        "purchase-a-gift-card-3.png",
+        "purchase-a-gift-card-4.png",
+        "purchase-a-gift-card-5.png",
+        "purchase-a-gift-card-6.png",
+        "purchase-a-gift-card-7.png",
+        "purchase-a-gift-card-8.png",
+        "purchase-a-gift-card-9.png"
+      ],
+      "returns": [
+        "returns-1.png",
+        "returns-2.png",
+        "returns-3.png",
+        "returns-4.png",
+        "returns-5.png"
+      ],
+      "reviews": [
+        "reviews-1.png",
+        "reviews-2.png",
+        "reviews-3.png",
+        "reviews-4.png"
+      ],
+      "searching-skims": [
+        "searching-skims-1.png",
+        "searching-skims-2.png",
+        "searching-skims-3.png",
+        "searching-skims-4.png"
+      ],
+      "settings": [
+        "settings-1.png",
+        "settings-2.png",
+        "settings-3.png"
+      ],
+      "shop": [
+        "shop-1.png",
+        "shop-2.png",
+        "shop-3.png"
+      ],
+      "shopping": [
+        "shopping-1.png",
+        "shopping-2.png"
+      ],
+      "skims-rewards": [
+        "skims-rewards-1.png",
+        "skims-rewards-2.png",
+        "skims-rewards-3.png",
+        "skims-rewards-4.png",
+        "skims-rewards-5.png",
+        "skims-rewards-6.png"
+      ],
+      "sorting-products": [
+        "sorting-products-1.png",
+        "sorting-products-2.png",
+        "sorting-products-3.png"
+      ],
+      "start-a-return": [
+        "start-a-return-1.png",
+        "start-a-return-2.png",
+        "start-a-return-3.png"
+      ],
+      "view-category": [
+        "view-category-1.png",
+        "view-category-2.png"
+      ],
+      "view-collections": [
+        "view-collections-1.png",
+        "view-collections-2.png",
+        "view-collections-3.png",
+        "view-collections-4.png"
+      ],
+      "wishlist": [
+        "wishlist-1.png",
+        "wishlist-2.png",
+        "wishlist-3.png",
+        "wishlist-4.png"
+      ]
+    },
+    "screen_count": 43
+  },
+  "Grailed": {
+    "folder": "grailed-ios",
+    "path": "/Users/marvinkaunda/Library/Mobile Documents/com~apple~CloudDocs/brand/grailed-ios",
+    "total_images": 359,
+    "screens": {
+      "account": [
+        "account-1.png",
+        "account-2.png"
+      ],
+      "add-payment-details": [
+        "add-payment-details-1.png",
+        "add-payment-details-2.png",
+        "add-payment-details-3.png"
+      ],
+      "adding-a-listing": [
+        "adding-a-listing-1.png",
+        "adding-a-listing-10.png",
+        "adding-a-listing-11.png",
+        "adding-a-listing-12.png",
+        "adding-a-listing-13.png",
+        "adding-a-listing-14.png",
+        "adding-a-listing-15.png",
+        "adding-a-listing-16.png",
+        "adding-a-listing-17.png",
+        "adding-a-listing-18.png",
+        "adding-a-listing-19.png",
+        "adding-a-listing-2.png",
+        "adding-a-listing-20.png",
+        "adding-a-listing-21.png",
+        "adding-a-listing-22.png",
+        "adding-a-listing-23.png",
+        "adding-a-listing-3.png",
+        "adding-a-listing-4.png",
+        "adding-a-listing-5.png",
+        "adding-a-listing-6.png",
+        "adding-a-listing-7.png",
+        "adding-a-listing-8.png",
+        "adding-a-listing-9.png"
+      ],
+      "adding-a-payment-method": [
+        "adding-a-payment-method-1.png",
+        "adding-a-payment-method-2.png",
+        "adding-a-payment-method-3.png",
+        "adding-a-payment-method-4.png",
+        "adding-a-payment-method-5.png",
+        "adding-a-payment-method-6.png",
+        "adding-a-payment-method-7.png"
+      ],
+      "adding-an-address": [
+        "adding-an-address-1.png",
+        "adding-an-address-2.png",
+        "adding-an-address-3.png",
+        "adding-an-address-4.png",
+        "adding-an-address-5.png",
+        "adding-an-address-6.png"
+      ],
+      "adding-to-wishlist": [
+        "adding-to-wishlist-1.png",
+        "adding-to-wishlist-2.png"
+      ],
+      "addresses": [
+        "addresses-1.png",
+        "addresses-2.png"
+      ],
+      "article-detail": [
+        "article-detail-1.png",
+        "article-detail-2.png",
+        "article-detail-3.png"
+      ],
+      "authentication": [
+        "authentication-1.png",
+        "authentication-2.png",
+        "authentication-3.png",
+        "authentication-4.png"
+      ],
+      "blocking-a-user": [
+        "blocking-a-user-1.png",
+        "blocking-a-user-2.png",
+        "blocking-a-user-3.png"
+      ],
+      "browse-sold-listing": [
+        "browse-sold-listing-1.png",
+        "browse-sold-listing-2.png"
+      ],
+      "buying-an-item": [
+        "buying-an-item-1.png",
+        "buying-an-item-2.png",
+        "buying-an-item-3.png",
+        "buying-an-item-4.png"
+      ],
+      "change-email": [
+        "change-email-1.png",
+        "change-email-2.png"
+      ],
+      "changing-a-shipping-country": [
+        "changing-a-shipping-country-1.png",
+        "changing-a-shipping-country-2.png",
+        "changing-a-shipping-country-3.png"
+      ],
+      "collection": [
+        "collection-1.png",
+        "collection-2.png",
+        "collection-3.png"
+      ],
+      "curated-collection": [
+        "curated-collection-1.png",
+        "curated-collection-2.png",
+        "curated-collection-3.png",
+        "curated-collection-4.png"
+      ],
+      "customizing-a-price-drop": [
+        "customizing-a-price-drop-1.png",
+        "customizing-a-price-drop-2.png",
+        "customizing-a-price-drop-3.png",
+        "customizing-a-price-drop-4.png",
+        "customizing-a-price-drop-5.png"
+      ],
+      "deleting-a-listing": [
+        "deleting-a-listing-1.png",
+        "deleting-a-listing-2.png",
+        "deleting-a-listing-3.png"
+      ],
+      "deleting-an-account": [
+        "deleting-an-account-1.png",
+        "deleting-an-account-2.png",
+        "deleting-an-account-3.png",
+        "deleting-an-account-4.png"
+      ],
+      "designer-detail": [
+        "designer-detail-1.png",
+        "designer-detail-2.png"
+      ],
+      "discover": [
+        "discover-1.png",
+        "discover-2.png",
+        "discover-3.png",
+        "discover-4.png",
+        "discover-5.png"
+      ],
+      "edit-listing": [
+        "edit-listing-1.png",
+        "edit-listing-2.png",
+        "edit-listing-3.png",
+        "edit-listing-4.png",
+        "edit-listing-5.png"
+      ],
+      "editing-a-price": [
+        "editing-a-price-1.png",
+        "editing-a-price-2.png",
+        "editing-a-price-3.png",
+        "editing-a-price-4.png"
+      ],
+      "editing-shipping-details": [
+        "editing-shipping-details-1.png",
+        "editing-shipping-details-2.png",
+        "editing-shipping-details-3.png",
+        "editing-shipping-details-4.png",
+        "editing-shipping-details-5.png",
+        "editing-shipping-details-6.png",
+        "editing-shipping-details-7.png"
+      ],
+      "editorial-detail": [
+        "editorial-detail-1.png",
+        "editorial-detail-2.png",
+        "editorial-detail-3.png",
+        "editorial-detail-4.png",
+        "editorial-detail-5.png",
+        "editorial-detail-6.png",
+        "editorial-detail-7.png"
+      ],
+      "enabling-an-expedited-delivery": [
+        "enabling-an-expedited-delivery-1.png",
+        "enabling-an-expedited-delivery-2.png",
+        "enabling-an-expedited-delivery-3.png",
+        "enabling-an-expedited-delivery-4.png"
+      ],
+      "enabling-notifications": [
+        "enabling-notifications-1.png",
+        "enabling-notifications-2.png",
+        "enabling-notifications-3.png",
+        "enabling-notifications-4.png"
+      ],
+      "enabling-privacy-settings": [
+        "enabling-privacy-settings-1.png",
+        "enabling-privacy-settings-2.png",
+        "enabling-privacy-settings-3.png"
+      ],
+      "enabling-profile-privacy": [
+        "enabling-profile-privacy-1.png",
+        "enabling-profile-privacy-2.png",
+        "enabling-profile-privacy-3.png"
+      ],
+      "favorites": [
+        "favorites-1.png",
+        "favorites-2.png",
+        "favorites-3.png"
+      ],
+      "feedback": [
+        "feedback-1.png",
+        "feedback-2.png",
+        "feedback-3.png",
+        "feedback-4.png"
+      ],
+      "filtering-listings": [
+        "filtering-listings-1.png",
+        "filtering-listings-10.png",
+        "filtering-listings-11.png",
+        "filtering-listings-12.png",
+        "filtering-listings-13.png",
+        "filtering-listings-14.png",
+        "filtering-listings-2.png",
+        "filtering-listings-3.png",
+        "filtering-listings-4.png",
+        "filtering-listings-5.png",
+        "filtering-listings-6.png",
+        "filtering-listings-7.png",
+        "filtering-listings-8.png",
+        "filtering-listings-9.png"
+      ],
+      "followers": [
+        "followers-1.png",
+        "followers-2.png"
+      ],
+      "following": [
+        "following-1.png",
+        "following-2.png",
+        "following-3.png",
+        "following-4.png",
+        "following-5.png",
+        "following-6.png"
+      ],
+      "following-a-curated-collection": [
+        "following-a-curated-collection-1.png",
+        "following-a-curated-collection-2.png"
+      ],
+      "following-a-designer": [
+        "following-a-designer-1.png",
+        "following-a-designer-2.png"
+      ],
+      "following-a-search": [
+        "following-a-search-1.png",
+        "following-a-search-2.png",
+        "following-a-search-3.png",
+        "following-a-search-4.png",
+        "following-a-search-5.png"
+      ],
+      "following-a-seller": [
+        "following-a-seller-1.png",
+        "following-a-seller-2.png"
+      ],
+      "for-sale": [
+        "for-sale-1.png",
+        "for-sale-2.png",
+        "for-sale-3.png"
+      ],
+      "grailed-seller-protection": [
+        "grailed-seller-protection-1.png",
+        "grailed-seller-protection-2.png",
+        "grailed-seller-protection-3.png",
+        "grailed-seller-protection-4.png",
+        "grailed-seller-protection-5.png"
+      ],
+      "heel-height": [
+        "heel-height-1.png",
+        "heel-height-2.png"
+      ],
+      "how-to-sell-guide": [
+        "how-to-sell-guide-1.png",
+        "how-to-sell-guide-2.png",
+        "how-to-sell-guide-3.png",
+        "how-to-sell-guide-4.png",
+        "how-to-sell-guide-5.png",
+        "how-to-sell-guide-6.png"
+      ],
+      "listing-detail": [
+        "listing-detail-1.png",
+        "listing-detail-10.png",
+        "listing-detail-11.png",
+        "listing-detail-12.png",
+        "listing-detail-2.png",
+        "listing-detail-3.png",
+        "listing-detail-4.png",
+        "listing-detail-5.png",
+        "listing-detail-6.png",
+        "listing-detail-7.png",
+        "listing-detail-8.png",
+        "listing-detail-9.png"
+      ],
+      "logging-in": [
+        "logging-in-1.png",
+        "logging-in-2.png",
+        "logging-in-3.png",
+        "logging-in-4.png",
+        "logging-in-5.png"
+      ],
+      "logging-out": [
+        "logging-out-1.png",
+        "logging-out-2.png"
+      ],
+      "messages": [
+        "messages-1.png",
+        "messages-2.png",
+        "messages-3.png",
+        "messages-4.png",
+        "messages-5.png"
+      ],
+      "my-feed": [
+        "my-feed-1.png",
+        "my-feed-2.png"
+      ],
+      "onboarding": [
+        "onboarding-1.png",
+        "onboarding-10.png",
+        "onboarding-11.png",
+        "onboarding-12.png",
+        "onboarding-13.png",
+        "onboarding-14.png",
+        "onboarding-15.png",
+        "onboarding-16.png",
+        "onboarding-17.png",
+        "onboarding-18.png",
+        "onboarding-19.png",
+        "onboarding-2.png",
+        "onboarding-20.png",
+        "onboarding-3.png",
+        "onboarding-4.png",
+        "onboarding-5.png",
+        "onboarding-6.png",
+        "onboarding-7.png",
+        "onboarding-8.png",
+        "onboarding-9.png"
+      ],
+      "order-details": [
+        "order-details-1.png",
+        "order-details-2.png",
+        "order-details-3.png",
+        "order-details-4.png"
+      ],
+      "payments": [
+        "payments-1.png",
+        "payments-2.png"
+      ],
+      "price-comparison": [
+        "price-comparison-1.png",
+        "price-comparison-2.png"
+      ],
+      "print-shipping-label": [
+        "print-shipping-label-1.png",
+        "print-shipping-label-2.png",
+        "print-shipping-label-3.png",
+        "print-shipping-label-4.png"
+      ],
+      "profile": [
+        "profile-1.png",
+        "profile-2.png",
+        "profile-3.png",
+        "profile-4.png",
+        "profile-5.png"
+      ],
+      "publishing-a-listing": [
+        "publishing-a-listing-1.png",
+        "publishing-a-listing-2.png",
+        "publishing-a-listing-3.png",
+        "publishing-a-listing-4.png",
+        "publishing-a-listing-5.png",
+        "publishing-a-listing-6.png",
+        "publishing-a-listing-7.png"
+      ],
+      "rating-an-order": [
+        "rating-an-order-1.png",
+        "rating-an-order-2.png",
+        "rating-an-order-3.png",
+        "rating-an-order-4.png",
+        "rating-an-order-5.png",
+        "rating-an-order-6.png"
+      ],
+      "reporting-a-listing": [
+        "reporting-a-listing-1.png",
+        "reporting-a-listing-2.png",
+        "reporting-a-listing-3.png",
+        "reporting-a-listing-4.png"
+      ],
+      "reporting-a-user": [
+        "reporting-a-user-1.png",
+        "reporting-a-user-2.png",
+        "reporting-a-user-3.png",
+        "reporting-a-user-4.png",
+        "reporting-a-user-5.png",
+        "reporting-a-user-6.png"
+      ],
+      "requesting-a-refund": [
+        "requesting-a-refund-1.png",
+        "requesting-a-refund-10.png",
+        "requesting-a-refund-2.png",
+        "requesting-a-refund-3.png",
+        "requesting-a-refund-4.png",
+        "requesting-a-refund-5.png",
+        "requesting-a-refund-6.png",
+        "requesting-a-refund-7.png",
+        "requesting-a-refund-8.png",
+        "requesting-a-refund-9.png"
+      ],
+      "resell-an-item": [
+        "resell-an-item-1.png",
+        "resell-an-item-2.png",
+        "resell-an-item-3.png",
+        "resell-an-item-4.png",
+        "resell-an-item-5.png"
+      ],
+      "resetting-password": [
+        "resetting-password-1.png",
+        "resetting-password-2.png",
+        "resetting-password-3.png",
+        "resetting-password-4.png"
+      ],
+      "saving-as-a-draft": [
+        "saving-as-a-draft-1.png",
+        "saving-as-a-draft-2.png",
+        "saving-as-a-draft-3.png"
+      ],
+      "saving-to-collection": [
+        "saving-to-collection-1.png",
+        "saving-to-collection-2.png"
+      ],
+      "searching-grailed": [
+        "searching-grailed-1.png",
+        "searching-grailed-2.png",
+        "searching-grailed-3.png",
+        "searching-grailed-4.png",
+        "searching-grailed-5.png",
+        "searching-grailed-6.png",
+        "searching-grailed-7.png"
+      ],
+      "sell": [
+        "sell-1.png",
+        "sell-2.png",
+        "sell-3.png",
+        "sell-4.png",
+        "sell-5.png"
+      ],
+      "seller-profile": [
+        "seller-profile-1.png",
+        "seller-profile-2.png"
+      ],
+      "sending-a-message": [
+        "sending-a-message-1.png",
+        "sending-a-message-2.png",
+        "sending-a-message-3.png",
+        "sending-a-message-4.png",
+        "sending-a-message-5.png"
+      ],
+      "setting-a-price": [
+        "setting-a-price-1.png",
+        "setting-a-price-2.png",
+        "setting-a-price-3.png",
+        "setting-a-price-4.png",
+        "setting-a-price-5.png"
+      ],
+      "settings": [
+        "settings-1.png",
+        "settings-2.png",
+        "settings-3.png"
+      ],
+      "similar-items": [
+        "similar-items-1.png",
+        "similar-items-2.png"
+      ],
+      "sold": [
+        "sold-1.png",
+        "sold-2.png",
+        "sold-3.png"
+      ],
+      "sorting-listings": [
+        "sorting-listings-1.png",
+        "sorting-listings-2.png",
+        "sorting-listings-3.png"
+      ],
+      "submitting-an-offer": [
+        "submitting-an-offer-1.png",
+        "submitting-an-offer-2.png",
+        "submitting-an-offer-3.png",
+        "submitting-an-offer-4.png",
+        "submitting-an-offer-5.png",
+        "submitting-an-offer-6.png",
+        "submitting-an-offer-7.png",
+        "submitting-an-offer-8.png"
+      ],
+      "turning-on-vacation-mode": [
+        "turning-on-vacation-mode-1.png",
+        "turning-on-vacation-mode-2.png",
+        "turning-on-vacation-mode-3.png",
+        "turning-on-vacation-mode-4.png",
+        "turning-on-vacation-mode-5.png",
+        "turning-on-vacation-mode-6.png",
+        "turning-on-vacation-mode-7.png",
+        "turning-on-vacation-mode-8.png"
+      ],
+      "uploading-a-profile-photo": [
+        "uploading-a-profile-photo-1.png",
+        "uploading-a-profile-photo-2.png",
+        "uploading-a-profile-photo-3.png",
+        "uploading-a-profile-photo-4.png",
+        "uploading-a-profile-photo-5.png",
+        "uploading-a-profile-photo-6.png"
+      ],
+      "uploading-photos": [
+        "uploading-photos-1.png",
+        "uploading-photos-2.png",
+        "uploading-photos-3.png",
+        "uploading-photos-4.png",
+        "uploading-photos-5.png",
+        "uploading-photos-6.png",
+        "uploading-photos-7.png"
+      ]
+    },
+    "screen_count": 75
+  },
+  "Sephora": {
+    "folder": "sephora-ios",
+    "path": "/Users/marvinkaunda/Library/Mobile Documents/com~apple~CloudDocs/brand/sephora-ios",
+    "total_images": 259,
+    "screens": {
+      "adding-a-photo": [
+        "adding-a-photo-1.png",
+        "adding-a-photo-10.png",
+        "adding-a-photo-11.png",
+        "adding-a-photo-12.png",
+        "adding-a-photo-13.png",
+        "adding-a-photo-14.png",
+        "adding-a-photo-15.png",
+        "adding-a-photo-16.png",
+        "adding-a-photo-17.png",
+        "adding-a-photo-18.png",
+        "adding-a-photo-19.png",
+        "adding-a-photo-2.png",
+        "adding-a-photo-3.png",
+        "adding-a-photo-4.png",
+        "adding-a-photo-5.png",
+        "adding-a-photo-6.png",
+        "adding-a-photo-7.png",
+        "adding-a-photo-8.png",
+        "adding-a-photo-9.png"
+      ],
+      "adding-product-to-shopping-bag": [
+        "adding-product-to-shopping-bag-1.png",
+        "adding-product-to-shopping-bag-2.png",
+        "adding-product-to-shopping-bag-3.png",
+        "adding-product-to-shopping-bag-4.png",
+        "adding-product-to-shopping-bag-5.png"
+      ],
+      "browse-categories": [
+        "browse-categories-1.png",
+        "browse-categories-2.png",
+        "browse-categories-3.png",
+        "browse-categories-4.png"
+      ],
+      "chatting-with-customer-support": [
+        "chatting-with-customer-support-1.png",
+        "chatting-with-customer-support-10.png",
+        "chatting-with-customer-support-11.png",
+        "chatting-with-customer-support-2.png",
+        "chatting-with-customer-support-3.png",
+        "chatting-with-customer-support-4.png",
+        "chatting-with-customer-support-5.png",
+        "chatting-with-customer-support-6.png",
+        "chatting-with-customer-support-7.png",
+        "chatting-with-customer-support-8.png",
+        "chatting-with-customer-support-9.png"
+      ],
+      "community": [
+        "community-1.png",
+        "community-2.png",
+        "community-3.png",
+        "community-4.png"
+      ],
+      "creating-a-post": [
+        "creating-a-post-1.png",
+        "creating-a-post-10.png",
+        "creating-a-post-11.png",
+        "creating-a-post-12.png",
+        "creating-a-post-13.png",
+        "creating-a-post-14.png",
+        "creating-a-post-15.png",
+        "creating-a-post-16.png",
+        "creating-a-post-17.png",
+        "creating-a-post-18.png",
+        "creating-a-post-19.png",
+        "creating-a-post-2.png",
+        "creating-a-post-20.png",
+        "creating-a-post-3.png",
+        "creating-a-post-4.png",
+        "creating-a-post-5.png",
+        "creating-a-post-6.png",
+        "creating-a-post-7.png",
+        "creating-a-post-8.png",
+        "creating-a-post-9.png"
+      ],
+      "favorites": [
+        "favorites-1.png",
+        "favorites-2.png"
+      ],
+      "filtering-events": [
+        "filtering-events-1.png",
+        "filtering-events-2.png"
+      ],
+      "filtering-photos": [
+        "filtering-photos-1.png",
+        "filtering-photos-2.png",
+        "filtering-photos-3.png",
+        "filtering-photos-4.png",
+        "filtering-photos-5.png",
+        "filtering-photos-6.png"
+      ],
+      "filtering-search-results": [
+        "filtering-search-results-1.png",
+        "filtering-search-results-10.png",
+        "filtering-search-results-11.png",
+        "filtering-search-results-12.png",
+        "filtering-search-results-2.png",
+        "filtering-search-results-3.png",
+        "filtering-search-results-4.png",
+        "filtering-search-results-5.png",
+        "filtering-search-results-6.png",
+        "filtering-search-results-7.png",
+        "filtering-search-results-8.png",
+        "filtering-search-results-9.png"
+      ],
+      "home": [
+        "home-1.png",
+        "home-2.png",
+        "home-3.png",
+        "home-4.png",
+        "home-5.png",
+        "home-6.png",
+        "home-7.png",
+        "home-8.png"
+      ],
+      "joining-a-group": [
+        "joining-a-group-1.png",
+        "joining-a-group-2.png",
+        "joining-a-group-3.png",
+        "joining-a-group-4.png",
+        "joining-a-group-5.png",
+        "joining-a-group-6.png"
+      ],
+      "logging-in": [
+        "logging-in-1.png",
+        "logging-in-2.png",
+        "logging-in-3.png",
+        "logging-in-4.png",
+        "logging-in-5.png"
+      ],
+      "logging-out": [
+        "logging-out-1.png",
+        "logging-out-2.png"
+      ],
+      "my-profile": [
+        "my-profile-1.png",
+        "my-profile-2.png",
+        "my-profile-3.png"
+      ],
+      "my-reservations": [
+        "my-reservations-1.png",
+        "my-reservations-2.png"
+      ],
+      "offers": [
+        "offers-1.png",
+        "offers-2.png",
+        "offers-3.png",
+        "offers-4.png",
+        "offers-5.png",
+        "offers-6.png",
+        "offers-7.png",
+        "offers-8.png"
+      ],
+      "onboarding": [
+        "onboarding-1.png",
+        "onboarding-10.png",
+        "onboarding-11.png",
+        "onboarding-12.png",
+        "onboarding-13.png",
+        "onboarding-14.png",
+        "onboarding-2.png",
+        "onboarding-3.png",
+        "onboarding-4.png",
+        "onboarding-5.png",
+        "onboarding-6.png",
+        "onboarding-7.png",
+        "onboarding-8.png",
+        "onboarding-9.png"
+      ],
+      "order-history": [
+        "order-history-1.png",
+        "order-history-2.png",
+        "order-history-3.png"
+      ],
+      "privacy-policy": [
+        "privacy-policy-1.png",
+        "privacy-policy-2.png"
+      ],
+      "product-detail": [
+        "product-detail-1.png",
+        "product-detail-2.png",
+        "product-detail-3.png",
+        "product-detail-4.png",
+        "product-detail-5.png",
+        "product-detail-6.png",
+        "product-detail-7.png",
+        "product-detail-8.png",
+        "product-detail-9.png"
+      ],
+      "purchasing-an-item": [
+        "purchasing-an-item-1.png",
+        "purchasing-an-item-10.png",
+        "purchasing-an-item-11.png",
+        "purchasing-an-item-12.png",
+        "purchasing-an-item-13.png",
+        "purchasing-an-item-14.png",
+        "purchasing-an-item-15.png",
+        "purchasing-an-item-16.png",
+        "purchasing-an-item-17.png",
+        "purchasing-an-item-18.png",
+        "purchasing-an-item-19.png",
+        "purchasing-an-item-2.png",
+        "purchasing-an-item-20.png",
+        "purchasing-an-item-21.png",
+        "purchasing-an-item-22.png",
+        "purchasing-an-item-23.png",
+        "purchasing-an-item-24.png",
+        "purchasing-an-item-3.png",
+        "purchasing-an-item-4.png",
+        "purchasing-an-item-5.png",
+        "purchasing-an-item-6.png",
+        "purchasing-an-item-7.png",
+        "purchasing-an-item-8.png",
+        "purchasing-an-item-9.png"
+      ],
+      "removing-item-from-bag": [
+        "removing-item-from-bag-1.png",
+        "removing-item-from-bag-2.png"
+      ],
+      "rewards": [
+        "rewards-1.png",
+        "rewards-2.png",
+        "rewards-3.png",
+        "rewards-4.png",
+        "rewards-5.png"
+      ],
+      "saving-product-to-collection": [
+        "saving-product-to-collection-1.png",
+        "saving-product-to-collection-2.png"
+      ],
+      "searching-community-commenting-on-post": [
+        "searching-community-commenting-on-post-1.png",
+        "searching-community-commenting-on-post-10.png",
+        "searching-community-commenting-on-post-2.png",
+        "searching-community-commenting-on-post-3.png",
+        "searching-community-commenting-on-post-4.png",
+        "searching-community-commenting-on-post-5.png",
+        "searching-community-commenting-on-post-6.png",
+        "searching-community-commenting-on-post-7.png",
+        "searching-community-commenting-on-post-8.png",
+        "searching-community-commenting-on-post-9.png"
+      ],
+      "searching-with-text": [
+        "searching-with-text-1.png",
+        "searching-with-text-2.png",
+        "searching-with-text-3.png",
+        "searching-with-text-4.png",
+        "searching-with-text-5.png"
+      ],
+      "searching-with-voice": [
+        "searching-with-voice-1.png",
+        "searching-with-voice-2.png",
+        "searching-with-voice-3.png",
+        "searching-with-voice-4.png",
+        "searching-with-voice-5.png",
+        "searching-with-voice-6.png",
+        "searching-with-voice-7.png"
+      ],
+      "selecting-another-color": [
+        "selecting-another-color-1.png",
+        "selecting-another-color-2.png",
+        "selecting-another-color-3.png"
+      ],
+      "sharing-a-product": [
+        "sharing-a-product-1.png",
+        "sharing-a-product-2.png"
+      ],
+      "shop": [
+        "shop-1.png",
+        "shop-2.png",
+        "shop-3.png"
+      ],
+      "shopping-bag": [
+        "shopping-bag-1.png",
+        "shopping-bag-2.png",
+        "shopping-bag-3.png"
+      ],
+      "signing-up-for-event": [
+        "signing-up-for-event-1.png",
+        "signing-up-for-event-2.png",
+        "signing-up-for-event-3.png",
+        "signing-up-for-event-4.png",
+        "signing-up-for-event-5.png",
+        "signing-up-for-event-6.png",
+        "signing-up-for-event-7.png"
+      ],
+      "store-detail": [
+        "store-detail-1.png",
+        "store-detail-2.png",
+        "store-detail-3.png",
+        "store-detail-4.png",
+        "store-detail-5.png"
+      ],
+      "stores": [
+        "stores-1.png",
+        "stores-10.png",
+        "stores-11.png",
+        "stores-12.png",
+        "stores-13.png",
+        "stores-14.png",
+        "stores-2.png",
+        "stores-3.png",
+        "stores-4.png",
+        "stores-5.png",
+        "stores-6.png",
+        "stores-7.png",
+        "stores-8.png",
+        "stores-9.png"
+      ],
+      "terms-of-use": [
+        "terms-of-use-1.png",
+        "terms-of-use-2.png"
+      ],
+      "updating-beauty-preferences": [
+        "updating-beauty-preferences-1.png",
+        "updating-beauty-preferences-2.png",
+        "updating-beauty-preferences-3.png",
+        "updating-beauty-preferences-4.png",
+        "updating-beauty-preferences-5.png",
+        "updating-beauty-preferences-6.png",
+        "updating-beauty-preferences-7.png",
+        "updating-beauty-preferences-8.png"
+      ],
+      "upvoting-a-comment": [
+        "upvoting-a-comment-1.png",
+        "upvoting-a-comment-2.png",
+        "upvoting-a-comment-3.png",
+        "upvoting-a-comment-4.png",
+        "upvoting-a-comment-5.png"
+      ],
+      "user-profile": [
+        "user-profile-1.png",
+        "user-profile-2.png",
+        "user-profile-3.png",
+        "user-profile-4.png",
+        "user-profile-5.png"
+      ]
+    },
+    "screen_count": 39
+  }
+}
