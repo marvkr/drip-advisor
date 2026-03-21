@@ -317,13 +317,17 @@ function OutfitsTab({ avatarUrl }: { avatarUrl: string | null }) {
     <div className="h-full overflow-y-auto">
       {/* Try-on previews side by side */}
       <div className="mt-3 flex gap-2 justify-center px-4">
-        <div className="w-[130px] h-[195px] rounded-xl overflow-hidden bg-zinc-900 flex flex-col">
-          <img src={selectedTop?.tryon_image_url || avatarUrl || ""} alt="top" className="w-full flex-1 object-cover" />
-          <p className="text-[10px] text-center text-zinc-400 py-1 truncate px-1">{selectedTop?.name || "Pick a top"}</p>
+        <div className="flex flex-col items-center gap-1.5">
+          <div className="w-[130px] h-[180px] rounded-xl overflow-hidden bg-zinc-900">
+            <img src={selectedTop?.tryon_image_url || avatarUrl || ""} alt="top" className="w-full h-full object-cover" />
+          </div>
+          <p className="text-[10px] text-zinc-400 bg-zinc-800 px-2 py-0.5 rounded-full truncate max-w-[130px]">{selectedTop?.name || "Pick a top"}</p>
         </div>
-        <div className="w-[130px] h-[195px] rounded-xl overflow-hidden bg-zinc-900 flex flex-col">
-          <img src={selectedBottom?.tryon_image_url || avatarUrl || ""} alt="bottom" className="w-full flex-1 object-cover" />
-          <p className="text-[10px] text-center text-zinc-400 py-1 truncate px-1">{selectedBottom?.name || "Pick a bottom"}</p>
+        <div className="flex flex-col items-center gap-1.5">
+          <div className="w-[130px] h-[180px] rounded-xl overflow-hidden bg-zinc-900">
+            <img src={selectedBottom?.tryon_image_url || avatarUrl || ""} alt="bottom" className="w-full h-full object-cover" />
+          </div>
+          <p className="text-[10px] text-zinc-400 bg-zinc-800 px-2 py-0.5 rounded-full truncate max-w-[130px]">{selectedBottom?.name || "Pick a bottom"}</p>
         </div>
       </div>
 
