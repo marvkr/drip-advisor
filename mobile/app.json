@@ -68,7 +68,8 @@
           ],
           "iosShareExtensionName": "Share to DripAdvisor"
         }
-      ]
+      ],
+      "expo-image"
     ],
     "extra": {
       "router": {},
